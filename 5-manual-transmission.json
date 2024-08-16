@@ -1,0 +1,7 @@
+{
+  "version":"5.6.2",
+  "date":"2024-08-20",
+  "site":"https://github.com/ikt32/scripts-updates/blob/5-Gears-v5.6.2/5-gears-changelog.md",
+  "asset":"https://github.com/ikt32/scripts-updates/releases/download/5-Gears-v5.6.2/Gears-v5.6.2-Release.zip",
+  "description":"* Require a license to use\n* Fix traction control acting with too little wheelspin\n* Fix adaptive cruise control\n* Update for b3095+ compatibility"
+}
