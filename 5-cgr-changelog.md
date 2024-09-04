@@ -1,5 +1,9 @@
 # Changelog for Custom Gear Ratios for GTA V
 
+## 1.2.2
+
+* Improve license check for switchable GPU systems
+
 ## 1.2.1
 
 * Require a license to use
