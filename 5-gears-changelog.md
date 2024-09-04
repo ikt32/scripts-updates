@@ -1,5 +1,9 @@
 # Changelog for Manual Transmission for GTA V
 
+## 5.6.3
+
+* Improve license check for switchable GPU systems
+
 ## 5.6.2
 
 * Require a license to use

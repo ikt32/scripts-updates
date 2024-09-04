@@ -1,7 +1,7 @@
 {
-  "version":"5.6.2",
-  "date":"2024-08-20",
-  "site":"https://github.com/ikt32/scripts-updates/releases/tag/5-Gears-v5.6.2",
-  "asset":"https://github.com/ikt32/scripts-updates/releases/download/5-Gears-v5.6.2/Gears-v5.6.2-Release.zip",
-  "description":"* Require a license to use\n* Fix traction control acting with too little wheelspin\n* Fix adaptive cruise control\n* Update for b3095+ compatibility"
+  "version":"5.6.3",
+  "date":"2024-09-03",
+  "site":"https://github.com/ikt32/scripts-updates/releases/tag/5-Gears-v5.6.3",
+  "asset":"https://github.com/ikt32/scripts-updates/releases/download/5-Gears-v5.6.3/Gears-v5.6.3-Release.zip",
+  "description":"* Improve license check for switchable GPU systems"
 }
