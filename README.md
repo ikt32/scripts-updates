@@ -14,3 +14,7 @@ Scripts released here are only usable after activation through [Patreon](https:/
   * [Releases](https://github.com/ikt32/scripts-updates/releases?q=%22Custom+Gear+Ratios%22) 
   * [Readme](./5-cgr-readme.md)
   * [Changelog](./5-cgr-changelog.md)
+* TurboFix for GTA V
+  * [Releases](https://github.com/ikt32/scripts-updates/releases?q=%22TurboFix%22) 
+  * [Readme](./5-turbofix-readme.md)
+  * [Changelog](./5-turbofix-changelog.md)
