@@ -74,6 +74,12 @@ For example, to get 16 sounds playing, name your files `EX_POP_0.wav` through `E
 
 The script randomly picks a numbered exhaust sound. `EX_POP_SUB.wav` always plays.
 
+## Developers
+
+In the release archive, in `TurboFix/Developers`, the current header with exposed TurboFix functions is available.
+
+This can be used to retrieve the mod status and applicable boost information.
+
 ## Credits
 
 - Audio for anti-lag by Dieguuuds
