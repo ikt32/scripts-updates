@@ -1,15 +1,11 @@
-[comment]: # (User README.md)
-
 # Manual Transmission and Steering Wheel Support for GTA V
 
-Version 5.6.2
+Expands the driving immersion and experience in Grand Theft Auto V, with wheel support, manual transmission,
+advanced transmission settings, advanced steering settings, configurable assists and much more.
 
 ![Pic](resources/5MTThumb.jpg)
 
-## Description
-
-This project aims to expand the driving immersion and experience in Grand Theft Auto V,
-with a custom transmission, wheel support and much more.
+[<span style="font-size:2em;">📥 Releases</span>](https://github.com/ikt32/scripts-updates/releases?q=%22Manual+Transmission%22)
 
 ## Features
 
@@ -37,18 +33,13 @@ with a custom transmission, wheel support and much more.
 * Customizable steering assists
 * Expose UDP telemetry (DiRT 4 format) for motion platforms, dashboard apps and more
 
-## Downloads
-
-* [Patreon](https://www.patreon.com/ikt)
-* [GitHub release](https://github.com/ikt32/scripts-updates/releases)
-
 ### Recommended mods
 
 For gameplay and driving:
 
 * A realistic handling mod
-* [Custom Gear Ratios](https://www.gta5-mods.com/scripts/custom-gear-ratios): Essential if you have cars with more than 6 gears, and allows matching gear ratios with the real car counterparts.
-* [Turbo Fix](https://www.gta5-mods.com/scripts/turbo-fix): Fixes spool rates of the turbo upgrade.
+* [Custom Gear Ratios](https://github.com/ikt32/scripts-updates/blob/master/5-cgr-readme.md): Essential if you have cars with more than 6 gears, and allows matching gear ratios with the real car counterparts.
+* [Turbo Fix](https://github.com/ikt32/scripts-updates/blob/master/5-turbofix-readme.md): Fixes spool rates of the turbo upgrade.
 * [Dial Accuracy Fix](https://www.gta5-mods.com/scripts/dial-accuracy-fix): Remap dashboard dials to match your actual speed.
 * [ACSPatch](https://www.gta5-mods.com/scripts/auto-center-steering-patch-temp-fix): Keep wheels turned when exiting cars.
 * [Autosport Racing System by Eddlm](https://www.gta5-mods.com/scripts/autosport-racing-system): Complete custom racing system with advanced AI.
@@ -78,22 +69,6 @@ These handlings have reduced grip to realistic levels, and are essential for pla
 * [Lore Friendly Handling Pack](https://www.gta5-mods.com/vehicles/lore-friendly-handling-pack) by Eddlm
 * [Realish Handling Pack](https://www.gta5-mods.com/vehicles/realish-handling-pack) by Eddlm
 
-## Table of Contents
-
-* [Manual Transmission and Steering Wheel Support for GTA V](#manual-transmission-and-steering-wheel-support-for-gta-v)
-  * [Description](#description)
-  * [Features](#features)
-  * [Downloads](#downloads)
-  * [Table of Contents](#table-of-contents)
-  * [Requirements](#requirements)
-  * [Activation](#activation)
-  * [Installation](#installation)
-  * [Default controls](#default-controls)
-  * [Usage and setup](#usage-and-setup)
-  * [Troubleshooting](#troubleshooting)
-  * [Credits](#credits)
-  * [Contact](#contact)
-
 ## Requirements
 
 * [Grand Theft Auto V](https://www.rockstargames.com/V/)
@@ -105,11 +80,11 @@ Optional: (Downloads)
 * [DashHook](https://www.gta5-mods.com/tools/dashhook)
 * [Handling Replacement](https://www.gta5-mods.com/tools/handling-replacement-library)
 
-## Activation
+### Activation
 
-A license is required to play version 5.6.2 and newer of Manual Transmission. You can
-get one by pledging on [Patreon](https://www.patreon.com/ikt). The script will inform
-you when you need to generate or renew the license.
+A license is required to play version 5.6.2 and newer of Manual Transmission.
+You can get one by pledging on [Patreon](https://www.patreon.com/ikt).
+The script will inform you when you need to generate or renew the license.
 
 ## Installation
 
