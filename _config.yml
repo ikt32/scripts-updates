@@ -1,6 +1,13 @@
-title: ikt's scripts
+title: "ikt's scripts"
+description: Information and downloads for ikt's GTA V scripts
+
+header_pages:
+- README.md
+- ABOUT.md
+- PATREON
+
+markdown: kramdown
 
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme
-
