@@ -1,1 +1,3 @@
 *.pdf
+_site
+*.lock

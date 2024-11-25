@@ -3,9 +3,33 @@
 
 @import "{{ site.theme }}";
 
+.page-header {
+    padding: 2rem 3rem;
+    background-color: #000000;
+    background-image: none;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    z-index: 100;
+}
+
 .page-header::before {
+    content: '';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
     background-image: url('../../resources/header0.png');
     background-size: cover;
     background-position: center;
-    filter: blur(5px);
+    overflow:hidden;
+    transform: scale(1.1);
+    filter: blur(4px) brightness(0.4);
+    z-index: -1;
+}
+
+.project-name a {
+    color: #fff;
+    text-decoration: none;
 }
