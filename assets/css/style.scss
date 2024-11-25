@@ -1,0 +1,11 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.page-header::before {
+    background-image: url('../../resources/header0.png');
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px);
+}
