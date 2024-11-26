@@ -13,6 +13,7 @@
     z-index: 100;
 }
 
+// Blurred background
 .page-header::before {
     content: '';
     position:absolute;
@@ -23,13 +24,22 @@
     background-image: url('../../resources/header0.png');
     background-size: cover;
     background-position: center;
-    overflow:hidden;
+    overflow: hidden;
     transform: scale(1.1);
-    filter: blur(4px) brightness(0.4);
+    filter: blur(5px) brightness(0.6);
     z-index: -1;
 }
 
+// Title/Project name is a link back to home
 .project-name a {
     color: #fff;
     text-decoration: none;
 }
+
+// Don't make buttons responsive, as there's 6 and it's a lot of scrolling.
+.btn {
+    @include small {
+      display: inline-block;
+      width: auto;
+    }
+  }
