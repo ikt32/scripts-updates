@@ -1,4 +1,10 @@
 # FAQ
+{:.no_toc}
+
+* A markdown unordered list which will be replaced with the ToC
+{:toc}
+
+## License and subscription
 
 **Q: Where can I get your new mods?**  
 A: They're available [through my Patreon](https://patreon.com/ikt){:target="_blank"}. Please read the information in the Supporter tier description thoroughly!
@@ -7,6 +13,20 @@ A: They're available [through my Patreon](https://patreon.com/ikt){:target="_bla
 A: Yes, the license you generate *while subscribed* is valid for *however long you use your PC in its current form*.
 
 [Please read this for the full details](licgen-readme).
+
+**Q: License Generator is detected as a virus!**  
+A: This should be a false positive. While I'm not disclosing the source for obvious reasons, I can be transparent about
+what it does:
+
+The license generator:
+
+1. checks with Patreon if you're eligible,
+2. takes notes of the system it's running on for the license data,
+3. generates the license and encrypts it
+
+A combination of the unsigned executable, network communication, system profiling and encryption may trigger some anti-virus software.
+
+## Compatibility
 
 **Q: Do the latest versions of your scripts on Patreon work with the latest game update?**  
 A: As of writing, yes. The latest tested game update is **1.0.3351.0**.
@@ -20,9 +40,6 @@ Additionally, the following scripts don't work for 1.0.3095.0 and newer, and hav
 * TurboFix
 * Custom Torque Map
 
-**Q: Where are the camera options in Manual Transmission?**  
-A: It's been split off into [Dynamic Vehicle First Person Camera](https://www.gta5-mods.com/scripts/dynamic-vehicle-first-person){:target="_blank"}.
-
 **Q: Does Manual Transmission work with my wheel?**  
 A: Steering wheel support works for *any* wheel that supports DirectInput! Any *device* that supports DirectInput can be mapped as any input. My personal setup:
 
@@ -35,19 +52,15 @@ And it all works together flawlessly!
 
 Ensure your wheel drivers are installed and up-to-date, and that no other application can take force feedback priority from GTA V with the script running.
 
+**Q: FiveM compatibility?**  
+The scripts I make are exclusively single-player, but with the new batch of updates I'll mark them as FiveM-compatible. Usage of these scripts on FiveM servers is at your own risk, as some (TurboFix) could give you an unfair advantage.
+
+## Other
+
 **Q: How do I install mods?**  
 A: For general information on getting started with mods for GTA V, please check the [GTA5-Mods Wiki with guides](https://github.com/5mods/tutorials/wiki){:target="_blank"} or ask around on the 5mods Discord.
 
 Unfortunately I can't help you with this, so please get familiar.
 
-**Q: License Generator is detected as a virus!**  
-A: This should be a false positive. While I'm not disclosing the source for obvious reasons, I can be transparent about
-what it does:
-
-The license generator:
-
-1. checks with Patreon if you're eligible,
-2. takes notes of the system it's running on for the license data,
-3. generates the license and encrypts it
-
-A combination of the unsigned executable, network communication, system profiling and encryption may trigger some anti-virus software.
+**Q: Where are the camera options in Manual Transmission?**  
+A: It's been split off into [Dynamic Vehicle First Person Camera](https://www.gta5-mods.com/scripts/dynamic-vehicle-first-person){:target="_blank"}.

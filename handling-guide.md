@@ -1,13 +1,15 @@
 # Handling guide
+{:.no_toc}
 
-## Building handling and configurations
+* A markdown unordered list which will be replaced with the ToC
+{:toc}
 
 The scripts build upon the base handling parameters the game provides, and
 use its existing physics. This means some work is needed to create an optimal
 experience. In the following sections I go over the work that's needed to
 achieve this.
 
-### Powertrain
+## Powertrain
 
 [Custom Torque Map](5-ctm-readme), [Custom Gear Ratios](5-cgr-readme) and
 [TurboFix](5-turbofix-readme) are needed to change how the game simulates
@@ -28,7 +30,7 @@ For turbo engines, it's a bit trickier. My approach is to find a similar NA
 variant of the engine, taking those torque numbers, and using TurboFix to create
 the corresponding boost power and spool-up to match up with the actual behavior.
 
-### Grip and handling feel
+## Grip and handling feel
 
 [Default grip levels and slip angles are very high](5-gears-readme#handling-for-force-feedback).
 This is great for arcade gameplay where you don't want to slide off the road
@@ -47,12 +49,12 @@ While this is great for achieving realism on
 it does cause for the bumpy Los Santos roads to cause you to crash, so adjust
 your expectations!
 
-### Other stuff
+## Other stuff
 
 Generally this has mostly been covered by the community, so I won't repeat
 too much. [Eddlm has a guide.](https://eddlm.github.io/Handling-Tools/guide)
 
-[My Real Time Handling Editor script](https://www.gta5-mods.com/tools/real-time-handling-editor)
+My [Real Time Handling Editor script](https://www.gta5-mods.com/tools/real-time-handling-editor)
 also contains a bunch of tips, embedded inside the script menu, from
 [this repository](https://github.com/ikt32/GTAVHandlingInfo).
 
