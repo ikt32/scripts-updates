@@ -2,6 +2,7 @@
 
 ## 1.1.0
 
+* Require a license to use
 * Add a tachometer, inspired by [the Nissan 300ZX](https://www.youtube.com/watch?v=xGmNuuoyiYQ), using real power curve
 * Add power curve to engine map visualizer
 * Add new torque and power calculations for current vehicle, and option to change visualization:
