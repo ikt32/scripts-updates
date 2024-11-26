@@ -1,4 +1,5 @@
-# Manual Transmission and Steering Wheel Support for GTA V
+# Manual Transmission
+{:.no_toc}
 
 Expands the driving immersion and experience in Grand Theft Auto V, with wheel support, manual transmission,
 advanced transmission settings, advanced steering settings, configurable assists and much more.
@@ -6,6 +7,9 @@ advanced transmission settings, advanced steering settings, configurable assists
 ![Pic](resources/5MTThumb.jpg)
 
 [<span style="font-size:2em;">📥 Releases</span>](https://github.com/ikt32/scripts-updates/releases?q=%22Manual+Transmission%22)
+
+* ToC Placeholder
+{:toc}
 
 ## Features
 

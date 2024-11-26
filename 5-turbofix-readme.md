@@ -1,36 +1,42 @@
 # TurboFix
+{:.no_toc}
 
 Overhauls how the turbo works, for more useful performance and new effects.
 
+![TurboFix](resources/5TurboFix.png)
+
 [<span style="font-size:2em;">📥 Releases</span>](https://github.com/ikt32/scripts-updates/releases?q=%22TurboFix%22)
+
+* ToC Placeholder
+{:toc}
 
 ## Features
 
-- Unlock turbo boost limits  
+* Unlock turbo boost limits  
   The original turbo only adds 10% torque when fully spooled up.  
   This script unlocks that for much more boost and resulting power!  
-- Better turbo spooling  
+* Better turbo spooling  
   The original turbo takes a very long time to spool up to full boost.  
   This script makes it to spool up as quickly as your configuration allows, for realistic turbo lag.  
-- Anti-lag and effects  
+* Anti-lag and effects  
   Optionally simulate anti-lag by keeping boost high off-throttle.  
   Optionally play visual and audio effects while anti-lag is active!  
   Works best combined with Manual Transmission  
-- Supports NPC vehicles  
+* Supports NPC vehicles  
   Combines great with ARS by Eddlm for competitive AI performance  
-- Turbo dial adjustments with DashHook  
+* Turbo dial adjustments with DashHook  
   Vehicles' turbo dials are remappable to accurately show boost  
 
 ## Requirements
 
-- Grand Theft Auto V
-- [ScriptHookV](http://www.dev-c.com/gtav/scripthookv/)
-- A valid license [(Patreon)](https://www.patreon.com/ikt)
+* Grand Theft Auto V
+* [ScriptHookV](http://www.dev-c.com/gtav/scripthookv/)
+* A valid license [(Patreon)](https://www.patreon.com/ikt)
 
 Optional:
 
-- [DashHook](https://www.gta5-mods.com/tools/dashhook)
-- [Manual Transmission](https://github.com/ikt32/scripts-updates/blob/master/5-gears-readme.md)
+* [DashHook](https://www.gta5-mods.com/tools/dashhook)
+* [Manual Transmission](https://github.com/ikt32/scripts-updates/blob/master/5-gears-readme.md)
 
 ### Activation
 
@@ -66,9 +72,9 @@ Sound sets can be added by creating a new folder in the Sounds folder. Files nee
 
 Files inside the new folder should be named:
 
-- `EX_POP_0.wav`
-- `EX_POP_(number).wav`
-- `EX_POP_SUB.wav`
+* `EX_POP_0.wav`
+* `EX_POP_(number).wav`
+* `EX_POP_SUB.wav`
 
 For example, to get 16 sounds playing, name your files `EX_POP_0.wav` through `EX_POP_15.wav`.
 
@@ -82,4 +88,4 @@ This can be used to retrieve the mod status and applicable boost information.
 
 ## Credits
 
-- Audio for anti-lag by Dieguuuds
+* Audio for anti-lag by Dieguuuds

@@ -1,10 +1,14 @@
 # Custom Gear Ratios
+{:.no_toc}
 
 Change car gear ratios in GTA V.
 
 ![Menu](resources/5CGR_Menu1.png)
 
 [<span style="font-size:2em;">📥 Releases</span>](https://github.com/ikt32/scripts-updates/releases?q=%22Custom+Gear+Ratios%22)
+
+* ToC Placeholder
+{:toc}
 
 ## Requirements
 

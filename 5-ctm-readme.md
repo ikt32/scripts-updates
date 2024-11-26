@@ -1,4 +1,5 @@
 # Custom Torque Map
+{:.no_toc}
 
 GTA V simulates a decent amount of realism in car behaviour, but the engine chacteristics are dead simple and
 identical for nearly all cars.
@@ -9,6 +10,9 @@ accurate-to-life engine responses.
 (Engine torque map and generated info as visualized in-game by the script)
 
 [<span style="font-size:2em;">📥 Releases</span>](https://github.com/ikt32/scripts-updates/releases?q=%22Custom+Torque+Map%22)
+
+* ToC Placeholder
+{:toc}
 
 ## Features
 
