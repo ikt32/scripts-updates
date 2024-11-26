@@ -12,19 +12,19 @@ accurate-to-life engine responses.
 
 ## Features
 
-- Define completely custom engine torque curves
-- Supports torque maps with any amount of data points
-- Supports NPC vehicles
-- Compatible with engine tuning
-- Calculates and visualizes engine power and torque values
-- Export power and torque data to csv for analyzing
-- Unique [Nissan 300ZX Turbo](https://www.youtube.com/watch?v=xGmNuuoyiYQ) inspired tachometer
+* Define completely custom engine torque curves
+* Supports torque maps with any amount of data points
+* Supports NPC vehicles
+* Compatible with engine tuning
+* Calculates and visualizes engine power and torque values
+* Export power and torque data to csv for analyzing
+* Unique [Nissan 300ZX Turbo](https://www.youtube.com/watch?v=xGmNuuoyiYQ) inspired tachometer
 
 ## Requirements
 
-- Grand Theft Auto V
-- [ScriptHookV](http://www.dev-c.com/gtav/scripthookv)
-- A valid license [(Patreon)](https://www.patreon.com/ikt)
+* Grand Theft Auto V
+* [ScriptHookV](http://www.dev-c.com/gtav/scripthookv)
+* A valid license [(Patreon)](https://www.patreon.com/ikt)
 
 ### Activation
 
@@ -171,19 +171,14 @@ that still abstracts too much to say anything definite about the engine rotation
 
 This is why `IdleRPM` and `RevLimitRPM` are required in the configuration files in order to make a calculation of
 power. While there are no gameplay impacts if these values miss, the script can't calculate out the output power.
-\[Citation needed\]
 
 The game lacks any definition of real engine speed, and it cannot be deduced from gearing data alone.
 Power figures (horsepower and kilowatts) thus rely on the `IdleRPM` and `RevLimitRPM` being defined in the
 configuration files.
 
 Numbers displayed in-game are measured at the wheel. These numbers are affected by throttle input, terrain,
-engine mod level and the presence of the turbo mod. Additionally, scripts that alter power also affect this
-final torque.
-
-### Further performance impact
-
-
+how much the wheel sinks into the terrain, engine tuning level, and the presence of the turbo mod.
+Additionally, scripts that alter power also affect this final torque.
 
 ## Data logging
 
@@ -243,61 +238,9 @@ The current solution:
     float finalForce = (baseDriveForce + baseMod);
 ```
 
-## Download
-
-[Custom Torque Map on GTA5-Mods.com](https://www.gta5-mods.com/scripts/custom-torque-map)
-
-**Recommended scripts** to use along with this script:
-
-* [Custom Gear Ratios](https://www.gta5-mods.com/scripts/custom-gear-ratios)
-* [TurboFix](https://www.gta5-mods.com/scripts/turbofix-2)
-* [Manual Transmission](https://www.gta5-mods.com/scripts/manual-transmission-ikt)
-* [Dial Accuracy Fix](https://www.gta5-mods.com/scripts/manual-transmission-ikt)
-
-**Other recommendations**:
-
-* Realistic handlings, with consistent `fInitialDriveForce = PeakTorqueNm * fMass`
-
 ## Special Thanks
 
 Thanks to the following people, who helped with making this script come together:
 
 * TheAdmiester, for providing lots of data and testing
 * Members of GVMA, for testing and general involvement
-
-## Changelog
-
-### 1.1.0
-
-* Add a tachometer, inspired by [the Nissan 300ZX](https://www.youtube.com/watch?v=xGmNuuoyiYQ), using real power curve
-* Add power curve to engine map visualizer
-* Add new torque and power calculations for current vehicle, and option to change visualization:
-  * Relative (0.5x of max torque/power)
-  * Metric (kW and N⋅m)
-  * Imperial (hp and lb⋅ft)
-* Add peak power/torque numbers for current vehicle
-* Accurately represent default torque behavior for 2nd gear and up
-
-Additional notes: Actual torque and power calculations still require a player vehicle,
-as `fInitialDriveForce` and `fMass` are used to calculate torque. In addition, the idle and rev limit RPMs also need to
-be specified to calculate everything. Once you have a good configuration, all numbers should pop out accurately.
-
-### 1.0.2
-
-* Add support for `{actual_rpm}|{actual_torque}` in the torque map.
-  Conversion to relative numbers is not required any more.
-  Check `CustomTorqueMap/Configs/VAG 4.2 V8 FSI 32v.ini` for an example.
-* Fix crash on invalid/missing config
-* Fix crash on missing vehicle
-* Update dependencies
-
-### 1.0.1
-
-* Add exported function to retrieve idle, rev limit and actual RPM if those are defined
-* Fix mapped "actual" RPM reporting below 0.2 RPM
-
-### 1.0.0
-
-* Initial release
-
-© 2022 ikt. All rights reserved.
