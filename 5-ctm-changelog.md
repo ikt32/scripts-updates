@@ -3,6 +3,8 @@
 ## 1.1.0
 
 * Require a license to use
+* Update for builds upto and including 1.0.3351.0
+* Add FiveM FX_ASI_BUILD versions up to 3351
 * Add a tachometer, inspired by [the Nissan 300ZX](https://www.youtube.com/watch?v=xGmNuuoyiYQ), using real power curve
 * Add power curve to engine map visualizer
 * Add new torque and power calculations for current vehicle, and option to change visualization:

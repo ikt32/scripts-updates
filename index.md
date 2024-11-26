@@ -49,7 +49,7 @@ Overhauls and fixes turbo behavior in the game:
 
 ## [Custom Torque Map](5-ctm-readme)
 
-[![Custom Torque Map](resources/5CTM_Interface.png){:width="480"}](5-ctm-readme)<br>
+[![Custom Torque Map](resources/5CTM_Interface.jpg){:width="480"}](5-ctm-readme)<br>
 [<span style="font-size:1.5em;">`📥 Releases`</span>](https://github.com/ikt32/scripts-updates/releases?q=%22Custom+Torque+Map%22){:target="_blank"}
 [<span style="font-size:1.5em;">`📖 Readme`</span>](5-ctm-readme)
 [<span style="font-size:1.5em;">`🛠️ Changelog`</span>](5-ctm-changelog)

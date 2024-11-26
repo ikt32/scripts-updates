@@ -6,7 +6,7 @@ identical for nearly all cars.
 causing nearly every vehicle to drive the same. Custom Torque Map allows handling creators to create realistic and
 accurate-to-life engine responses.
 
-![Interface](resources/5CTM_Interface.png)
+![Interface](resources/5CTM_Interface.jpg)
 (Engine torque map and generated info as visualized in-game by the script)
 
 [<span style="font-size:2em;">📥 Releases</span>](https://github.com/ikt32/scripts-updates/releases?q=%22Custom+Torque+Map%22)
