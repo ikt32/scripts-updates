@@ -52,7 +52,7 @@ your expectations!
 ## Other stuff
 
 Generally this has mostly been covered by the community, so I won't repeat
-too much. [Eddlm has a guide.](https://eddlm.github.io/Handling-Tools/guide)
+too much. [Eddlm has a great guide.](https://eddlm.github.io/Handling-Tools/guide)
 
 My [Real Time Handling Editor script](https://www.gta5-mods.com/tools/real-time-handling-editor)
 also contains a bunch of tips, embedded inside the script menu, from
