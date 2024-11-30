@@ -69,7 +69,15 @@ Ensure your wheel drivers are installed and up-to-date, and that no other applic
 
 ### Q: FiveM compatibility?
 
-The scripts I make are exclusively single-player, but with the new batch of updates I'll mark them as FiveM-compatible. Usage of these scripts on FiveM servers is at your own risk, as some (TurboFix) could give you an unfair advantage.
+Yes, but:
+
+* My scripts are made with only single-player story in mind
+* Only scripts marked as FiveM-compatible through `FX_ASI_BUILD` resources will work in FiveM
+  * Manual Transmission
+  * Custom Torque Map
+  * TurboFix and Custom Gear Ratios will have this added somewhere in the future, but currently won't work with FiveM
+* Scripts will only work on FiveM if the server allows client-side plugins
+* Usage of these scripts on FiveM servers is at your own risk, as such scripts can give you an unfair advantage
 
 ## Other
 
