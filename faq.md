@@ -38,7 +38,7 @@ A: As of writing, yes. The latest tested game update is **1.0.3351.0**.
 ### Q: Why does steering not work in Manual Transmission? / Why does script X behave weirdly?
 
 A: The [old version from GTA5-Mods.com](https://www.gta5-mods.com/scripts/manual-transmission-ikt){:target="_blank"}
-(v5.6.1) is **not** compatible with game versions 1.0.3095.0 and newer.
+(5.6.1) is **not** compatible with game versions 1.0.3095.0 and newer.
 
 Symptoms are:
 
@@ -53,6 +53,18 @@ The following other scripts don't work either for game version 1.0.3095.0 and ne
 * Custom Gear Ratios
 * TurboFix
 * Custom Torque Map
+
+For completeness:
+
+The following mod versions **are compatible** for game version **1.0.3095.0**
+and at time of writing also support **1.0.3351.0**:
+
+* Manual Transmission **5.6.2 and newer**
+* Custom Gear Ratios **1.2.1 and newer**
+* TurboFix **2.4.0 and newer**
+* Custom Torque Map **1.1.0 and newer**
+
+These new versions are exclusive to [Patreon](https://www.patreon.com/ikt){:target="_blank"}.
 
 ### Q: Does Manual Transmission work with my wheel?
 
