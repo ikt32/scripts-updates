@@ -136,6 +136,7 @@ This Software Use Agreement ("Agreement") is between ikt ("Author") and the User
   * Failure to acknowledge the technical restrictions regarding License Generator requirements described sections 3, 4 and 5.
   * Any misunderstanding in the nature of software requiring this License.
   * Any incompatibility issue while using software requiring this License.
+  * Use of the license for evaluation purposes of the software requiring this License.
   * Refunds requested after an unreasonably long time (more than 1 month ago). Refunds requested after Patreon's 3 month refund window will not be issued.
 
   Refunds are issued within the constraints of [Patreon's Relationship manager](https://support.patreon.com/hc/en-us/articles/115001243446-How-do-I-refund-my-members-and-customers), no refunds are issued outside of Patreon.
