@@ -8,7 +8,17 @@
 
 ### Q: Where can I get your new mods?
 
-A: They're available [through my Patreon](https://patreon.com/ikt){:target="_blank"}. Please read the information in the Supporter tier description thoroughly!
+A: They're available [through my Patreon](https://patreon.com/ikt){:target="_blank"}. The "how does this work"
+is explained in the Supporter tier membership and in the [readme of License Generator](licgen-readme){:target="_blank"}.
+
+My Patreon-exclusive scripts for now are updated versions of:
+
+* [Manual Transmission](5-gears-readme){:target="_blank"}
+* [Custom Gear Ratios](5-cgr-readme){:target="_blank"}
+* [Custom Torque Map](5-ctm-readme){:target="_blank"}
+* [TurboFix](5-turbofix-readme){:target="_blank"}
+
+These all use the same license system.
 
 ### Q: Can I pay once and use your new scripts forever?
 
