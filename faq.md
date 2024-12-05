@@ -89,6 +89,18 @@ And it all works together flawlessly!
 
 Ensure your wheel drivers are installed and up-to-date, and that no other application can take force feedback priority from GTA V with the script running.
 
+### Q: Why doesn't Manual Transmission see my wheel?
+
+A: Please check [the Manual Transmission readme](5-gears-readme#steering-wheel-issues). Possible causes:
+
+* No inputs mapped yet: You need to assign the inputs, the script does **not come with defaults**.
+  A more user-friendly initial setup is planned for a future update.
+* Drivers: Make sure your wheel drivers are installed and your wheel is picked up by games.
+* Driver changes: Sometimes driver updates may re-assign GUIDs and the script doesn't recognize the wheel anymore.
+  This will be addressed in a future update.
+* Software conflicts: Some software may take priority over the wheel instead of GTA V. Make sure nothing like XInput
+  or Steam controller also has the wheel assigned.
+
 ### Q: FiveM compatibility?
 
 Yes, but:
