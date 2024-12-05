@@ -124,3 +124,7 @@ Unfortunately I can't help you with this, so please get familiar.
 ### Q: Where are the camera options in Manual Transmission?
 
 A: It's been split off into [Dynamic Vehicle First Person Camera](https://www.gta5-mods.com/scripts/dynamic-vehicle-first-person){:target="_blank"}.
+
+## Remarks
+
+If you have anything to add to this FAQ, please let me know via Discord 😊
