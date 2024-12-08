@@ -496,6 +496,8 @@ Check the `Developer options` -> `Compatibility settings`.
 
 * Wheel not detected:
   * Ensure you've (tried to) set up the wheel by assigning the axes and buttons.
+    * The script switches inputs when it detects throttle/brake/clutch input. To switch to wheel,
+      assign throttle and brake and use the throttle and brake. The script notifies when it switches.
   * When using Steam:
     * Fix: Uncheck `Generic Gamepad Configuration Support` in Steam Big Picture settings,
       Controller settings. (Found by Kaerali)
