@@ -18,34 +18,39 @@ Programs and scripts that require this license will detect this license and auto
 1. Launch `LicenseGenerator.exe`.
    1. If an existing license is present, it will warn, and backup the old license if you want to create a new one.
 2. Log in through Patreon in the opened window.
-   1. If the window does not open or you are logged into an eligible Patreon account in a different window,
+   1. If the window does not open or if you are logged into an eligible Patreon account in a different browser,
    the URL in the browser or in the tool can be copied and pasted into another browser.
-3. If eligible, License Generator will generate a license file (in `%localappdata%\ikt\License\`).
-4. The game with the script can now be started.
+3. If you are eligible,
+   the license generator will now generate a license file (at `%localappdata%\ikt\License\`).
+4. The license generator is now finished and can be closed.
+5. The game can now be started, and the scripts are activated.
 
 ![Command window example](./resources/LicGen.png)
 
 ## Help
 
-If any trouble occurs, please let me know: [Discord](https://discord.gg/VrrAEV4j4b).
+Check the [FAQ](faq){:target="_blank"} for tips if any issue occurs.
 
-Please DM me from `%localappdata%\ikt\License\`, the files
+If you can't resolve it yourself, please let me know: [Discord](https://discord.gg/VrrAEV4j4b).
+
+Please DM me from `%localappdata%\ikt\License\`, the following files
 
 * `LicenseGenerator.log`
 * `0.0.lic` (or any other `.lic` file)
-* Any logs from the affected script (e.g. `Gears.log`).
+* And logs from the affected script (e.g. `Gears.log`).
 
 ## Notes
 
 1. <a name="notes-1"></a>
-   As long as there is an active pledge for the account that authorizes License Generator,
-   it's eligible and a license will be generated.
+   You're eligible when you have an active pledge with the account that authorizes License Generator.
 2. <a name="notes-2"></a>
-   Swapping out multiple core components will invalidate the configuration.
+   Swapping out multiple core components may cause the system to be expired for the license.
+   Re-generation of the license is needed in this situation.
 3. <a name="notes-3"></a>
-   Only this License Generator will contact Patreon to check if you can use it, the scripts only check the license
-   file locally. The scripts themselves may or may not individually check select GitHub repositories to notify for
-   updates or to pull in data required for the script, this will be transparently communicated.
+   Only the License Generator connects with Patreon to check if you are eligible.
+   The scripts only check the license file locally.
+   The scripts themselves may or may not individually check select GitHub repositories to notify for
+   updates or to pull in data required for the script to work.
 
 <div style="page-break-after: always;"></div>
 

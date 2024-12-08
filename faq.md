@@ -39,6 +39,13 @@ The license generator:
 
 A combination of the unsigned executable, network communication, system profiling and encryption may trigger some anti-virus software.
 
+### Q: The scripts claim they're not activated!
+
+A: Make sure to have run the [License Generator](licgen-readme), which you obtain through Patreon, and be logged into
+Patreon when the browser opens to authorize the license generator to check if you can use it.
+
+The license generator indicates if it was successful or if anything failed.
+
 ## Compatibility
 
 ### Q: Do the latest versions of your scripts on Patreon work with the latest game update?
