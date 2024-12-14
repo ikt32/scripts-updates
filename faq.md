@@ -26,7 +26,7 @@ A: Yes, the license you generate *while subscribed* is valid for *however long y
 
 [Please read this for the full details](licgen-readme).
 
-### Q: License Generator is detected as a virus!
+### Q: License Generator is detected as a virus?
 
 A: This should be a false positive. While I'm not disclosing the source for obvious reasons, I can be transparent about
 what it does:
@@ -37,14 +37,20 @@ The license generator:
 2. takes notes of the system it's running on for the license data,
 3. generates the license and encrypts it
 
-A combination of the unsigned executable, network communication, system profiling and encryption may trigger some anti-virus software.
+A combination of the unsigned executable, network communication, system profiling and encryption may trigger some
+anti-virus software.
 
-### Q: The scripts claim they're not activated!
+### Q: The scripts claim they're not activated?
 
 A: Make sure to have run the [License Generator](licgen-readme), which you obtain through Patreon, and be logged into
 Patreon when the browser opens to authorize the license generator to check if you can use it.
 
 The license generator indicates if it was successful or if anything failed.
+
+### Q: Can I try the scripts before getting a Patreon subscription?
+
+A: At the time of writing, no. An upcoming Manual Transmission update will include a demo mode to test things if you've
+not had experience with it pre-3095.
 
 ## Compatibility
 
@@ -85,7 +91,8 @@ These new versions are exclusive to [Patreon](https://www.patreon.com/ikt){:targ
 
 ### Q: Does Manual Transmission work with my wheel?
 
-A: Steering wheel support works for *any* wheel that supports DirectInput! Any *device* that supports DirectInput can be mapped as any input. My personal setup:
+A: Steering wheel support works for *any* wheel that supports DirectInput! Any *device* that supports DirectInput
+can be mapped as any input. My personal setup:
 
 * Fanatec CSL DD
 * Fanatec CSL LC Pedals (separately connected)
@@ -94,7 +101,8 @@ A: Steering wheel support works for *any* wheel that supports DirectInput! Any *
 
 And it all works together flawlessly!
 
-Ensure your wheel drivers are installed and up-to-date, and that no other application can take force feedback priority from GTA V with the script running.
+Ensure your wheel drivers are installed and up-to-date, and that no other application can take force feedback priority
+from GTA V with the script running.
 
 ### Q: Why doesn't Manual Transmission see my wheel?
 
@@ -108,30 +116,40 @@ A: Please check [the Manual Transmission readme](5-gears-readme#steering-wheel-i
 * Software conflicts: Some software may take priority over the wheel instead of GTA V. Make sure nothing like XInput
   or Steam controller also has the wheel assigned.
 
-### Q: FiveM compatibility?
+### Q: Are the scripts compatible with FiveM?
 
-Yes, but:
+Sort of:
 
-* My scripts are made with only single-player story in mind
+* The scripts are made with only single-player story in mind
 * Only scripts marked as FiveM-compatible through `FX_ASI_BUILD` resources will work in FiveM
   * Manual Transmission
   * Custom Torque Map
   * TurboFix and Custom Gear Ratios will have this added somewhere in the future, but currently won't work with FiveM
 * Scripts will only work on FiveM if the server allows client-side plugins
-* Usage of these scripts on FiveM servers is at your own risk, as such scripts can give you an unfair advantage
+  * Most servers will not allow client-side plugins, as such scripts can give you an unfair advantage
+
+**Usage of these scripts in combination with FiveM is at your own risk and no support is given!**
+Before usage on FiveM, ensure the scripts work in vanilla single-player story mode. If scripts work in SP, but not
+on FiveM, there is nothing I can do to help you.
 
 ## Other
 
 ### Q: How do I install mods?
 
-A: For general information on getting started with mods for GTA V, please check the [GTA5-Mods Wiki with guides](https://github.com/5mods/tutorials/wiki){:target="_blank"} or ask around on the 5mods Discord.
+A: For general information on getting started with mods for GTA V, please check the
+[GTA5-Mods Wiki with guides](https://github.com/5mods/tutorials/wiki){:target="_blank"} or ask around on the
+[GTA5-Mods Discord server](https://discord.gg/2PR7aMzD4U).
 
-Unfortunately I can't help you with this, so please get familiar.
+**No support will be given for general modding** and it is expected of you to be competent with
+computers and modding in general before trying my scripts.
 
 ### Q: Where are the camera options in Manual Transmission?
 
-A: It's been split off into [Dynamic Vehicle First Person Camera](https://www.gta5-mods.com/scripts/dynamic-vehicle-first-person){:target="_blank"}.
+A: It's been split off into the (free) standalone
+[Dynamic Vehicle First Person Camera](https://www.gta5-mods.com/scripts/dynamic-vehicle-first-person){:target="_blank"}
+script.
 
 ## Remarks
 
-If you have anything to add to this FAQ, please let me know via Discord 😊
+If you have anything to add to this FAQ, please feel free to reach out via Discord. This FAQ is continously updated
+as new questions come in.
