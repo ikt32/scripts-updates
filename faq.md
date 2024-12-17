@@ -56,7 +56,7 @@ not had experience with it pre-3095.
 
 ### Q: Do the latest versions of your scripts on Patreon work with the latest game update?
 
-A: As of writing, yes. The latest tested game update is **1.0.3351.0**.
+A: As of writing, yes. The latest tested game update is **1.0.3411.0**.
 
 ### Q: Why does steering not work in Manual Transmission? / Why does script X behave weirdly?
 
@@ -80,7 +80,7 @@ The following other scripts don't work either for game version 1.0.3095.0 and ne
 For completeness:
 
 The following mod versions **are compatible** for game version **1.0.3095.0**
-and at time of writing also support **1.0.3351.0**:
+and at time of writing also support **1.0.3411.0**:
 
 * Manual Transmission **5.6.2 and newer**
 * Custom Gear Ratios **1.2.1 and newer**
