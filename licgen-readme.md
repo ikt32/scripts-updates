@@ -15,15 +15,16 @@ Programs and scripts that require this license will detect this license and auto
 
 ## Usage
 
-1. Launch `LicenseGenerator.exe`.
+1. Make sure the game is closed.
+2. Launch `LicenseGenerator.exe`.
    1. If an existing license is present, it will warn, and backup the old license if you want to create a new one.
-2. Log in through Patreon in the opened window.
+3. Log in through Patreon in the opened window.
    1. If the window does not open or if you are logged into an eligible Patreon account in a different browser,
    the URL in the browser or in the tool can be copied and pasted into another browser.
-3. If you are eligible,
+4. If you are eligible,
    the license generator will now generate a license file (at `%localappdata%\ikt\License\`).
-4. The license generator is now finished and can be closed.
-5. The game can now be started, and the scripts are activated.
+5. The license generator is now finished and can be closed.
+6. The game can now be started, and the installed scripts automatically pick up the license.
 
 ![Command window example](./resources/LicGen.png)
 
