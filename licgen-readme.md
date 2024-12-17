@@ -144,10 +144,11 @@ This Software Use Agreement ("Agreement") is between ikt ("Author") and the User
   * Any incompatibility issue while using software requiring this License.
   * Use of the license for evaluation purposes of the software requiring this License.
   * Refunds requested after an unreasonably long time (more than 1 month ago). Refunds requested after Patreon's 3 month refund window will not be issued.
+  * Violation of the code of conduct set out in the "rules" channel in the Author's Discord server, or other unacceptable behavior through other channels.
 
   Refunds are issued within the constraints of [Patreon's Relationship manager](https://support.patreon.com/hc/en-us/articles/115001243446-How-do-I-refund-my-members-and-customers), no refunds are issued outside of Patreon.
 
 ### 10. Modifications to this agreement
 
 * **Right to Modify:**\
-  The Author reserves the right to modify this Agreement at any time. Any changes will be communicated to the User, and continuing to use the Software or License Generator after changes are made will indicate acceptance of the new terms.
+  The Author reserves the right to modify this Agreement at any time. Changes to this license may be tracked through [the commit history for this file](https://github.com/ikt32/scripts-updates/commits/master/licgen-readme.md).
