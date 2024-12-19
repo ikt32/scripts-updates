@@ -30,6 +30,15 @@ For turbo engines, it's a bit trickier. My approach is to find a similar NA
 variant of the engine, taking those torque numbers, and using TurboFix to create
 the corresponding boost power and spool-up to match up with the actual behavior.
 
+To tune the top speed **for stock gear ratios**, use the following formula:
+`fInitialDriveMaxFlatVel = topGearMaxSpeedKph*0.75`
+
+This is because there is a 1.2 factor between `fInitialDriveMaxFlatVel` and
+an internal top speed variable. On top of that, the top gear ratio is usually
+0.9. Just take the top speed achievable with the top gear and use this number
+here - this should be your baseline handling.meta top speed,
+before applying custom gear ratios.
+
 ## Grip and handling feel
 
 [Default grip levels and slip angles are very high](5-gears-readme#handling-for-force-feedback).
