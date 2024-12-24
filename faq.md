@@ -132,6 +132,11 @@ Sort of:
 Before usage on FiveM, ensure the scripts work in vanilla single-player story mode. If scripts work in SP, but not
 on FiveM, there is nothing I can do to help you.
 
+If you're a server owner and interested in a server-side solution for drivetrain simulation, I highly recommend
+[C.H.A.S.E.R](https://legacydmc.net/chaser/) by LegacyDMC.
+
+I'm not aware of any worthwhile steering wheel support solutions for FiveM.
+
 ## Other
 
 ### Q: How do I install mods?
