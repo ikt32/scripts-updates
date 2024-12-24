@@ -3,7 +3,7 @@
 License Generator enables usage of (select) scripts by ikt. It checks if you are eligible for a license
 through Patreon. If you are, it generates a unique license for your system.
 
-Programs and scripts that require this license will detect this license and automatically use it.
+Scripts that use this license will automatically detect and use it.
 
 ## Features
 
