@@ -1,5 +1,15 @@
 # Changelog for Manual Transmission for GTA V
 
+## 5.7.0
+
+* Add a demo mode for 15 minutes x 4 trial usage
+* Add force feedback effects for surface textures
+* Automatically resolve devices with changed Instance GUIDs
+* Clarify "Enhanced Steering"-related descriptions in the menus
+* Rename confusing force feedback settings
+* Improve steering wheel devices initialization
+* Improve force feedback initialization
+
 ## 5.6.3
 
 * Improve license check for switchable GPU systems
