@@ -99,10 +99,11 @@ can be mapped as any input. My personal setup:
 * [SHH Shifter](https://www.shiftershh.com/en/){:target="_blank"}
 * A random AliExpress handbrake
 
-And it all works together flawlessly!
-
 Ensure your wheel drivers are installed and up-to-date, and that no other application can take force feedback priority
 from GTA V with the script running.
+
+If you'd like to try things out beforehand,
+[Manual Transmission contains a demo mode starting with version 5.7.0](https://www.patreon.com/posts/manual-5-7-0-119318684){:target="_blank"}.
 
 ### Q: Why doesn't Manual Transmission see my wheel?
 
