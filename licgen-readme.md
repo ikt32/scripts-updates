@@ -5,6 +5,11 @@ through Patreon. If you are, it generates a unique license for your system.
 
 Scripts that use this license will automatically detect and use it.
 
+## Download
+
+The download for the latest License Generator is linked in
+[your Patreon membership page](https://www.patreon.com/c/ikt/membership){:target="_blank"}.
+
 ## Features
 
 * Unrestricted number of activations on any number of systems as long as eligible<sup>[[1]](#notes-1)</sup>

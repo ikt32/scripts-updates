@@ -61,6 +61,7 @@ inspired tachometer incorporating the power curve.
 ## [License](licgen-readme)
 
 [<img alt="Patreon icon" src="resources/PATREON_SYMBOL_1_BLACK_RGB.svg" style="height:0.6em" /> <span style="font-size:1.5em;">`Patreon`</span>](https://www.patreon.com/ikt){:target="_blank"}
+[<span style="font-size:1.5em;">`📥 Download`</span>](https://www.patreon.com/c/ikt/membership){:target="_blank"}
 [<span style="font-size:1.5em;">`📖 Description`</span>](licgen-readme)
 
 The new versions of the scripts featured here only work after getting this license.
