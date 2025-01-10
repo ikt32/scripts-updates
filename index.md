@@ -7,6 +7,22 @@ layout: default
 This collection of Patreon-supported scripts aims to extend the limits of vehicle
 simulation in Grand Theft Auto V to bring a close-to-sim level of realism into the game.
 
+## [Access and License Generator](licgen-readme)
+
+[<img alt="Patreon icon" src="resources/PATREON_SYMBOL_1_BLACK_RGB.svg" style="height:0.6em" /> <span style="font-size:1.5em;">`Patreon`</span>](https://www.patreon.com/ikt){:target="_blank"}
+[<span style="font-size:1.5em;">`📖 README`</span>](licgen-readme)
+[<span style="font-size:1.5em;">`📥 Download`</span>](https://www.patreon.com/c/ikt/membership){:target="_blank"}
+
+Access to the scripts listed on this page is managed by a license system. Subscribing to my Patreon enables you
+to generate a unique license for your system to use the scripts, which grant access to use the scripts. Please
+check the [detailed manual of License Generator](licgen-readme){:target="_blank"}, which explains what it is
+and what you can expect.
+
+1. [Subscribe to the Patreon campaign](https://www.patreon.com/c/ikt/membership){:target="_blank"}.
+2. Download and run the License Generator.
+3. Download and install the scripts you want.
+4. Start and play the game!
+
 ## [Manual Transmission](5-gears-readme)
 
 [![Manual Transmission](resources/5MTThumb.jpg){:width="480"}](5-gears-readme)<br>
@@ -58,12 +74,6 @@ Apply engine torque curve profiles to simulate the engine power throughout
 the rev range, and visualize the results. Also includes a unique Nissan 300ZX
 inspired tachometer incorporating the power curve.
 
-## [License](licgen-readme)
+## [More content](https://www.gta5-mods.com/users/ikt){:target="_blank"}
 
-[<img alt="Patreon icon" src="resources/PATREON_SYMBOL_1_BLACK_RGB.svg" style="height:0.6em" /> <span style="font-size:1.5em;">`Patreon`</span>](https://www.patreon.com/ikt){:target="_blank"}
-[<span style="font-size:1.5em;">`📖 README`</span>](licgen-readme)
-[<span style="font-size:1.5em;">`📥 Download`</span>](https://www.patreon.com/c/ikt/membership){:target="_blank"}
-
-The new versions of the scripts featured here only work after getting this license.
-If you'd like to check out my prior work, click on the GTA5-Mods button above.
-This license scheme allows me to spend time to continue work on these scripts.
+My other content is freely available from [GTA5-Mods.com](https://www.gta5-mods.com/users/ikt){:target="_blank"}.

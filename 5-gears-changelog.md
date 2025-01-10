@@ -1,5 +1,14 @@
 # Changelog for Manual Transmission for GTA V
 
+## 5.7.1
+
+* Add analog camera support for steering wheels
+* Improve re-identification support for composite devices, e.g. newer Fanatec wheelbases
+* Allow manual input for HUD element locations
+* UDP Telemetry: Read fuel volume from handling instead of fixed 65L
+* Fix last analog axis (Slider1) not being picked up during assignment
+* Fix nonfunctional buttons for analog actions
+
 ## 5.7.0
 
 * Add a demo mode for 15 minutes x 4 trial usage

@@ -14,7 +14,7 @@ The download for the latest License Generator is linked in
 
 * Unrestricted number of activations on any number of systems as long as eligible<sup>[[1]](#notes-1)</sup>
 * License stays forever valid for *activated system configuration*<sup>[[2]](#notes-2)</sup>
-* Scripts are 100% offline regarding license: everything stays on your system<sup>[[3]](#notes-3)</sup>
+* Scripts are 100% offline regarding license: everything stays on your system<sup>[[3]](#notes-3)</sup><sup>[[4]](#notes-4)</sup>
 
 (Check the [Notes section](#notes) for more information.)
 
@@ -22,7 +22,7 @@ The download for the latest License Generator is linked in
 
 1. Make sure the game is closed.
 2. Launch `LicenseGenerator.exe`.
-   1. If an existing license is present, it will warn, and backup the old license if you want to create a new one.
+   1. The tool detects and backups existing licenses when you opt to create a new license.
 3. Log in through Patreon in the opened window.
    1. If the window does not open or if you are logged into an eligible Patreon account in a different browser,
    the URL in the browser or in the tool can be copied and pasted into another browser.
@@ -57,6 +57,9 @@ Please DM me from `%localappdata%\ikt\License\`, the following files
    The scripts only check the license file locally.
    The scripts themselves may or may not individually check select GitHub repositories to notify for
    updates or to pull in data required for the script to work.
+4. <a name="notes-4"></a>
+   The License Generator must be able to connect with Patreon to verify you're eligible.
+   Make sure your computer has access to Patreon.com.
 
 <div style="page-break-after: always;"></div>
 
