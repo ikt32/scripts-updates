@@ -1,5 +1,9 @@
 # Changelog for Manual Transmission for GTA V
 
+## 5.7.2
+
+* Hotfix for 5.7.1: Fix camera spinning when using wheel
+
 ## 5.7.1
 
 * Add analog camera support for steering wheels

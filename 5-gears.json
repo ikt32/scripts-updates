@@ -1,7 +1,7 @@
 {
-  "version":"5.7.1",
-  "date":"2025-01-10",
-  "site":"https://github.com/ikt32/scripts-updates/releases/tag/5-Gears-v5.7.1",
-  "asset":"https://github.com/ikt32/scripts-updates/releases/download/5-Gears-v5.7.1/Gears-v5.7.1-Release.zip",
-  "description":"* Add analog camera support for steering wheels\n* Improve re-identification support for composite devices, e.g. newer Fanatec wheelbases\n* Allow manual input for HUD element locations\n* UDP Telemetry: Read fuel volume from handling instead of fixed 65L\n* Fix last analog axis (Slider1) not being picked up during assignment\n* Fix nonfunctional buttons for analog actions"
+  "version":"5.7.2",
+  "date":"2025-01-11",
+  "site":"https://github.com/ikt32/scripts-updates/releases/tag/5-Gears-v5.7.2",
+  "asset":"https://github.com/ikt32/scripts-updates/releases/download/5-Gears-v5.7.2/Gears-v5.7.2-Release.zip",
+  "description":"* Add analog camera support for steering wheels\n* Improve re-identification support for composite devices, e.g. newer Fanatec wheelbases\n* Allow manual input for HUD element locations\n* UDP Telemetry: Read fuel volume from handling instead of fixed 65L\n* Fix last analog axis (Slider1) not being picked up during assignment\n* Fix nonfunctional buttons for analog actions\n* Hotfix: for 5.7.1: Fix camera spinning when using wheel"
 }
