@@ -67,6 +67,7 @@ Please verify that License Generator can get a normal connection to Patreon:
 * If you need to access Patreon through a VPN, License Generator will *not* work out of the box.
   You may try a system-wide VPN, but I give *zero* guarantees that such a thing will work.
 * Verify that License Generator is allowed through your firewall.
+* Try allowing Patreon with another browser.
 
 If problems persist, please join my Discord server and DM me log files (there are in `%localappdata%\ikt\License`).
 
