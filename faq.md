@@ -69,7 +69,7 @@ Please verify that License Generator can get a normal connection to Patreon:
 * Verify that License Generator is allowed through your firewall.
 * Try allowing Patreon with another browser.
 
-If problems persist, please join my Discord server and DM me log files (there are in `%localappdata%\ikt\License`).
+If problems persist, please join my Discord server and DM me log files (located in `%localappdata%\ikt\License`).
 
 ### Q: Antivirus software claims License Generator is malicious?
 
