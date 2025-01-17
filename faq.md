@@ -61,12 +61,15 @@ Other scripts do not have a demo mode, but their readme documents should explain
 
 ### Q: License Generator claims it's not authorized
 
+Or keeps loading after allowing in Patreon.
+
 This likely means License Generator cannot connect to Patreon.
-Please verify that License Generator can get a normal connection to Patreon:
+Please verify that License Generator can get a connection to Patreon:
 
 * If you need to access Patreon through a VPN, License Generator will *not* work out of the box.
   You may try a system-wide VPN, but I give *zero* guarantees that such a thing will work.
 * Verify that License Generator is allowed through your firewall.
+* Verify that the port (8080) used by License Generator is not used by another application.
 * Try allowing Patreon with another browser.
 
 If problems persist, please join my Discord server and DM me log files (located in `%localappdata%\ikt\License`).
