@@ -193,6 +193,10 @@ It's been split off into the (free) standalone
 [Dynamic Vehicle First Person Camera](https://www.gta5-mods.com/scripts/dynamic-vehicle-first-person){:target="_blank"}
 script.
 
+### Q: Are your scripts affiliated with Rockstar Games or Take-Two Interactive?
+
+No, my scripts are completely independent and are not affiliated with, endorsed by, or sponsored by Rockstar Games, Take-Two Interactive, or any of their subsidiaries. All trademarks, including "Grand Theft Auto V" and "GTA V," are the property of their respective owners. These scripts do not contain any original Rockstar assets, files, or intellectual property. Any references to the game are purely for descriptive purposes.
+
 ## Remarks
 
 If you have anything to add to this FAQ, please feel free to reach out via Discord. This FAQ is continously updated
