@@ -104,7 +104,8 @@ protontricks-launch --appid 271590 "/path/to/LicenseGenerator.exe"
 ```
 
 The default browser should open with the Patreon authorization page.
-Clicking "Allow" (with an eligible Patreon account) should then forward you to a page indication authentication succeeded and that a license will be generated.
+Clicking "Allow" (with an eligible Patreon account) should then forward you to a page indicating
+that authentication succeeded and that a license will be generated.
 
 The license should have been generated in the following directory:
 
@@ -112,10 +113,16 @@ The license should have been generated in the following directory:
 ~/.steam/steam/steamapps/compatdata/271590/pfx/drive_c/users/steamuser/AppData/Local/ikt/License/0.0.lic
 ```
 
-The next time GTA V starts with my scripts, they should automatically pick up the license.
+The next time GTA V starts with the scripts, the license is picked up automatically.
 
-This was done on 2024-02 using Pop!_OS and the latest available Steam client and `GE-Proton9-24`, with
-game build 1.0.3411.0. Full system similarity was confirmed, indicating no major inherent incompatibility with Wine/Proton.
+Test details:
+
+* Done and verified in 2025-02
+* Latest Pop!_OS (using 5.15 kernel for `nvidia-driver-390` for GT630M...)
+* Latest Steam client
+* Using Proton version `GE-Proton9-24`
+* Game build 1.0.3411.0
+* Full system similarity was confirmed, indicating no license difference was created with Wine/Proton running a game or application.
 
 The following command was used to launch the game, as Steam failed to launch it directly:
 
