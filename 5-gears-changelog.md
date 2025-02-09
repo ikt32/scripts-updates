@@ -1,5 +1,15 @@
 # Changelog for Manual Transmission for GTA V
 
+## 5.7.3
+
+* Add support for externally cancelled indicators (e.g. Moza Multifunction Stalks)<br>
+  To use: Unassign old indicator buttons and assign new
+  `Indicator left/right/cancel (stalk)` buttons
+* Fix broken collision force feedback since 5.7.0
+* Improve collission effect using jerk and directionality
+* Fix telemetry RPM x10 issue for SimHub etc. (Still same DiRT 4 format)
+* License: Fix an issue that causes added hardware possibly causing premature license expiration
+
 ## 5.7.2
 
 * Hotfix for 5.7.1: Fix camera spinning when using wheel

@@ -87,8 +87,9 @@ Optional: (Downloads)
 ### Activation
 
 A license is required to play version 5.6.2 and newer of Manual Transmission.
-You can get one by pledging on [Patreon](https://www.patreon.com/ikt).
-The script will inform you when you need to generate or renew the license.
+You can get a license by pledging on [Patreon](https://www.patreon.com/ikt).
+
+For more information, read [this website](https://ikt32.github.io/scripts-updates/).
 
 ## Installation
 
@@ -482,6 +483,23 @@ giving a surface-dependent rumble through the steering wheel.
 
 The `surface_feedback.ini` file contains the settings per material, which may be modified if needed or wanted.
 The surface effect strength can be globally changed in force feedback settings.
+
+### Self-cancelling indicator stalks
+
+If using a device with externally self-cancelling stalks (such as Multifunction Stalks from MOZA),
+please use the stalk assignments introduced in version 5.7.3:
+
+* Indicator left (stalk): Assign as you would normally
+* Indicator right (stalk): Assign as you would normally
+* Indicator cancel (stalk): Assign as follows:
+  * Don't go into the assignment setting yet
+  * Put the stalk in either the left or right indication position
+  * Enter the assignment setting for `Indicator cancel (stalk)`
+  * Cancel the stalk manually
+  * The cancel is now assigned
+
+The non-stalk assignment variants for the indicators self-cancel based on what the script reads for steering inputs,
+so this does not line up with stalks that use physical triggers like magnets.
 
 ## Troubleshooting
 
