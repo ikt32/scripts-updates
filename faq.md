@@ -89,6 +89,59 @@ A combination of the unsigned executable, network communication, system profilin
 anti-virus software or cause firewalls to block the application. You can safely unblock it, I have no interest
 in messing up your computer.
 
+### Q: Does License Generator work on Linux?
+
+From my own tests - yes. The License Generator should be launched in the same environment GTA V runs in.
+
+It's best to use `protontricks` if you're using a Steam-based installation, e.g. on a Steam Deck.
+
+My steps to get things working are as follows:
+
+Launching the license generator:
+
+```sh
+protontricks-launch --appid 271590 "/path/to/LicenseGenerator.exe"
+```
+
+The default browser should open with the Patreon authorization page.
+Clicking "Allow" (with an eligible Patreon account) should then forward you to a page indication authentication succeeded and that a license will be generated.
+
+The license should have been generated in the following directory:
+
+```sh
+~/.steam/steam/steamapps/compatdata/271590/pfx/drive_c/users/steamuser/AppData/Local/ikt/License/0.0.lic
+```
+
+The next time GTA V starts with my scripts, they should automatically pick up the license.
+
+This was done on 2024-02 using Pop!_OS and the latest available Steam client and `GE-Proton9-24`, with
+game build 1.0.3411.0. Full system similarity was confirmed, indicating no major inherent incompatibility with Wine/Proton.
+
+The following command was used to launch the game, as Steam failed to launch it directly:
+
+```sh
+protontricks-launch --appid 271590 "/home/<username>/.steam/steam/steamapps/common/Grand Theft Auto V/PlayGTAV.exe" -nobattleye
+```
+
+No guarantees for compatibility are given per [the terms of License Generator](licgen-readme){:target="_blank"}.
+No support will be given to get it to work on your setup, no refunds will be issued for problems getting things to work in Linux.
+
+#### Possible issues and fixes in Linux
+
+If a license is generated and then something changes (e.g. switching/updating Proton versions or your prefix),
+the license may get invalidated as this may be detected as a significant system change. Unfortunately,
+re-activation is required. It's best to first get the game as stable/running well as possible, and to then
+generate the license.
+
+If renewing the license, make sure to rename/remove the old license.
+Launching License Generator through protontricks somehow eats up the Y/N prompt of renewing the license,
+and closes the application. Re-run it after renaming the old license.
+
+Generating the license in other ways (e.g. through Wine's Explorer) may generate it under a different user or
+a different system fingerprint.
+This is not compatible with how GTA V is launched, and the license will be marked as Expired.
+Regenerate the license under the proper prefix and user.
+
 ## Compatibility
 
 ### Q: Do the latest versions of your scripts on Patreon work with the latest game update?
