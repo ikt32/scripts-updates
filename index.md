@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Driving Realism Enhancements
+# ikt's Vehicle scripts for GTA
 
 This collection of Patreon-supported scripts aims to extend the limits of vehicle
 simulation in Grand Theft Auto V to bring a close-to-sim level of realism into the game.
