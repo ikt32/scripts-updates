@@ -253,6 +253,19 @@ It's been split off into the (free) standalone
 [Dynamic Vehicle First Person Camera](https://www.gta5-mods.com/scripts/dynamic-vehicle-first-person){:target="_blank"}
 script.
 
+### Q: My steering is inverted in Manual Transmission. How do I invert it?
+
+This means you've probably steered the wrong way during axis assignment.
+Just re-assign the axis if anything is wrong, and be sure to follow the on-screen instructions.
+
+Tips:
+
+* Center your steering wheel before assignment.
+* Keep your feet off pedals, and be sure to not touch any other controls.
+* For steering wheels: Steer right when instructed to.
+* For pedals: Fully press and then lift off from the pedal to assign. Don't touch other pedals.
+* If anything goes wrong, simply re-assign the axis.
+
 ### Q: Are your scripts affiliated with Rockstar Games or Take-Two Interactive?
 
 No, my scripts are completely independent and are not affiliated with, endorsed by, or sponsored by Rockstar Games, Take-Two Interactive, or any of their subsidiaries. All trademarks, including "Grand Theft Auto V" and "GTA V," are the property of their respective owners. These scripts do not contain any original Rockstar assets, files, or intellectual property. Any references to the game are purely for descriptive purposes.
