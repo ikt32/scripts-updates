@@ -205,7 +205,7 @@ __There are no defaults.__
 Use the menu to assign throttle/brake/clutch and other actions, such as
 shifting, changing gearbox mode and game controls.
 
-## Usage and setup
+## Setup and usage
 
 After installation use the menu key, button(s) or cheat to open the Manual
 Transmission menu. You will need this menu to change all the options of the
@@ -500,6 +500,36 @@ please use the stalk assignments introduced in version 5.7.3:
 
 The non-stalk assignment variants for the indicators self-cancel based on what the script reads for steering inputs,
 so this does not line up with stalks that use physical triggers like magnets.
+
+### UDP Telemetry
+
+Manual Transmission can expose the vehicle data for other applications to use on a local network port.
+Applications such as [SimHub](https://www.simhubdash.com/) can use this data to display dashboards or even
+control peripherals like bass shakers or motion platforms.
+
+UDP Telemetry is enabled by default. It can be toggled in the `Misc options` submenu. The address and port
+are set up for SimHub by default (localhost and 20777).
+
+They can be changed in `settings_general.ini` under the `[MISC]` section. The defaults are as follows:
+
+```ini
+[MISC]
+UDPTelemetry = true
+UDPAddress = 127.0.0.1
+UDPPort = 20777
+```
+
+Manual Transmission exposes the data in Codemasters' DiRT 4 format.
+
+### API
+
+Other game scripts may interact with Manual Transmission by calling its exposed functions. The overview and definitions
+of the functions are found in
+[`ManualTransmission.h` on GitHub](https://github.com/ikt32/scripts-updates/tree/master/5-gears-data/ManualTransmission.h).
+
+As of release 5.7.3, this file is not included in the release archive yet. This will be added in future releases
+(if I don't end up forgetting...). As of the time of writing (release 5.7.3), the header has been stable many releases.
+The last adjustment was in [release 5.5.1](https://github.com/ikt32/GTAVManualTransmission/releases/tag/v5.5.1).
 
 ## Troubleshooting
 
