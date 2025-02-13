@@ -527,8 +527,13 @@ Other game scripts may interact with Manual Transmission by calling its exposed 
 of the functions are found in
 [`ManualTransmission.h` on GitHub](https://github.com/ikt32/scripts-updates/tree/master/5-gears-data/ManualTransmission.h).
 
-As of release 5.7.3, this file is not included in the release archive yet. This will be added in future releases
-(if I don't end up forgetting...). As of the time of writing (release 5.7.3), the header has been stable many releases.
+Functions are used like normal C library functions from `.dll` files.
+
+* [C++ example](https://gist.github.com/ikt32/59390733b366cad4638901ae5fcfd046)
+* [C# example](https://gist.github.com/ikt32/d11cdbd9800ad73efeff612374349347)
+
+At of the time of writing (release 5.7.3) this file is not included in the release archive yet.
+This will be added in future releases (if I don't end up forgetting...).
 The last adjustment was in [release 5.5.1](https://github.com/ikt32/GTAVManualTransmission/releases/tag/v5.5.1).
 
 ## Troubleshooting
