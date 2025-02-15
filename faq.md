@@ -149,6 +149,18 @@ a different system fingerprint.
 This is not compatible with how GTA V is launched, and the license will be marked as Expired.
 Regenerate the license under the proper prefix and user.
 
+### Q: I reset my PC, do I need to resubscribe to activate your scripts again?
+
+If your personal folders are untouched, the license should keep functioning. Otherwise, a backup
+may be restored.
+
+If you've backed up your license, you can simply restore it to `%localappdata%\ikt\License\0.0.lic`.
+
+If the license has not been backed up and the drive has been wiped, it's unfortunately not possible to
+recover and you need to re-subscribe to be able to generate a new license.
+
+Please remember to back up important files before wiping a drive or resetting your system.
+
 ## Compatibility
 
 ### Q: Do the latest versions of your scripts on Patreon work with the latest game update?

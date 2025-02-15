@@ -33,7 +33,7 @@ The download for the latest License Generator is linked in
 
 ![Command window example](./resources/LicGen.png)
 
-## Help
+## Troubleshooting
 
 Check the [FAQ](faq){:target="_blank"} for tips if any issue occurs.
 
@@ -44,6 +44,18 @@ Please DM me from `%localappdata%\ikt\License\`, the following files
 * `LicenseGenerator.log`
 * `0.0.lic` (or any other `.lic` file)
 * And logs from the affected script (e.g. `Gears.log`).
+
+### Backups
+
+After generating the license and making sure it works, it's a good idea to back up your
+license in case you're factory resetting your computer, or wipe the drive that stores
+your localappdata.
+
+The license should be generated in `%localappdata%\ikt\License\` and it can be restored to
+the same location. After restoring the license file, scripts should pick it up and be
+activated again automatically.
+
+If no backups are made, re-subscribing is necessary to generate a new license.
 
 ## Notes
 
