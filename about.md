@@ -5,7 +5,7 @@ Hello, I'm `ikt`, software engineer and car enthusiast.
 This website hosts documents and files for my Patreon-supported scripts,
 listed on the [main page](./){:target="_blank"}.
 
-![Me](resources/about0.jpg){:width="480"}
+![Me](resources/about0.jpg)
 
 ## Contact
 
