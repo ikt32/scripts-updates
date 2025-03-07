@@ -41,22 +41,32 @@ before applying custom gear ratios.
 
 ## Grip and handling feel
 
-[Default grip levels and slip angles are very high](5-gears-readme#handling-for-force-feedback).
-This is great for arcade gameplay where you don't want to slide off the road
-while doing your GTA stuff, but horrible once you try to play it with a wheel.
+The default handling in GTA V has two main issues:
 
-The way Manual Transmission works since 5.5.0, it takes slip angle data and
-feeds that into the force feedback calculations. With stock handlings, you'll
-end up needing to steer quite a lot to get the car to rotate, but it'll stick
-and stick forever, resulting in a very rubbery feeling. That's not how cars
-behave, and setting up the grip and slip angles as explained in the linked
-section, makes miles of improvement for driving feel (and how the car actually
-behaves!).
+* Slip angles are too high. This results a very vague steering feel and with
+  the levels in GTA V, even causes significant delay between the front wheels
+  turning and the car changing direction. When the car is turning, the back
+  wheels can slide around an unrealistic amount causing even more vagueness.
+  This may feel like using soft balloons as tires.
+* Grip levels are too high. This results in the car turning too quickly and
+  very strong force feedback once you do crank the wheel enough.
 
-While this is great for achieving realism on
+While this is fine for arcade driving with GTA V's quick and responsive
+steering model made for keyboards and controllers, this is completely unsuitable
+for steering wheel inputs.
+
+Check [Manual Transmission's readme](5-gears-readme#handling-for-force-feedback)
+for tips to set up handling with grip levels and slip angles. The general gist:
+lower is better.
+
+Ever since Manual Transmission 5.5.0, wheel slip angle data is used as main
+component for force feedback calculations, where you feel the results of these
+high slip angles and grip values.
+
+Especially when driving on the
 [many ported tracks](https://www.gta5-mods.com/maps/tags/map-model+racetrack),
-it does cause for the bumpy Los Santos roads to cause you to crash, so adjust
-your expectations!
+you'll feel the car behaving as it should once the handling has more realistic
+slip angle and grip level values.
 
 ## Other stuff
 
