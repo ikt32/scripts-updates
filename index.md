@@ -2,11 +2,6 @@
 layout: default
 ---
 
-# ikt's Vehicle scripts for GTA
-
-This collection of Patreon-supported scripts aims to extend the limits of vehicle
-simulation in Grand Theft Auto V to bring a close-to-sim level of realism into the game.
-
 ## [Access and License Generator](licgen-readme)
 
 [<img alt="Patreon icon" src="resources/PATREON_SYMBOL_1_BLACK_RGB.svg" style="height:0.6em" /> <span style="font-size:1.5em;">`Patreon`</span>](https://www.patreon.com/ikt){:target="_blank"}
@@ -74,6 +69,9 @@ Apply engine torque curve profiles to simulate the engine power throughout
 the rev range, and visualize the results. Also includes a unique Nissan 300ZX
 inspired tachometer incorporating the power curve.
 
-## [More content](https://www.gta5-mods.com/users/ikt){:target="_blank"}
+## More content
 
 My other content is freely available from [GTA5-Mods.com](https://www.gta5-mods.com/users/ikt){:target="_blank"}.
+
+Older releases of Patreon-published scripts are listed as releases
+[in the repository on GitHub](https://www.github.com/ikt32/scripts-updates/releases){:target="_blank"}.

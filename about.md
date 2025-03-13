@@ -2,16 +2,14 @@
 
 Hello, I'm `ikt`, software engineer and car enthusiast.
 
-This website hosts documents and files for my Patreon-supported scripts,
+This website contains documentation for my Patreon-supported scripts,
 listed on the [main page](./){:target="_blank"}.
 
-![Me](resources/about0.jpg)
+My aim with my scripts is to bridge the gap between simracing and
+Grand Theft Auto (V), a massive free-roaming game with many activities.
 
-## Contact
+"Oversteer Engineering" was chosen as site and business name, because in-game
+you'll probably be drifting around a lot, and the name still is relevant if
+and when newer games get released for which I also want to create something.
 
-You can reach me on my [Discord server](https://discord.gg/VrrAEV4j4b).
-
-## Banner information
-
-* [Wanted188's Nissan Skyline GT-R R32](https://wanted188s-showroom.tebex.io/package/5371912)
-* [Vans123's Nürburgring Nordschleife](https://www.gta5-mods.com/maps/nurburgring-nordschleife-circuit-hq)
+![My A4 on the Nürburgring Nordschleife](resources/about0.jpg)
