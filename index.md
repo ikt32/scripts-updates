@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<h1 style="display:none;">{{site.title}}</h1>
+
 ## [Access and License Generator](licgen-readme)
 
 [<img alt="Patreon icon" src="resources/PATREON_SYMBOL_1_BLACK_RGB.svg" style="height:0.6em" /> <span style="font-size:1.5em;">`Patreon`</span>](https://www.patreon.com/ikt){:target="_blank"}
