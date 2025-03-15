@@ -21,11 +21,22 @@ My Patreon-exclusive scripts are updated versions of:
 
 These all use the same license system.
 
+### Q: Do I need to pay?
+
+Yes, you need to pay for the Patreon-exclusive scripts.
+
 ### Q: Can I pay once for your scripts?
 
 Yes, the license you generate *while subscribed* is valid for *however long you use your PC in its current form*.
 After verifying that everything is up and running, you may terminate the subscription. If you need to create
 a new license (e.g. after a PC upgrade), you *will* need to re-subscribe to re-run the license generator.
+
+[Please read this for the full details](licgen-readme).
+
+### Q: Can I pay using an alternative method?
+
+No, verification for the license generator exclusively goes through Patreon. This also means I cannot manually
+generate a license for you, so please check if you are able to use Patreon unhindered.
 
 [Please read this for the full details](licgen-readme).
 
@@ -42,10 +53,7 @@ For upcoming games, once I can start work on creating mods for those, I will pro
 
 ### Q: How do I properly activate the scripts after subscribing to Patreon?
 
-1. [Read the readme of License Generator](licgen-readme){:target="_blank"}
-2. [Download the latest version of License Generator through the Patreon welcome note](https://www.patreon.com/ikt/membership){:target="_blank"}
-3. [Run the License Generator as per the instructions in its readme](licgen-readme){:target="_blank"}
-4. Once the license is generated, you can run the game and the scripts automatically pick up the license.
+Please follow the usage instructions in the [License Generator readme](licgen-readme#usage){:target="_blank"}.
 
 ### Q: Can I try the scripts before getting a Patreon subscription?
 

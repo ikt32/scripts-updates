@@ -5,39 +5,76 @@ through Patreon. If you are, it generates a unique license for your system.
 
 Scripts that use this license will automatically detect and use it.
 
-## Download
-
-The download for the latest License Generator is linked in
-[your Patreon membership page](https://www.patreon.com/c/ikt/membership){:target="_blank"}.
-
 ## Features
 
 * Unrestricted number of activations on any number of systems as long as eligible<sup>[[1]](#notes-1)</sup>
 * License stays forever valid for *activated system configuration*<sup>[[2]](#notes-2)</sup>
 * Scripts are 100% offline regarding license: everything stays on your system<sup>[[3]](#notes-3)</sup><sup>[[4]](#notes-4)</sup>
 
-(Check the [Notes section](#notes) for more information.)
+Check the [Notes section](#notes) for more information.
+
+## Download
+
+The License Generator tool is only available and applicable for Patrons.
+
+The latest License Generator is always linked in the welcome note on
+[your Patreon membership page](https://www.patreon.com/c/ikt/membership){:target="_blank"}
+for my campaign.
 
 ## Usage
 
-1. Make sure the game is closed.
-2. Launch `LicenseGenerator.exe`.
-   1. The tool detects and backups existing licenses when you opt to create a new license.
-3. Log in through Patreon in the opened window.
-   1. If the window does not open or if you are logged into an eligible Patreon account in a different browser,
-   the URL in the browser or in the tool can be copied and pasted into another browser.
-4. If you are eligible,
-   the license generator will now generate a license file (at `%localappdata%\ikt\License\`).
-5. The license generator is now finished and can be closed.
-6. The game can now be started, and the installed scripts automatically pick up the license.
+Before you start:
 
-![Command window example](./resources/LicGen.png)
+* Make sure the game is closed.
+* Make sure Patreon.com can be reached from your computer.
+* [Make sure you have at least the "Supporter" tier](https://www.patreon.com/c/ikt/membership){:target="_blank"}.
+* [Download the License Generator from the Patreon membership page](https://www.patreon.com/c/ikt/membership){:target="_blank"}.
+  `LicenseGenerator.exe` can be placed anywhere you want.
+
+Using License Generator:
+
+### 1: Starting the application
+
+Start `LicenseGenerator.exe`. It opens a command prompt with instructions and also opens a browser window
+
+<div style="text-align:center">
+  <img alt="Launch executable" src="resources/LicGen_File.png" />
+  <img alt="Command window" src="resources/LicGen_PreAuth.png" />
+</div>
+
+If a license is already detected, you must type `Y` to overwrite it, or `N` to close the license generator.
+
+### 2: Authorizing License Generator on Patreon
+
+Authorize the License Generator in Patreon, in the opened browser window.
+If the window does not open or if you are logged into an eligible Patreon account in a different browser,
+the URL in the browser or in the command prompt can be copied and pasted into another browser.
+
+<div style="text-align:center">
+  <img height=480px alt="Patreon authorization prompt" src="resources/LicGen_Patreon_Prompt.png"/>
+</div>
+
+### 3: Finalizing
+
+The license generator is now finished and can be closed.
+
+License Generator creates the license file at `%localappdata%\ikt\License\`.
+**You don't need to do anything with this file**: scripts that use it
+automatically read the license.
+
+The game can now be started with the scripts automatically activated.
+
+<div style="text-align:center">
+  <img alt="Browser post-auth" src="resources/LicGen_Browser_PostAuth.png" />
+  <img alt="Command window post-auth" src="resources/LicGen_PostAuth.png" />
+</div>
 
 ## Troubleshooting
 
-Check the [FAQ](faq){:target="_blank"} for tips if any issue occurs.
+Check the [FAQ](faq#license-generator-troubleshooting){:target="_blank"} for
+things you can try if any issue occurs.
 
-If you can't resolve it yourself, please let me know: [Discord](https://discord.gg/VrrAEV4j4b).
+If you're still experiencing issues, please [let me know through Discord](contact).
 
 Please DM me from `%localappdata%\ikt\License\`, the following files
 
@@ -70,7 +107,7 @@ If no backups are made, re-subscribing is necessary to generate a new license.
    The scripts themselves may or may not individually check select GitHub repositories to notify for
    updates or to pull in data required for the script to work.
 4. <a name="notes-4"></a>
-   The License Generator must be able to connect with Patreon to verify you're eligible.
+   The License Generator **must** be able to connect with Patreon to verify you're eligible.
    Make sure your computer has access to Patreon.com.
 
 <div style="page-break-after: always;"></div>

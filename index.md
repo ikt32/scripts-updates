@@ -6,25 +6,21 @@ layout: default
 
 ## [Access and License Generator](licgen-readme)
 
-[<img alt="Patreon icon" src="resources/PATREON_SYMBOL_1_BLACK_RGB.svg" style="height:0.6em" /> <span style="font-size:1.5em;">`Patreon`</span>](https://www.patreon.com/ikt){:target="_blank"}
 [<span style="font-size:1.5em;">`📖 README`</span>](licgen-readme)
 [<span style="font-size:1.5em;">`📥 Download`</span>](https://www.patreon.com/c/ikt/membership){:target="_blank"}
+[<img alt="Patreon icon" src="resources/PATREON_SYMBOL_1_BLACK_RGB.svg" style="height:0.6em" /> <span style="font-size:1.5em;">`Patreon`</span>](https://www.patreon.com/ikt){:target="_blank"}
 
-Access to the scripts listed on this page is managed by a license system. Subscribing to my Patreon enables you
-to generate a unique license for your system to use the scripts, which grant access to use the scripts. Please
-check the [detailed manual of License Generator](licgen-readme){:target="_blank"}, which explains what it is
-and what you can expect.
-
-1. [Subscribe to the Patreon campaign](https://www.patreon.com/c/ikt/membership){:target="_blank"}.
-2. Download and run the License Generator.
-3. Download and install the scripts you want.
-4. Start and play the game!
+Access to the scripts listed on this page is managed by a license system.
+[Subscribing to my Patreon](https://www.patreon.com/ikt){:target="_blank"} allows you
+to generate a *unique license for your system*, which grants access to use these scripts. Please
+check the [detailed manual of License Generator](licgen-readme){:target="_blank"}.
+It explains what it is, how you use it, and what you can expect.
 
 ## [Manual Transmission](5-gears-readme)
 
 [![Manual Transmission](resources/5MTThumb.jpg){:width="480"}](5-gears-readme)<br>
-[<span style="font-size:1.5em;">`📥 Releases`</span>](https://github.com/ikt32/scripts-updates/releases?q=%22Manual+Transmission%22){:target="_blank"}
 [<span style="font-size:1.5em;">`📖 README`</span>](5-gears-readme)
+[<span style="font-size:1.5em;">`📥 Releases`</span>](https://github.com/ikt32/scripts-updates/releases?q=%22Manual+Transmission%22){:target="_blank"}
 [<span style="font-size:1.5em;">`🛠️ Changelog`</span>](5-gears-changelog)
 
 Expands the driving immersion and experience with:
