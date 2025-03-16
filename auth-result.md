@@ -28,7 +28,9 @@
         if (status === "success") {
             statusText = "Authentication succeeded!";
             boxClass = "success";
-            message = "Your license is being generated. You may close this page.";
+            message = "Congratulations, you're eligible!<br>"+
+                "Your license is being generated.<br><br>"+
+                "This page may be closed now.";
         }
         else {
             statusText = "Authentication failed";
@@ -46,7 +48,8 @@
                     break;
                 case "not-eligible":
                     reasonText = "Unfortunately, you do not seem eligible at this time.<br>"+
-                    "Please ensure you have an active pledge on Patreon.";
+                    "Please ensure you have an active pledge with the "+
+                    "<b>Supporter</b> tier <a href=\"https://patreon.com/ikt\">on Patreon</a>.";
                     break;
                 default:
                     statusText = "Invalid status";
