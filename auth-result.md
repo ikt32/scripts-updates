@@ -21,48 +21,51 @@
         const supportLink = '<a href="https://discord.gg/VrrAEV4j4b" target="_blank">Discord</a>';
         const authFiles = '<code class="language-plaintext highlighter-rouge">%localappdata%\\ikt\\License</code>'
 
-        if (status === "success") {
-            statusElement.textContent = "Authentication succeeded!";
-            statusElement.className = "success";
-            messageElement.className = "info-box success";
-            messageElement.innerHTML = "Your license is being generated. You may close this page.";
-        } else if (status === "failure") {
-            statusElement.textContent = "Authentication failed";
-            statusElement.className = "failed";
-            messageElement.className = "info-box failed";
+        let statusText = "Processing...";
+        let boxClass = "";
+        let message = "";
 
-            let reasonText = "An unknown error occurred.";
-            if (reason === "authorization") {
-                reasonText = "Authorization failed.<br>"+
+        if (status === "success") {
+            statusText = "Authentication succeeded!";
+            boxClass = "success";
+            message = "Your license is being generated. You may close this page.";
+        }
+        else {
+            statusText = "Authentication failed";
+            boxClass = "failed";
+
+            let reasonText;
+            switch (reason) {
+                case "authorization":
+                    reasonText = "Authorization failed.<br>"+
                     "The application was not authorized and could not retrieve user details from Patreon.";
-            } else if (reason === "authentication") {
-                reasonText = "Authentication failed.<br>"+
+                    break;
+                case "authentication":
+                    reasonText = "Authentication failed.<br>"+
                     "The application could not retrieve the required user details from Patreon.";
-            } else if (reason === "not-eligible") {
-                reasonText = "Unfortunately you do not seem eligible at this time.<br>"+
+                    break;
+                case "not-eligible":
+                    reasonText = "Unfortunately, you do not seem eligible at this time.<br>"+
                     "Please ensure you have an active pledge on Patreon.";
+                    break;
+                default:
+                    statusText = "Invalid status";
+                    reasonText = "No or unrecognized status code.";
+                    break;
             }
 
-            messageElement.innerHTML = `
+            message = `
                 ${reasonText}<br><br>
                 Please check the ${faqLink} for tips and information.<br>
                 Need help? Reach out on ${supportLink}.<br>
                 Please include files from ${authFiles}.
             `;
         }
-        else {
-            statusElement.textContent = "Invalid status";
-            statusElement.className = "failed";
-            messageElement.className = "info-box failed";
 
-            let reasonText = "No or unrecognized status code.";
-            messageElement.innerHTML = `
-                ${reasonText}<br><br>
-                Make sure your browser does not strip links.<br>
-                Need help? Reach out on ${supportLink}.<br>
-                Please include files from ${authFiles}.
-            `;
-        }
+        statusElement.textContent = statusText;
+        statusElement.className = boxClass;
+        messageElement.className = `info-box ${boxClass}`;
+        messageElement.innerHTML = message;
     }
 
     displayMessage();
