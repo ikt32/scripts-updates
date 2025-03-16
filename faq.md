@@ -78,9 +78,11 @@ Please verify that License Generator can get a connection to Patreon:
   You may try a system-wide VPN, but I give *zero* guarantees that such a thing will work.
 * Verify that License Generator is allowed through your firewall.
 * Verify that the port (8080) used by License Generator is not used by another application.
+  * License Generator 1.2.0 also tries ports 8032 and 8086 in case 8080 fails.
 * Try allowing Patreon with another browser.
 
-If problems persist, please join my Discord server and DM me log files (located in `%localappdata%\ikt\License`).
+If problems persist, please join my [Discord server](contact){:target="_blank"}
+and DM me log files (located in `%localappdata%\ikt\License`).
 
 ### Q: Antivirus software claims License Generator is malicious?
 
@@ -292,5 +294,5 @@ No, my scripts are completely independent and are not affiliated with, endorsed 
 
 ## Remarks
 
-If you have anything to add to this FAQ, please feel free to reach out via Discord. This FAQ is continously updated
-as new questions come in.
+If you have anything to add to this FAQ, [please feel free to reach out](contact){:target="_blank"}.
+This FAQ is continously updated as new questions come in.
