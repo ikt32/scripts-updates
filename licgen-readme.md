@@ -31,7 +31,7 @@ Before you start:
 * [Download the License Generator from the Patreon membership page](https://www.patreon.com/c/ikt/membership){:target="_blank"}.
   `LicenseGenerator.exe` can be placed anywhere you want.
 
-Using License Generator:
+<div style="page-break-after: always;"></div>
 
 ### 1: Starting the application
 
@@ -44,6 +44,8 @@ Start `LicenseGenerator.exe`. It opens a command prompt with instructions and al
 
 If a license is already detected, you must type `Y` to overwrite it, or `N` to close the license generator.
 
+<div style="page-break-after: always;"></div>
+
 ### 2: Authorizing License Generator on Patreon
 
 Authorize the License Generator in Patreon, in the opened browser window.
@@ -53,6 +55,8 @@ the URL in the browser or in the command prompt can be copied and pasted into an
 <div style="text-align:center">
   <img height=480px alt="Patreon authorization prompt" src="resources/LicGen_Patreon_Prompt.png"/>
 </div>
+
+<div style="page-break-after: always;"></div>
 
 ### 3: Finalizing
 
