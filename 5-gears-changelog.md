@@ -1,5 +1,22 @@
 # Changelog for Manual Transmission for GTA V
 
+## 5.8.0-beta0
+
+Note: This beta release is for earlier access to the update for Enhanced.
+Final release will require some more work.
+
+GTA V Enhanced compatibility:
+
+* Update game version detection
+* Hard-code vehicle offsets for Enhanced (patterns to be updated)
+* Update patches for Enhanced
+* Still broken: GetTimeScale for modulating surface force feedback in slow-motion
+
+Various fixes:
+
+* Fix force feedback per-vehicle curve multiplier not applied
+* Fix analog handbrake doing nothing when Manual Transmission is off
+
 ## 5.7.3
 
 * Add support for externally cancelled indicators (e.g. Moza Multifunction Stalks)<br>
