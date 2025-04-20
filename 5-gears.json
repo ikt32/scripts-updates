@@ -1,7 +1,7 @@
 {
-  "version":"5.7.3",
-  "date":"2025-02-10",
-  "site":"https://github.com/ikt32/scripts-updates/releases/tag/5-Gears-v5.7.3",
-  "asset":"https://github.com/ikt32/scripts-updates/releases/download/5-Gears-v5.7.3/Gears-v5.7.3-Release.zip",
-  "description":"* Add support for Moza Multifunction Stalks\n* Fix broken collision force feedback\n* Improve collission effect using jerk and directionality\n* Fix telemetry RPM x10 issue for SimHub etc.\n* License: Fix added hardware causing premature license expiration"
+  "version":"5.8.0",
+  "date":"2025-04-20",
+  "site":"https://github.com/ikt32/scripts-updates/releases/tag/5-Gears-v5.8.0",
+  "asset":"https://github.com/ikt32/scripts-updates/releases/download/5-Gears-v5.8.0/Gears-v5.8.0-Release.zip",
+  "description":"GTA V Enhanced support\nAdd handbrake toggle\nFix per-vehicle ffb curve not applied\nFix analog handbrake with MT off"
 }
