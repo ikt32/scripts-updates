@@ -1,19 +1,12 @@
 # Changelog for Manual Transmission for GTA V
 
-## 5.8.0-beta0
+## 5.8.0
 
-Note: This beta release is for earlier access to the update for Enhanced.
-Final release will require some more work.
-
-GTA V Enhanced compatibility:
-
+* Add handbrake hold-to-toggle functionality<br>
+  To use: Enable in Gameplay Assists. Hold handbrake for 0.5 seconds to keep it on.
+  Disengage by driving away or briefly tapping the handbrake.
 * Update game version detection
-* Hard-code vehicle offsets for Enhanced (patterns to be updated)
-* Update patches for Enhanced
-* Still broken: GetTimeScale for modulating surface force feedback in slow-motion
-
-Various fixes:
-
+* Update patches and vehicle offset for Enhanced
 * Fix force feedback per-vehicle curve multiplier not applied
 * Fix analog handbrake doing nothing when Manual Transmission is off
 

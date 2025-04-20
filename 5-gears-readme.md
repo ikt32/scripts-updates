@@ -8,6 +8,9 @@ advanced transmission settings, advanced steering settings, configurable assists
 
 [<span style="font-size:2em;">📥 Releases</span>](https://github.com/ikt32/scripts-updates/releases?q=%22Manual+Transmission%22)
 
+## Contents
+{:.no_toc}
+
 * ToC Placeholder
 {:toc}
 
@@ -174,6 +177,11 @@ Opening the menu:
 
 These shortcuts can be changed in `settings_menu.ini`.
 
+Assignments for default controls (throttle, brake and handbrake) are required because
+the script expands on functionality for these and overrides the game defaults during
+specific actions. Make sure these assignments in the script match the assignments in
+your game settings!
+
 ### Keyboard defaults (US-ANSI)
 
 By default, `W` is throttle and `S` is brake.
@@ -276,8 +284,8 @@ For instructions for this feature, check
 
 ![Assist icons](resources/5MTHUD_Assists.png)
 
-Have trouble keeping the car on the road? The `Driving assists` feature might
-help!
+Features in the `Driving assists` section help with additional car control,
+especially when driving high performance cars on the limit.
 
 The following assists are available:
 
@@ -295,8 +303,30 @@ more power to the slower wheel.
 and rear in real-time, depending on wheel slip, oversteer or understeer.
 The [Handling Replacement library](https://www.gta5-mods.com/tools/handling-replacement-library)
 is required for this feature.
+* __Cruise Control__: Smoothly accelerates and decelerates the car to a target
+cruising speed, and can optionally adapt to traffic in front.
 
 Icons in the HUD will flash when certain assists are active.
+
+### Gameplay assists
+
+Features in this section make playing with this script more accessible or realistic.
+They're all optional.
+
+A few highlights:
+
+* __Disable autostart__: Keeps the engine off when getting in a vehicle, and allows
+you to manually start the vehicle. (Note: Starting with game version v1.0.2545.0,
+pressing throttle turns on the engine regardless of script settings.
+Unfortunately this seems to be hardcoded into V itself from this version onwards.)
+* __Leave engine running__: Reflecting GTA IV behavior, keeps the engine on when
+getting out of a vehicle with a short tap on the Exit button. Holding the Exit button
+will turn off the engine.
+* __Clutch & throttle start__: Start the vehicle by pressing clutch and throttle.
+Especially useful when stalling after a crash during a hectic chase.
+* __Handbrake toggles__: Holding the handbrake while stopped keeps it on. Briefly
+tapping the handbrake will disengage it again, or when driving away, much like
+modern electronic handbrakes on cars.
 
 ### Animations
 
@@ -538,12 +568,15 @@ The last adjustment was in [release 5.5.1](https://github.com/ikt32/GTAVManualTr
 
 ## Troubleshooting
 
-Something don't work? Read this first.
+If anything does not work as expected, try the tips in this section.
 
 ### Game compatibility
 
-The current version of the mod has been tested with the latest GTA V version
-during development, which is v1.0.3411.0.
+The current version of the script has been tested with the latest GTA V versions:
+
+* Legacy: v1.0.3504.0
+* Enhanced: v1.0.813.11
+
 Limited support runs back to v1.0.1604.0, but new features might be unstable.
 
 ### Compatibility options
@@ -587,11 +620,10 @@ Check the `Developer options` -> `Compatibility settings`.
   * Plug in another XInput controller before plugging in your wheel.
     Sadly, no way for the mod to block GTA from detecting it as controller.
 * Logitech G920 (NOT G29) crashing game while using ScriptHookVDotNet:
-  * Caused by XInput somehow. Unknown if there is a solution.
+  * Currently (2025) no issues observed anymore. Otherwise:
   * Remove ScriptHookVDotNet, or
   * Use RagePluginHook to launch, or
-  * Remove/Downgrade/Upgrade G-Hub, or
-  * Buy another wheel that doesn't do XInput voodoo :')
+  * Remove/Downgrade/Upgrade G-Hub
 * Wheel oscillates a lot:
   * Use 5.5.0 or newer.
   * Increase damper force.
