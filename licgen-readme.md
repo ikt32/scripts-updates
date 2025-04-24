@@ -122,8 +122,10 @@ This Software Use Agreement ("Agreement") is between ikt ("Author") and the User
 
 ### 1. License to use the software
 
-* **Non-commercial Nature of Projects:**\
-  By subscribing to the Author's Patreon, the User is granted access to the Author's personal, non-commercial projects. These projects are provided as a gesture of gratitude for supporting the Author’s creative efforts. This Agreement does not represent a commercial transaction, and the Software is not offered as a product for sale. The subscription is solely for supporting the Author’s work, and in return, the User is provided access to the Author’s projects, which are presented as-is, without any commercial guarantee or obligation.
+* **Scope and Access:**\
+  By subscribing to the Author’s Patreon campaign, the User is granted access to selected personal projects (“the Projects”). Access is managed via Patreon-based verification and does not constitute a sale, rental, or commercial license of any kind.
+  The Projects are created and maintained at the Author’s discretion and are intended for personal, single-player use only. They are distributed for non-commercial purposes and may not be used, integrated, or distributed in any commercial or public-facing context.
+  All content is provided “as-is,” without any guarantees of functionality, compatibility, updates, or ongoing support. Redistribution, resale, sublicensing, or any other form of unauthorized dissemination is strictly prohibited. All rights not expressly granted remain with the Author.
 
 * **Grant of License:**\
   While subscribed to the Author's Patreon, the User is granted a non-exclusive, non-transferable right to use the License Generator to create license files ("License") for the Author's software ("Software"). This License permits the User to use the Software on multiple machines, provided that each License is tied to the specific system configuration at the time of creation.
