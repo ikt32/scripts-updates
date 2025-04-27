@@ -1,5 +1,20 @@
 # Changelog for Custom Gear Ratios for GTA V
 
+## 2.0.0
+
+Main changes:
+
+* Added support for GTA V Enhanced.
+* Added indicators for supported game builds for FiveM.
+* Overhauled configuration management. CGR is now aware of pending changes and shows a small warning.
+* Added an option to toggle between metric and imperial units, useful when defining top speeds per gear.
+* Moved the CVT option from global to configuration specific.
+
+Config/Format changes:
+
+* Existing `settings_general.ini` still compatible, but beware that only `EnableNPC` and `Unit` are used.
+* Existing configurations in XML format are still compatible. New CVT parameters are added when saving.
+
 ## 1.2.2
 
 * Improve license check for switchable GPU systems

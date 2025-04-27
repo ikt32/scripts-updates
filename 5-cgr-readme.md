@@ -3,7 +3,7 @@
 
 Change car gear ratios in GTA V.
 
-![Menu](resources/5CGR_Menu1.png)
+![Menu](resources/5CGR-Menu-2.0.0.jpg)
 
 [<span style="font-size:2em;">📥 Releases</span>](https://github.com/ikt32/scripts-updates/releases?q=%22Custom+Gear+Ratios%22)
 
@@ -12,9 +12,9 @@ Change car gear ratios in GTA V.
 
 ## Requirements
 
-- Grand Theft Auto V
-- [ScriptHookV](http://www.dev-c.com/gtav/scripthookv)
-- A valid license [(Patreon)](https://www.patreon.com/ikt)
+* Grand Theft Auto V
+* [ScriptHookV](http://www.dev-c.com/gtav/scripthookv)
+* A valid license [(Patreon)](https://www.patreon.com/ikt)
 
 ### Activation
 
@@ -36,8 +36,8 @@ Old settings don't need to be replaced.
 
 To open the menu:
 
-- Press F8, or
-- Enter the "cgr" cheat in the cheat window (tilde (~)).
+* Press F8, or
+* Enter the "cgr" cheat in the cheat window (tilde (~)).
 
 The key and cheat to open the menu can be changed in settings_menu.ini.
 
@@ -64,17 +64,20 @@ Layout:
 </Vehicle>
 ```
 
-- File name: Must end with .xml
-- Description: In-game in-menu displayed name of the configuration
-- `ModelName`: Used to match the vehicle model for auto-loading
-- `PlateText`:
-  - `autoload_model`: Loads the config for all vehicles with this model.
-  - `undefined`: Doesn't automatically load the config.
-  - Any other string: Matches the plate text to only load for specific model + plate combinations. Will override definitions for the model with `autoload_model`.
-- `DriveMaxVel`: In m/s. More or less the final drive modifier.
-- `Gear{X}`: Actual gear ratio for that gear
-  - When not enough gears are provided for the `TopGear`, the config is invalid and will not load.
+* File name: Must end with .xml
+* Description: In-game in-menu displayed name of the configuration
+* `ModelName`: Used to match the vehicle model for auto-loading
+* `PlateText`:
+  * `autoload_model`: Loads the config for all vehicles with this model.
+  * `undefined`: Doesn't automatically load the config.
+  * Any other string: Matches the plate text to only load for specific model + plate combinations.
+* `DriveMaxVel`: In m/s. More or less the final drive modifier.
+* `Gear{X}`: Actual gear ratio for that gear
+  * When not enough gears are provided for the `TopGear`, the config is invalid and will not load.
+* Note that starting with v2.0, CVT parameters are also added.
 
 ## Notes
 
-Gear ratios are changed by the gearbox tuning and other scripts that call `MODIFY_VEHICLE_TOP_SPEED`. The script tries to revert back to the gearbox settings before this, but it's recommended to disable all functionalities in scripts that modify the top speed using the mentioned native.
+Gear ratios are changed by the gearbox tuning and other scripts that call `MODIFY_VEHICLE_TOP_SPEED`.
+The script tries to revert back to the gearbox settings before this,
+but it's recommended to disable all functionalities in scripts that modify the top speed using the mentioned native.
