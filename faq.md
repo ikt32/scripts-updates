@@ -105,9 +105,9 @@ From my own tests - yes. The License Generator should be launched in the same en
 
 It's best to use `protontricks` if you're using a Steam-based installation, e.g. on a Steam Deck.
 
-My steps to get things working are as follows:
+My steps to get things working are as follows (app id is Legacy, for Enhanced it's different):
 
-Launching the license generator:
+Launching the license generator within GTA V's Proton prefix:
 
 ```sh
 protontricks-launch --appid 271590 "/path/to/LicenseGenerator.exe"
@@ -161,21 +161,26 @@ Regenerate the license under the proper prefix and user.
 
 ### Q: I reset my PC, do I need to resubscribe to activate your scripts again?
 
-If your personal folders are untouched, the license should keep functioning. Otherwise, a backup
-may be restored.
+If the license has been backed up prior to resetting, this can be restored. It can be found at
+`%localappdata%\ikt\License\0.0.lic` and it is restored to the same location.
 
-If you've backed up your license, you can simply restore it to `%localappdata%\ikt\License\0.0.lic`.
+Unfortunately, **it depends** whether this works or not.
+This is because Windows may or may not change various device identifiers, which impacts the expiration checks.
+If the license is picked up as expired, the license needs to be re-generated.
+
+If you do reset your PC, please keep in mind to keep everything (user name, hostname) identical to the old
+configuration.
 
 If the license has not been backed up and the drive has been wiped, it's unfortunately not possible to
 recover and you need to re-subscribe to be able to generate a new license.
-
-Please remember to back up important files before wiping a drive or resetting your system.
 
 ## Compatibility
 
 ### Q: Do the latest versions of your scripts on Patreon work with the latest game update?
 
 As of writing, yes. The latest tested game update is **1.0.3411.0** and all released scripts work with it.
+
+GTA Enhanced is also supported, see the relevant release notes for supported versions.
 
 ### Q: Why does steering not work in Manual Transmission? / Why does script X behave weirdly?
 
