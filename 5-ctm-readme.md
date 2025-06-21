@@ -9,7 +9,10 @@ accurate-to-life engine responses.
 ![Interface](resources/5CTM_Interface.jpg)
 (Engine torque map and generated info as visualized in-game by the script)
 
-[<span style="font-size:2em;">📥 Releases</span>](https://github.com/ikt32/scripts-updates/releases?q=%22Custom+Torque+Map%22)
+<a href="https://github.com/ikt32/scripts-updates/releases?q=%22Custom+Torque+Map%22"
+   target="_blank"
+   class="download-button"
+   title="View and download all releases on GitHub">📥Releases</a>
 
 * ToC Placeholder
 {:toc}

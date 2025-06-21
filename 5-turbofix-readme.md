@@ -5,7 +5,10 @@ Overhauls how the turbo works, for more useful performance and new effects.
 
 ![TurboFix](resources/5TurboFix.png)
 
-[<span style="font-size:2em;">📥 Releases</span>](https://github.com/ikt32/scripts-updates/releases?q=%22TurboFix%22)
+<a href="https://github.com/ikt32/scripts-updates/releases?q=%22TurboFix%22"
+   target="_blank"
+   class="download-button"
+   title="View and download all releases on GitHub">📥Releases</a>
 
 * ToC Placeholder
 {:toc}

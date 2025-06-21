@@ -48,3 +48,20 @@
       width: auto;
     }
   }
+
+.download-button {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 40px 20px 26px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2em;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.download-button:hover {
+  text-decoration: none;
+  background-color: #2d7230; /* Slightly darker green */
+}

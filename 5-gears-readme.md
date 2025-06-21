@@ -6,7 +6,10 @@ advanced transmission settings, advanced steering settings, configurable assists
 
 ![Pic](resources/5MTThumb.jpg)
 
-[<span style="font-size:2em;">📥 Releases</span>](https://github.com/ikt32/scripts-updates/releases?q=%22Manual+Transmission%22)
+<a href="https://github.com/ikt32/scripts-updates/releases?q=%22Manual+Transmission%22"
+   target="_blank"
+   class="download-button"
+   title="View and download all releases on GitHub">📥Releases</a>
 
 ## Contents
 {:.no_toc}
