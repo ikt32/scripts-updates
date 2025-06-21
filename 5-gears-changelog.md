@@ -1,5 +1,19 @@
 # Changelog for Manual Transmission for GTA V
 
+## 5.8.1
+
+* Update patches for Enhanced 1.0.889.15
+* Fix keyboard and wheel button "tap" action
+* Fix recognizing extended keys (function cluster)
+* Fix hotwiring animations not playing with synced steering animations
+* Remove usage of ScriptHookV's `getScriptHandleBaseAddress` for FiveM compatibility
+
+Notes:
+
+* Button tap action fix may or may not fix flickering indicators and assists.
+  I'd happy happy to hear if this did anything or if I need to look further.
+  Details are appreciated, I haven't managed to reproduce it.
+
 ## 5.8.0
 
 * Add handbrake hold-to-toggle functionality<br>
