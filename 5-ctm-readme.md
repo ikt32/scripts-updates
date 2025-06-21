@@ -140,7 +140,7 @@ This causes every vehicle to feel similar during acceleration, even with varying
 The following image shows the power output at the wheels of an FQ2, with data taken from a real in-game acceleration
 test:
 
-![FQ2 Stock](img/FQ2_Stock.png)
+![FQ2 Stock](resources/5CTM/FQ2_Stock.png)
 
 It can be seen that the output is a perfect straight line of maximum torque, all the way to 80% of the max RPM, and
 then linearly tapers off to 60% of the max torque at the rev limit.
@@ -148,7 +148,7 @@ then linearly tapers off to 60% of the max torque at the rev limit.
 CTM (Custom Torque Map) changes the torque output live to match the behavior of any engine throughout its RPM range.
 To achieve this, CTM pre-processes normalizes the default output map before applying the custom torque map:
 
-![FQ2 Compensated](img/FQ2_Compensated_output.png)
+![FQ2 Compensated](resources/5CTM/FQ2_Compensated_output.png)
 
 ### Power figures, and other assumptions
 
@@ -190,7 +190,7 @@ The script includes a function to record the actual torque and power output. The
 and any software such as Microsoft Excel or Google Sheets can be used to import this file to process the output.
 An example of visualized data is this following graph:
 
-![AE86 output graph](img/AE86_HP_Torque_chart.png)
+![AE86 output graph](resources/5CTM/AE86_HP_Torque_chart.png)
 
 Columns:
 
