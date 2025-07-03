@@ -36,7 +36,7 @@ a new license (e.g. after a PC upgrade), you *will* need to re-subscribe to re-r
 ### Q: Can I pay using an alternative method?
 
 No, verification for the license generator exclusively goes through Patreon. This also means I cannot manually
-generate a license for you, so please check if you are able to use Patreon unhindered.
+generate a license for you, so please check before subscribing that you are able to use Patreon unhindered.
 
 [Please read this for the full details](licgen-readme).
 
@@ -178,9 +178,12 @@ recover and you need to re-subscribe to be able to generate a new license.
 
 ### Q: Do the latest versions of your scripts on Patreon work with the latest game update?
 
-As of writing, yes. The latest tested game update is **1.0.3411.0** and all released scripts work with it.
+Both Grand Theft Auto V Legacy and Grand Theft Auto V Enhanced are supported.
 
-GTA Enhanced is also supported, see the relevant release notes for supported versions.
+I generally try to keep scripts up-to-date, but due to time constraints not all scripts
+can be kept up-to-date.
+
+Check for each individual script whether or not it has been updated to support the latest game update.
 
 ### Q: Why does steering not work in Manual Transmission? / Why does script X behave weirdly?
 
