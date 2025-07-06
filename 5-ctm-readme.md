@@ -6,7 +6,7 @@ identical for nearly all cars.
 causing nearly every vehicle to drive the same. Custom Torque Map allows handling creators to create realistic and
 accurate-to-life engine responses.
 
-![Interface](resources/5CTM_Interface.jpg)
+![Interface](resources/5CTM/CTM-1.2.0.jpg)
 (Engine torque map and generated info as visualized in-game by the script)
 
 <a href="https://github.com/ikt32/scripts-updates/releases?q=%22Custom+Torque+Map%22"
@@ -25,18 +25,18 @@ accurate-to-life engine responses.
 * Compatible with engine tuning
 * Calculates and visualizes engine power and torque values
 * Export power and torque data to csv for analyzing
-* Unique [Nissan 300ZX Turbo](https://www.youtube.com/watch?v=xGmNuuoyiYQ) inspired tachometer
+* Unique [Nissan 300ZX Turbo](https://www.youtube.com/watch?v=xGmNuuoyiYQ){:target="_blank"} inspired tachometer
 
 ## Requirements
 
 * Grand Theft Auto V
-* [ScriptHookV](http://www.dev-c.com/gtav/scripthookv)
-* A valid license [(Patreon)](https://www.patreon.com/ikt)
+* [ScriptHookV](http://www.dev-c.com/gtav/scripthookv){:target="_blank"}
+* A valid license [(Patreon)](https://www.patreon.com/ikt){:target="_blank"}
 
 ### Activation
 
 A license is required to use Custom Gear Ratios v1.2.1 and newer.
-You can get one by pledging on [Patreon](https://www.patreon.com/ikt).
+You can get one by pledging on [Patreon](https://www.patreon.com/ikt){:target="_blank"}.
 The script will inform you when you need to generate or renew the license.
 
 ## Installation
@@ -123,7 +123,7 @@ TorqueMultMap = <<<END_OF_MAP
 END_OF_MAP
 ```
 
-For more pre-made configs, check [TheAdmiester's repository on GitHub](https://github.com/AJB-Tech/GTATorqueMaps).
+For more pre-made configs, check [TheAdmiester's repository on GitHub](https://github.com/AJB-Tech/GTATorqueMaps){:target="_blank"}.
 
 ## Background
 

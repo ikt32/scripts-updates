@@ -1,5 +1,10 @@
 # Changelog for Custom Torque Map
 
+## 1.2.0
+
+* Support Grand Theft Auto V Enhanced
+* Improve temporary alternative config loading
+
 ## 1.1.0
 
 * Require a license to use
