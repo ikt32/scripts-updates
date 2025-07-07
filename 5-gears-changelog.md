@@ -1,5 +1,10 @@
 # Changelog for Manual Transmission for GTA V
 
+## 5.8.2
+
+* Fix flickering inputs caused by unmapped keyboard values reading invalid data
+* Fix and restore older "hold to X" behavior on gamepad to pre-5.8.0 behavior
+
 ## 5.8.1
 
 * Update patches for Enhanced 1.0.889.15
