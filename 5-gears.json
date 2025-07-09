@@ -1,7 +1,7 @@
 {
-  "version":"5.8.1",
-  "date":"2025-06-21",
-  "site":"https://github.com/ikt32/scripts-updates/releases/tag/5-Gears-v5.8.1",
-  "asset":"https://github.com/ikt32/scripts-updates/releases/download/5-Gears-v5.8.1/Gears-v5.8.1-Release.zip",
-  "description":"Update patches for Enhanced 1.0.889.15\nFix button tap action\nFix extended keys\nFix hotwiring anims missing with synced steering anims"
+  "version":"5.8.2",
+  "date":"2025-07-09",
+  "site":"https://github.com/ikt32/scripts-updates/releases/tag/5-Gears-v5.8.2",
+  "asset":"https://github.com/ikt32/scripts-updates/releases/download/5-Gears-v5.8.2/Gears-v5.8.2-Release.zip",
+  "description":"Fix flicking inputs\nRestore gamepad hold-to-activate buttons"
 }
