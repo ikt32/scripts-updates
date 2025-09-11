@@ -4,6 +4,13 @@ layout: default
 
 <h1 style="display:none;">{{site.title}}</h1>
 
+## Resources
+
+* [Frequently Asked Questions](faq)<br>
+  Information about how this works, basic troubleshooting and other commonly asked questions.
+* [Handling guide](handling-guide)<br>
+  Handling setup tips for realistic vehicles. Especially useful to create handlings that feel good through force feedback.
+
 ## [Access and License Generator](licgen-readme)
 
 [<span style="font-size:1.5em;">`📖 README`</span>](licgen-readme)
