@@ -21,6 +21,11 @@ My Patreon-exclusive scripts are updated versions of:
 
 These all use the same license system.
 
+### Q: Where do I get License Generator?
+
+Check the [Membership page on Patreon](https://www.patreon.com/cw/ikt/membership){:target="_blank"} for
+the **Welcome note**. This contains vital information and a direct link to License Generator.
+
 ### Q: Do I need to pay?
 
 Yes, you need to pay for the Patreon-exclusive scripts.
