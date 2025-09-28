@@ -220,6 +220,16 @@ The following script versions **are compatible** for game version **1.0.3095.0**
 These new versions are exclusive to [Patreon](https://www.patreon.com/ikt){:target="_blank"}. They are kept up-to-date
 as Rockstar releases game updates.
 
+### Q: I'm using the latest version, but steering doesn't work either?
+
+Make sure you've registered the correct steering axis. The configuration may detect other axes (gamepads, pedals) if
+they're disturbed while setting up the steering wheel axis.
+
+If in doubt, always re-register the axis that behaves weirdly. This also applies to all other axes.
+
+When this does not work, please contact me on Discord with `Gears.log` *and* `settings_wheel.ini` with a clear
+description of what's going wrong and what you already tried.
+
 ### Q: Does Manual Transmission work with my wheel?
 
 Steering wheel support works for *any* wheel that supports DirectInput! Any *device* that supports DirectInput
@@ -248,6 +258,17 @@ Please check [the Manual Transmission readme](5-gears-readme#steering-wheel-issu
   This is addressed in Manual Transmission 5.7.0 and up.
 * Software conflicts: Some software may take priority over the wheel instead of GTA V. Make sure nothing like XInput
   or Steam controller also has the wheel assigned.
+
+### Q: Why does Manual Transmission say "No device"?
+
+Please [see the answer above](#q-why-doesnt-manual-transmission-see-my-wheel) - **you still need to map a device**.
+
+The following text may be seen for different circumstances:
+
+* **No device**: Nothing was configured. Configure a steering device.
+* **{device} (Not connected)**: A steering device was configured, but the script does not detect it. Check if it
+  has been turned on, or if a driver update changed its ID.
+* **{device}**: The device is configured and present.
 
 ### Q: Are the scripts compatible with FiveM?
 
