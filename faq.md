@@ -287,7 +287,7 @@ Before usage on FiveM, ensure the scripts work in vanilla single-player story mo
 on FiveM, there is nothing I can do to help you.
 
 If you're a server owner and interested in a server-side solution for drivetrain simulation, I highly recommend
-[C.H.A.S.E.R](https://legacydmc.net/chaser/) by LegacyDMC.
+[Dynamic Engine by LegacyDMC](https://legacydmc.net/dynamic/).
 
 I'm not aware of any worthwhile steering wheel support solutions for FiveM, which replace GTA V's steering system
 with their own, and use real data from the wheels in GTA V to generate force feedback.
