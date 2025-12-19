@@ -292,6 +292,19 @@ If you're a server owner and interested in a server-side solution for drivetrain
 I'm not aware of any worthwhile steering wheel support solutions for FiveM, which replace GTA V's steering system
 with their own, and use real data from the wheels in GTA V to generate force feedback.
 
+### Q: Settings don't save in Enhanced since the Mansions update (`1.0.1013.17`)?
+
+This update (`1.0.1013.17`) introduced some changes to DirectStorage which locks all files in the game folder.
+You can disable this behavior with the following steps:
+
+* Create a `commandline.txt` in the game folder
+* Add a line with `-forcewin32`
+
+This should disable DirectStorage and allow scripts to write in the game folder again.
+
+There may be workarounds which allow DirectStorage for game resources but avoid non-game files (for mods), but
+at the time of writing, I have no direct recommendations for a specific release.
+
 ## Other
 
 ### Q: How do I install mods?
