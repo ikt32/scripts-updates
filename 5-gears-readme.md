@@ -97,6 +97,18 @@ You can get a license by pledging on [Patreon](https://www.patreon.com/ikt).
 
 For more information, read [this website](https://ikt32.github.io/scripts-updates/).
 
+### Demo mode
+
+This script may be installed and used for evaluation purposes with an included demo mode.
+This mode is intended to be used for verifying hardware compatibility and generally
+to take the script for a test drive.
+
+When the script detects no valid license,
+the demo mode can be activated by opening the menu.
+This demo mode runs for 15 minutes at a time and may be activated 4
+times per game session. The entire script is active within the demo
+mode time period and settings save as normally.
+
 ## Installation
 
 Put the following items into your GTA V game folder:
