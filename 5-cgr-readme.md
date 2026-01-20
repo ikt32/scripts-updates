@@ -17,13 +17,6 @@ Change car gear ratios in GTA V.
 
 * Grand Theft Auto V
 * [ScriptHookV](http://www.dev-c.com/gtav/scripthookv)
-* A valid license [(Patreon)](https://www.patreon.com/ikt)
-
-### Activation
-
-A license is required to use Custom Gear Ratios v1.2.1 and newer.
-You can get one by pledging on [Patreon](https://www.patreon.com/ikt).
-The script will inform you when you need to generate or renew the license.
 
 ## Installation
 

@@ -34,18 +34,11 @@ Overhauls how the turbo works, for more useful performance and new effects.
 
 * Grand Theft Auto V
 * [ScriptHookV](http://www.dev-c.com/gtav/scripthookv/)
-* A valid license [(Patreon)](https://www.patreon.com/ikt)
 
 Optional:
 
 * [DashHook](https://www.gta5-mods.com/tools/dashhook)
 * [Manual Transmission](https://github.com/ikt32/scripts-updates/blob/master/5-gears-readme.md)
-
-### Activation
-
-A license is required to use TurboFix v2.4.0 and newer.
-You can get one by pledging on [Patreon](https://www.patreon.com/ikt).
-The script will inform you when you need to generate or renew the license.
 
 ## Installation
 

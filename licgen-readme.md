@@ -1,15 +1,15 @@
 # License Generator
 
-License Generator enables usage of (select) scripts by ikt. It checks if you are eligible for a license
+License Generator enables usage of software and programs by ikt. It checks if you are eligible for a license
 through Patreon. If you are, it generates a unique license for your system.
 
-Scripts that use this license will automatically detect and use it.
+Programs and software that use this license will automatically detect and use it.
 
 ## Features
 
 * Unrestricted number of activations on any number of systems as long as eligible<sup>[[1]](#notes-1)</sup>
 * License stays forever valid for *activated system configuration*<sup>[[2]](#notes-2)</sup>
-* Scripts are 100% offline regarding license: everything stays on your system<sup>[[3]](#notes-3)</sup><sup>[[4]](#notes-4)</sup>
+* Offline license: everything stays on your system<sup>[[3]](#notes-3)</sup><sup>[[4]](#notes-4)</sup>
 
 Check the [Notes section](#notes) for more information.
 
@@ -63,10 +63,10 @@ the URL in the browser or in the command prompt can be copied and pasted into an
 The license generator is now finished and can be closed.
 
 License Generator creates the license file at `%localappdata%\ikt\License\`.
-**You don't need to do anything with this file**: scripts that use it
-automatically read the license.
+**You don't need to do anything with this file**: anything that that uses the license
+automatically reads it from the correct location.
 
-The game can now be started with the scripts automatically activated.
+The software can now be started and used.
 
 <div style="text-align:center">
   <img alt="Browser post-auth" src="resources/LicGen_Browser_PostAuth.png" />
@@ -93,7 +93,7 @@ license in case you're factory resetting your computer, or wipe the drive that s
 your localappdata.
 
 The license should be generated in `%localappdata%\ikt\License\` and it can be restored to
-the same location. After restoring the license file, scripts should pick it up and be
+the same location. After restoring the license file, programs should pick it up and be
 activated again automatically.
 
 If no backups are made, re-subscribing is necessary to generate a new license.
@@ -108,12 +108,12 @@ If no backups are made, re-subscribing is necessary to generate a new license.
    N.b.: Reinstalling your operating system may also wipe HWIDs making your system ineligible.
 3. <a name="notes-3"></a>
    Only the License Generator connects with Patreon to check if you are eligible.
-   The scripts only check the license file locally.
-   The scripts themselves may or may not individually check select GitHub repositories to notify for
-   updates or to pull in data required for the script to work.
+   Programs using it only check the license file locally.
+   Associated software may or may not individually check select GitHub repositories to notify for
+   updates or to pull in data for required functionality; this is not related to the license.
 4. <a name="notes-4"></a>
    The License Generator **must** be able to connect with Patreon to verify you're eligible.
-   Make sure your computer has access to Patreon.com.
+   Ensure your computer has access to Patreon.com.
 
 <div style="page-break-after: always;"></div>
 

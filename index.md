@@ -17,11 +17,32 @@ layout: default
 [<span style="font-size:1.5em;">`📥 Download`</span>](https://www.patreon.com/c/ikt/membership){:target="_blank"}
 [<img alt="Patreon icon" src="resources/PATREON_SYMBOL_1_BLACK_RGB.svg" style="height:0.6em" /> <span style="font-size:1.5em;">`Patreon`</span>](https://www.patreon.com/ikt){:target="_blank"}
 
-Access to the scripts listed on this page is managed by a license system.
-[Subscribing to my Patreon](https://www.patreon.com/ikt){:target="_blank"} allows you
-to generate a *unique license for your system*, which grants access to use these scripts. Please
-check the [detailed manual of License Generator](licgen-readme){:target="_blank"}.
+[You can support me by subscribing to my Patreon.](https://www.patreon.com/ikt){:target="_blank"}
+Doing so grants you access to my steering wheel support software (WIP),
+which my game plugins can use to expand functionality and peripheral support of said plugins.
+
+While subscribed and eligible, License Generator generates a *unique license for your system*,
+which enables the wheel support software.
+Please check the [detailed manual of License Generator](licgen-readme){:target="_blank"}.
 It explains what it is, how you use it, and what you can expect.
+
+**Important note**: At the time of writing (2026-01-20), the project is in a transitional maintenance phase while these
+changes are implemented. Steering wheel support currently is *not* accessible yet.
+
+Other perks of being a Patron are:
+
+* Early Access to select vehicle-related scripts
+  * Manual Transmission
+  * TurboFix
+  * Custom Torque Map
+  * Custom Gear Ratios
+* Discord role and active support
+
+## [Wheel Support](wheel-support-readme)
+
+Hardware support module. May be used by supported plugins to add peripheral support.
+
+WIP
 
 ## [Manual Transmission](5-gears-readme)
 
@@ -78,5 +99,5 @@ inspired tachometer incorporating the power curve.
 
 My other content is freely available from [GTA5-Mods.com](https://www.gta5-mods.com/users/ikt){:target="_blank"}.
 
-Older releases of Patreon-published scripts are listed as releases
+An archive of older releases of Patreon-published scripts are available
 [in the repository on GitHub](https://www.github.com/ikt32/scripts-updates/releases){:target="_blank"}.

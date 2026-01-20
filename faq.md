@@ -8,18 +8,18 @@
 
 ### Q: Where can I get your scripts?
 
-They're available [through my Patreon](https://patreon.com/ikt){:target="_blank"}. The "how does this work"
-is explained in the Supporter tier membership and in the [readme of License Generator](licgen-readme){:target="_blank"}.
-Please thoroughly read it.
+Early access and development builds are available [through my Patreon](https://patreon.com/ikt){:target="_blank"}, after
+which all my scripts will be available through [GTA5-Mods.com]{:target="_blank"}. Early access lasts around 1 month.
 
-My Patreon-exclusive scripts are updated versions of:
+### Q: Where do I get the steering wheel support software?
 
-* [Manual Transmission](5-gears-readme){:target="_blank"}
-* [Custom Gear Ratios](5-cgr-readme){:target="_blank"}
-* [Custom Torque Map](5-ctm-readme){:target="_blank"}
-* [TurboFix](5-turbofix-readme){:target="_blank"}
+**Important note**: At the time of writing (2026-01-20), the project is in a transitional maintenance phase while these
+changes are implemented. Steering wheel support currently is *not* accessible yet.
+The following paragraphs apply as soon as the final versions are posted.
 
-These all use the same license system.
+The steering wheel support software is a separate component and is available through Patreon. To use this,
+a license is needed, which can be generated using the [License Generator](licgen-readme){:target="_blank"} while
+having the Supporter tier on Patreon.
 
 ### Q: Where do I get License Generator?
 
@@ -28,9 +28,9 @@ the **Welcome note**. This contains vital information and a direct link to Licen
 
 ### Q: Do I need to pay?
 
-Yes, you need to pay for the Patreon-exclusive scripts.
+Yes, you need to pay for the Patreon-exclusive peripheral support software.
 
-### Q: Can I pay once for your scripts?
+### Q: Can I pay once?
 
 Yes, the license you generate *while subscribed* is valid for *however long you use your PC in its current form*.
 After verifying that everything is up and running, you may terminate the subscription. If you need to create
@@ -47,28 +47,28 @@ generate a license for you, so please check before subscribing that you are able
 
 ### Q: Do I need to create a new license for updates?
 
-No. Updates are free once you already have a license. I do not expect to have to bump versions for my GTA V scripts,
-unless some major unfortunate event happens where I need to do this.
+No. Updates are free once you already have a license. The updated binary is accessible without Patreon subscription.
 
-If a major change is happening and a new version of the license is needed, this will be clearly communicated on Patreon.
+If a break in license model is planned, this will be communicated. Any change will not invalidate existing licenses or
+installations.
 
-**The current version of license used by all scripts is `0.0.lic`**
-
-For upcoming games, once I can start work on creating mods for those, I will probably require a new, different license.
-
-### Q: How do I properly activate the scripts after subscribing to Patreon?
+### Q: How do I properly activate your content after subscribing to Patreon?
 
 Please follow the usage instructions in the [License Generator readme](licgen-readme#usage){:target="_blank"}.
 
-### Q: Can I try the scripts before getting a Patreon subscription?
+### Q: Can I try your content before getting a Patreon subscription?
 
-[Manual Transmission 5.7.0 and newer](https://github.com/ikt32/scripts-updates/releases?q=%22Manual+Transmission%22){:target="_blank"}
-contains a Demo mode if it does not detect a license on your system.
+**Important note**: At the time of writing (2026-01-20), the project is in a transitional maintenance phase while these
+changes are implemented. Steering wheel support currently is *not* accessible yet.
+
+After the maintenance phase:
+A demo mode can be activated to test your hardware with the wheel support software, if the wheel support software
+is present, but there is no valid license.
 
 This demo runs for 15 minutes before disabling itself, and can be activated 4 times per game session.
-It enables the full script, so you can set up your wheel and have a test drive around Los Santos.
+It enables all associated functionality, so you can set up your wheel and have a test drive in-game.
 
-Other scripts do not have a demo mode, but their readme documents should explain the full extent of what they do.
+Early access content has no demo mode, but their readme documents should explain the full extent of what they do, and older versions may be used to get a feel.
 
 ## License Generator troubleshooting
 
@@ -128,7 +128,8 @@ The license should have been generated in the following directory:
 ~/.steam/steam/steamapps/compatdata/271590/pfx/drive_c/users/steamuser/AppData/Local/ikt/License/0.0.lic
 ```
 
-The next time GTA V starts with the scripts, the license is picked up automatically.
+The next time the scripts are loaded and subsequently the peripheral support software is loaded,
+the license is picked up automatically by the peripheral support software.
 
 Test details:
 
@@ -164,7 +165,7 @@ a different system fingerprint.
 This is not compatible with how GTA V is launched, and the license will be marked as Expired.
 Regenerate the license under the proper prefix and user.
 
-### Q: I reset my PC, do I need to resubscribe to activate your scripts again?
+### Q: I reset my PC, do I need to resubscribe to activate your content again?
 
 If the license has been backed up prior to resetting, this can be restored. It can be found at
 `%localappdata%\ikt\License\0.0.lic` and it is restored to the same location.
@@ -192,7 +193,7 @@ Check for each individual script whether or not it has been updated to support t
 
 ### Q: Why does steering not work in Manual Transmission? / Why does script X behave weirdly?
 
-The following other scripts don't work for game version 1.0.3095.0 and newer, and have been updated on Patreon:
+The following scripts versions don't work for game version 1.0.3095.0 and newer.
 
 * Manual Transmission **5.6.1 and older**
 * Custom Gear Ratios **1.2.0 and older**
@@ -206,8 +207,9 @@ as:
 * Broken shifting and reversing
 * Mismatching gears
 * No extra boost
+* Crashes
 
-You can downgrade the game to 1.0.3028.0 and older to continue playing with these outdated scripts, or you
+You may downgrade the game to 1.0.3028.0 and older to continue playing with these outdated scripts, or you
 can subscribe to [Patreon](https://www.patreon.com/ikt){:target="_blank"} and use the updated versions.
 
 The following script versions **are compatible** for game version **1.0.3095.0**:
@@ -217,8 +219,8 @@ The following script versions **are compatible** for game version **1.0.3095.0**
 * TurboFix **2.4.0 and newer**
 * Custom Torque Map **1.1.0 and newer**
 
-These new versions are exclusive to [Patreon](https://www.patreon.com/ikt){:target="_blank"}. They are kept up-to-date
-as Rockstar releases game updates.
+Following the transition to an early access model, the above information is left for informational purposes. All latest
+public releases should support the latest game versions.
 
 ### Q: I'm using the latest version, but steering doesn't work either?
 
@@ -230,22 +232,20 @@ If in doubt, always re-register the axis that behaves weirdly. This also applies
 When this does not work, please contact me on Discord with `Gears.log` *and* `settings_wheel.ini` with a clear
 description of what's going wrong and what you already tried.
 
-### Q: Does Manual Transmission work with my wheel?
+### Q: Does Manual Transmission with Steering Wheel Support work with my wheel?
 
 Steering wheel support works for *any* wheel that supports DirectInput! Any *device* that supports DirectInput
 can be mapped as any input. My personal setup:
 
 * Fanatec CSL DD
 * Fanatec CSL LC Pedals (separately connected)
-* [SHH Shifter](https://www.shiftershh.com/en/){:target="_blank"}
+* SHH Shifter
 * A random AliExpress handbrake
 
 Ensure your wheel drivers are installed and up-to-date, and that no other application can take force feedback priority
 from GTA V with the script running.
 
-If you'd like to try things out beforehand,
-[Manual Transmission contains a demo mode](https://www.patreon.com/posts/manual-5-7-0-119318684){:target="_blank"}
-starting with version 5.7.0.
+If you'd like to try things out beforehand, refer to the demo mode.
 
 ### Q: Why doesn't Manual Transmission see my wheel?
 
@@ -270,7 +270,7 @@ The following text may be seen for different circumstances:
   has been turned on, or if a driver update changed its ID.
 * **{device}**: The device is configured and present.
 
-### Q: Are the scripts compatible with FiveM?
+### Q: Is your content compatible with FiveM?
 
 Sort of:
 
@@ -287,7 +287,7 @@ Before usage on FiveM, ensure the scripts work in vanilla single-player story mo
 on FiveM, there is nothing I can do to help you.
 
 If you're a server owner and interested in a server-side solution for drivetrain simulation, I highly recommend
-[Dynamic Engine by LegacyDMC](https://legacydmc.net/dynamic/).
+[Dynamic Engine by LegacyDMC](https://legacydmc.net/dynamic/){:target="_blank"}.
 
 I'm not aware of any worthwhile steering wheel support solutions for FiveM, which replace GTA V's steering system
 with their own, and use real data from the wheels in GTA V to generate force feedback.
@@ -295,6 +295,9 @@ with their own, and use real data from the wheels in GTA V to generate force fee
 ### Q: Settings don't save in Enhanced since the Mansions update (`1.0.1013.17`)?
 
 This update (`1.0.1013.17`) introduced some changes to DirectStorage which locks all files in the game folder.
+
+Please use [DirectStorageFix](https://www.gta5-mods.com/scripts/directstoragefix){:target="_blank"}. Alternatively:
+
 You can disable this behavior with the following steps:
 
 * Create a `commandline.txt` in the game folder
@@ -302,19 +305,16 @@ You can disable this behavior with the following steps:
 
 This should disable DirectStorage and allow scripts to write in the game folder again.
 
-There may be workarounds which allow DirectStorage for game resources but avoid non-game files (for mods), but
-at the time of writing, I have no direct recommendations for a specific release.
-
 ## Other
 
 ### Q: How do I install mods?
 
 For general information on getting started with mods for GTA V, please check the
 [GTA5-Mods Wiki with guides](https://github.com/5mods/tutorials/wiki){:target="_blank"} or ask around on the
-[GTA5-Mods Discord server](https://discord.gg/2PR7aMzD4U).
+[GTA5-Mods Discord server](https://discord.gg/2PR7aMzD4U){:target="_blank"}.
 
 **No support will be given for general modding** and it is expected of you to be competent with
-computers and modding in general before trying my scripts.
+computers and modding in general before trying my content.
 
 ### Q: Where are the camera options in Manual Transmission?
 
@@ -335,9 +335,13 @@ Tips:
 * For pedals: Fully press and then lift off from the pedal to assign. Don't touch other pedals.
 * If anything goes wrong, simply re-assign the axis.
 
-### Q: Are your scripts affiliated with Rockstar Games or Take-Two Interactive?
+### Q: Is your content affiliated with Rockstar Games or Take-Two Interactive?
 
-No, my scripts are completely independent and are not affiliated with, endorsed by, or sponsored by Rockstar Games, Take-Two Interactive, or any of their subsidiaries. All trademarks, including "Grand Theft Auto V" and "GTA V," are the property of their respective owners. These scripts do not contain any original Rockstar assets, files, or intellectual property. Any references to the game are purely for descriptive purposes.
+No, my content is completely independent and are not affiliated with, endorsed by, or sponsored by Rockstar Games,
+Take-Two Interactive, or any of their subsidiaries. All trademarks, including "Grand Theft Auto V" and "GTA V"
+are the property of their respective owners.
+My content does not contain any original Rockstar assets, files, or intellectual property.
+Any references to the game are purely for descriptive purposes.
 
 ## Remarks
 
