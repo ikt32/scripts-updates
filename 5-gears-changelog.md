@@ -1,5 +1,15 @@
 # Changelog for Manual Transmission for GTA V
 
+## 5.8.3
+
+* Update memory code for Legacy 1.0.3788.0, fixing crashes
+* Update memory code for Enhanced 1.0.1013.33
+* Update menu for Enhanced record global
+* Update menu for hotkey falsely triggering on camera switch
+* Fix wheel button-axis override input detection
+* Fix Native gamepad inputs wrongly triggering
+* Increase UpshiftLoad top range from 0.2 to 1.0
+
 ## 5.8.2
 
 * Fix flickering inputs caused by unmapped keyboard values reading invalid data
