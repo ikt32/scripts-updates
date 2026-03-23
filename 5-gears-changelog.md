@@ -1,5 +1,9 @@
 # Changelog for Manual Transmission for GTA V
 
+## 5.8.4
+
+* Resolve `getScriptHandleBaseAddress` dynamically for FiveM compatibility
+
 ## 5.8.3
 
 * Update memory code for Legacy 1.0.3788.0, fixing crashes
