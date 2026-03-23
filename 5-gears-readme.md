@@ -562,6 +562,8 @@ Check the `Developer options` -> `Compatibility settings`.
   * Remove ScriptHookVDotNet, or
   * Use RagePluginHook to launch, or
   * Remove/Downgrade/Upgrade G-Hub
+* Modern Logitech wheels not working
+  * Try switching Controller input to Native Input. XInput may conflict with your wheel drivers.
 * Wheel oscillates a lot:
   * Use 5.5.0 or newer.
   * Increase damper force.
