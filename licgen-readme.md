@@ -144,6 +144,7 @@ This Software Use Agreement ("Agreement") is between ikt ("Author") and the User
 
 * **Access to License Generator:**\
   The User can generate licenses only while they are subscribed to the Author's Patreon campaign. If the subscription is canceled, the User will no longer be able to generate new licenses, but any licenses already created will still work on their machine.
+  Access to License Generator requires an active pledge to the "Supporter" tier.
 
 * **Post-Subscription Access:**\
   If the User cancels their subscription to the Authors' Patreon campaign, they are no longer eligible to generate new licenses. However, any licenses already created remain valid on the original machine, unless the machine's configuration changes significantly.
@@ -211,11 +212,43 @@ This Software Use Agreement ("Agreement") is between ikt ("Author") and the User
   * Any incompatibility issue while using software requiring this License.
   * Use of the license for evaluation purposes of the software requiring this License.
   * Refunds requested after an unreasonably long time (more than 1 month ago). Refunds requested after Patreon's 3 month refund window will not be issued.
-  * Violation of the code of conduct set out in the "rules" channel in the Author's Discord server, or other unacceptable behavior through other channels.
+  * Violation of the code of conduct set out in the "rules" channel in the Author's Discord server, or other unacceptable behavior through any other channels.
 
   Refunds are issued within the constraints of [Patreon's Relationship manager](https://support.patreon.com/hc/en-us/articles/115001243446-How-do-I-refund-my-members-and-customers), no refunds are issued outside of Patreon.
 
-### 10. Modifications to this agreement
+### 10. Community Standards and Support Access
+
+* **Discretionary Support:**
+  The Author provides support at sole discretion. Support may be refused to users who: engage in abusive
+  or harassing behavior; violate community rules in Discord or any other channels; violate the terms of this
+  Agreement (including unauthorized sharing, redistribution, or reverse-engineering); or otherwise demonstrate
+  bad faith. The Author is not obligated to interact with, provide assistance to, or resolve issues for any user.
+
+* **Community Bans:**
+  Users banned from Discord or other community channels for violation of conduct rules waive their right to support
+  through those channels and others. The Author will not engage with banned users regarding support requests,
+  troubleshooting, or appeals except in exceptional circumstances at the Author's sole discretion.
+  Attempting to evade bans through alternate accounts or circumvention of support restrictions violates this Agreement.
+
+### 11. Miscellaneous
+
+* **Governing Law:**
+  This Agreement is governed by and construed in accordance with the laws of the Netherlands,
+  without regard to its conflict of laws principles.
+
+* **Severability:**
+  If any provision of this Agreement is found to be invalid or unenforceable, that provision will be
+  severed, and the remaining provisions will continue in full force and effect.
+
+* **Entire Agreement:**
+  This Agreement constitutes the entire agreement between the Author and User regarding the Software
+  and supersedes all prior negotiations, representations, and agreements.
+
+* **Waiver:**
+  The Author's failure to enforce any right or provision of this Agreement does not constitute a waiver
+  of that right or provision. Any waiver must be in writing and signed by the Author.
+
+### 12. Modifications to this agreement
 
 * **Right to Modify:**\
   The Author reserves the right to modify this Agreement at any time. Changes to this license may be tracked through [the commit history for this file](https://github.com/ikt32/scripts-updates/commits/master/licgen-readme.md).
