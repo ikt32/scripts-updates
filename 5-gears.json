@@ -1,7 +1,7 @@
 {
-  "version":"5.8.3",
-  "date":"2026-03-21",
-  "site":"https://github.com/ikt32/scripts-updates/releases/tag/5-Gears-v5.8.3",
-  "asset":"https://github.com/ikt32/scripts-updates/releases/download/5-Gears-v5.8.3/Gears-v5.8.3-Release.zip",
-  "description":"Compatibility with Legacy b3788, Enhanced b1013.33"
+  "version":"5.8.4",
+  "date":"2026-03-23",
+  "site":"https://github.com/ikt32/scripts-updates/releases/tag/5-Gears-v5.8.4",
+  "asset":"https://github.com/ikt32/scripts-updates/releases/download/5-Gears-v5.8.4/Gears-v5.8.4-Release.zip",
+  "description":"5.8.3: Compatibility with Legacy b3788, Enhanced b1013.33\n5.8.4: Fix FiveM loading error"
 }
