@@ -110,7 +110,7 @@ From my own tests - yes. The License Generator should be launched in the same en
 
 It's best to use `protontricks` if you're using a Steam-based installation, e.g. on a Steam Deck.
 
-My steps to get things working are as follows (app id is Legacy, for Enhanced it's different):
+My steps to get things working are as follows (app id `271590` is Legacy, for Enhanced it's `3240220`):
 
 Launching the license generator within GTA V's Proton prefix:
 
