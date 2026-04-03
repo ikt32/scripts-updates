@@ -69,7 +69,7 @@
                 ${reasonText}<br><br><br>
                 Please consult the ${troubleshootLink} before asking for help.<br><br>
                 If the issue persists, help is available via ${supportLink}.<br>
-                <code>LicenseGenerator.log</code> from ${authFiles} is <b><u>mandatory</u></b>
+                Attaching <code>LicenseGenerator.log</code> from ${authFiles} is <b><u>mandatory</u></b>
                 when asking for help.
             `;
         }
