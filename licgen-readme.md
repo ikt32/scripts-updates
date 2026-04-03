@@ -21,6 +21,8 @@ The latest License Generator is always linked in the welcome note on
 [your Patreon membership page](https://www.patreon.com/c/ikt/membership){:target="_blank"}
 for my campaign.
 
+The current version is available from [this post](https://www.patreon.com/posts/127069187){:target="_blank"}
+
 ## Usage
 
 Before you start:
