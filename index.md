@@ -14,7 +14,7 @@ layout: default
 ## [Access and License Generator](licgen-readme)
 
 [<span style="font-size:1.5em;">`📖 README`</span>](licgen-readme)
-[<span style="font-size:1.5em;">`📥 Download`</span>](https://www.patreon.com/c/ikt/membership){:target="_blank"}
+[<span style="font-size:1.5em;">`📥 Download`</span>]([https://www.patreon.com/c/ikt/membership](https://www.patreon.com/posts/127069187)){:target="_blank"}
 [<img alt="Patreon icon" src="resources/PATREON_SYMBOL_1_BLACK_RGB.svg" style="height:0.6em" /> <span style="font-size:1.5em;">`Patreon`</span>](https://www.patreon.com/ikt){:target="_blank"}
 
 [You can support me by subscribing to my Patreon.](https://www.patreon.com/ikt){:target="_blank"}
