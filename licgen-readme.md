@@ -159,7 +159,7 @@ This Software Use Agreement ("Agreement") is between ikt ("Author") and the User
 * **No Support Obligation:**\
   The Author has no obligation to provide technical support, updates, or fixes for the Software, License Generator, or License. The User is responsible for maintaining their system and ensuring it works with the Software.
 
-  The Software may be rendered incompatible by updates to applicable games. The Author is under no obligation to provide updates to the Software to compatible with game updates. The User is responsible for creating and restoring backups if they wish to proceed using the Authors' Software after a game is pushed.
+  The Software may be rendered incompatible by updates to applicable games. The Author is under no obligation to provide updates to the Software to be compatible with game updates. The User is responsible for creating and restoring backups if they wish to proceed using the Authors' Software after a game is pushed.
 
 * **Platform Compatibility:**\
   The Software and License Generator are designed for x86, 64-bit Windows PCs. The Author makes no guarantees that the Software or License Generator will work on other platforms (e.g., ARM, Linux, macOS, emulators, or compatibility layers like WINE).
@@ -224,7 +224,7 @@ This Software Use Agreement ("Agreement") is between ikt ("Author") and the User
 
 * **Patronage relationship:**\
   The User acknowledges that their pledge is a voluntary contribution to support the Author’s research and development.
-  It is not a 'service contract'. No rights can be derived from supporting the Author.
+  It is not a ‘service contract’. Patronage does not entitle the User to any specific outcomes, services, or legal claims.
   The Author reserves the right to terminate support access for behavior violating community guidelines.
   Examples of unacceptable behavior are, but not limited to: hostility, threats, disruptive communication, entitlement, etc.
 
