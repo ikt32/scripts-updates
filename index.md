@@ -26,8 +26,9 @@ which enables the wheel support software.
 Please check the [detailed manual of License Generator](licgen-readme){:target="_blank"}.
 It explains what it is, how you use it, and what you can expect.
 
-**Important note**: At the time of writing (2026-01-20), the project is in a transitional maintenance phase while these
-changes are implemented. Steering wheel support currently is *not* accessible yet.
+**Important note**: At the time of writing (2026-01-20), the project is in a transitional phase while these
+changes are implemented. Steering wheel support currently is *not* split off from Manual Transmission yet,
+and still a part of it.
 
 Other perks of being a Patron are:
 
