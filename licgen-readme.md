@@ -190,6 +190,8 @@ This Software Use Agreement ("Agreement") is between ikt ("Author") and the User
 
 * **Ownership:**\
   The Software, License Generator, and all related intellectual property rights belong to the Author. The User’s subscription gives them a limited, non-exclusive right to use the License Generator and create Licenses, but no ownership is transferred.
+* **Original work:**\
+  The Software is an original work of systems programming. It interacts with third-party software solely via volatile memory (RAM) and public API exports. It does not contain, reproduce, or distribute any proprietary code, assets, or binaries belonging to the Original Developer.
 
 ### 7. Termination
 
@@ -220,13 +222,19 @@ This Software Use Agreement ("Agreement") is between ikt ("Author") and the User
 
 ### 10. Community Standards and Support Access
 
-* **Discretionary Support:**
+* **Patronage relationship:**\
+  The User acknowledges that their pledge is a voluntary contribution to support the Author’s research and development.
+  It is not a 'service contract'. No rights can be derived from supporting the Author.
+  The Author reserves the right to terminate support access for behavior violating community guidelines.
+  Examples of unacceptable behavior are, but not limited to: hostility, threats, disruptive communication, entitlement, etc.
+
+* **Discretionary Support:**\
   The Author provides support at sole discretion. Support may be refused to users who: engage in abusive
   or harassing behavior; violate community rules in Discord or any other channels; violate the terms of this
   Agreement (including unauthorized sharing, redistribution, or reverse-engineering); or otherwise demonstrate
   bad faith. The Author is not obligated to interact with, provide assistance to, or resolve issues for any user.
 
-* **Community Bans:**
+* **Community Bans:**\
   Users banned from Discord or other community channels for violation of conduct rules waive their right to support
   through those channels and others. The Author will not engage with banned users regarding support requests,
   troubleshooting, or appeals except in exceptional circumstances at the Author's sole discretion.
