@@ -26,6 +26,9 @@ having the Supporter tier on Patreon.
 Check the [Membership page on Patreon](https://www.patreon.com/cw/ikt/membership){:target="_blank"} for
 the **Welcome note**. This contains vital information and a direct link to License Generator.
 
+Alternatively, a direct link to the Patreon post is in the
+[License Generator readme](licgen-readme#download){:target="_blank"}.
+
 ### Q: Do I need to pay?
 
 Yes, you need to pay for the Patreon-exclusive peripheral support software.
