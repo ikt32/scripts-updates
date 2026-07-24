@@ -1,5 +1,15 @@
 # Changelog for Manual Transmission for GTA V
 
+## 5.8.5
+
+* HUD: Add handbrake bar to pedal input box
+* Wheel: Make toggling handbrake optional for analog handbrakes
+* Wheel: Fix force feedback spring effect not being disabled on launch
+* Fix Native controller input method triggers
+* Fix features coupled to first person camera mode not working with independent camera modes
+* Fix quadbikes having lean forces disabled
+* Fix telemetry direction vectors missing forward vector and wrong right vector
+
 ## 5.8.4
 
 * Resolve `getScriptHandleBaseAddress` dynamically for FiveM compatibility
