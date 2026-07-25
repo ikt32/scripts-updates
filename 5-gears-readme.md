@@ -84,6 +84,7 @@ These handlings have reduced grip to realistic levels, and are essential for pla
 * [Grand Theft Auto V](https://www.rockstargames.com/V/)
 * [ScriptHookV](http://www.dev-c.com/gtav/scripthookv/)
 * [License](https://www.patreon.com/ikt)
+* For GTA V Enhanced, [DirectStorageFix](https://www.gta5-mods.com/scripts/directstoragefix)
 
 Optional: (Downloads)
 
