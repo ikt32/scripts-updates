@@ -1,5 +1,17 @@
 # Changelog for Custom Gear Ratios for GTA V
 
+## 2.1.0
+
+* Improve CVT realism: Rework CVT calculations, add parameters to control how quick it can switch ratios, simulate engine load when accelerating.
+
+## 2.0.2
+
+* Update support for Legacy 3877, Enhanced 1013.33
+
+## 2.0.1
+
+* Back to public releases
+
 ## 2.0.0
 
 Main changes:

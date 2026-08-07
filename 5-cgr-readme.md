@@ -57,6 +57,13 @@ Layout:
     <Gear3>1.384</Gear3>
     <Gear4>1.000</Gear4>
     <Gear5>0.861</Gear5>
+    <CVT.Enable>false</CVT.Enable>
+    <CVT.LowRatio>3.3</CVT.LowRatio>
+    <CVT.HighRatio>0.9</CVT.HighRatio>
+    <CVT.RPMTarget>0.80</CVT.RPMTarget>
+    <CVT.ShiftUpSpeed>4.0</CVT.ShiftUpSpeed>
+    <CVT.ShiftDownSpeed>8.0</CVT.ShiftDownSpeed>
+    <CVT.LoadResponseRate>2.0</CVT.LoadResponseRate>
 </Vehicle>
 ```
 
@@ -70,7 +77,30 @@ Layout:
 * `DriveMaxVel`: In m/s. More or less the final drive modifier.
 * `Gear{X}`: Actual gear ratio for that gear
   * When not enough gears are provided for the `TopGear`, the config is invalid and will not load.
-* Note that starting with v2.0, CVT parameters are also added.
+* `CVT.Enable`: Only used when `TopGear` is `1`. Simulates a CVT instead of a single fixed gear.
+* `CVT.LowRatio`: Ratio at the low end of the range, essentially "first gear".
+* `CVT.HighRatio`: Ratio at the high end of the range, essentially "top gear".
+* `CVT.RPMTarget`: Relative RPM (0-1) the CVT aims for at full throttle, i.e. where the engine makes peak power.
+* `CVT.ShiftUpSpeed`: How fast the CVT can move through its full ratio range when upshifting. `1.0` ≈ 1s, `5.0` ≈ 0.2s, `10.0` ≈ 0.1s.
+* `CVT.ShiftDownSpeed`: Same as above, but for downshifting. Usually higher than `CVTShiftUpSpeed`.
+* `CVT.LoadResponseRate`: How quickly the simulated engine RPM catches up to the CVT's target ratio. Higher is more responsive.
+* Note that starting with release 2.0.0, CVT parameters are also added.
+
+## CVT (Continuously Variable Transmission)
+
+When a configuration has `TopGear` set to `1` and `CVT.Enable` set to `true`, the script simulates a CVT
+instead of using a single fixed gear ratio.
+
+Instead of shifting between fixed gears, the ratio is continuously adjusted between `CVT.LowRatio` and
+`CVT.HighRatio` based on throttle input and vehicle speed.
+
+With release 2.1.0, CVT has been overhauled and gained additional parameters:
+`CVT.Factor` is replaced, direct RPM target now set by `CVT.RPMTarget`.
+`CVT.ShiftUpSpeed` and `CVT.ShiftDownSpeed` control how quickly the ratio can change, and
+`CVT.LoadResponseRate` simulates engine loading so the RPM doesn't jump to its target instantly.
+
+These parameters can also be tweaked in-game through the menu, when the active configuration has
+`TopGear` set to `1` and CVT is enabled.
 
 ## Notes
 
