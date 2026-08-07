@@ -5,10 +5,10 @@ Change car gear ratios in GTA V.
 
 ![Menu](resources/5CGR-Menu-2.0.0.jpg)
 
-<a href="https://github.com/ikt32/scripts-updates/releases?q=%22Custom+Gear+Ratios%22"
+<a href="https://www.gta5-mods.com/scripts/custom-gear-ratios"
    target="_blank"
    class="download-button"
-   title="View and download all releases on GitHub">📥Releases</a>
+   title="Download from GTA5-Mods.com">📥Releases</a>
 
 * ToC Placeholder
 {:toc}
