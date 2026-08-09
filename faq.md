@@ -275,15 +275,16 @@ The following text may be seen for different circumstances:
 
 ### Q: Is your content compatible with FiveM?
 
-Sort of:
+The server configuration needs `sv_scriptHookAllowed 1` to be set in the config to allow for user plugins to function.
+
+My scripts, including Manual Transmission, feature the required `FX_ASI_BUILD` resource to be able to be loaded
+into FiveM and run on servers supporting user plugins.
+
+Keep in mind though:
 
 * The scripts are made with only single-player story in mind
 * Only scripts marked as FiveM-compatible through `FX_ASI_BUILD` resources will work in FiveM
-  * Manual Transmission
-  * Custom Torque Map
-  * TurboFix and Custom Gear Ratios will have this added somewhere in the future, but currently won't work with FiveM
-* Scripts will only work on FiveM if the server allows client-side plugins
-  * Most servers will not allow client-side plugins, as such scripts can give you an unfair advantage
+* Many servers do not allow client-side plugins
 
 **Usage of these scripts in combination with FiveM is at your own risk and no support is given!**
 Before usage on FiveM, ensure the scripts work in vanilla single-player story mode. If scripts work in SP, but not

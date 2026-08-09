@@ -165,9 +165,11 @@ and then when hitting the throttle pedal of the wheel rig, the steering wheel ta
 
 ### FiveM
 
-The script specifies FX_ASI_BUILD up to and including the latest supported game version,
+The script specifies the required `FX_ASI_BUILD` resources for the supported game versions,
 which should make it function as a user plug-in. Refer to FiveM documentation and support
 in case anything does not work - I do not use FiveM and cannot verify explicit compatibility.
+
+The server does need `sv_scriptHookAllowed 1` set in the config to allow for user plugins to function.
 
 1. Create a `plugins` folder in FiveM Application Data.
 2. Put `Gears.asi` and the folder `ManualTransmission` in `plugins`.
