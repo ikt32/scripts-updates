@@ -62,6 +62,66 @@ Usable buttons are in `Keys_Controls.txt`.
 
 Configs can be manually made when not using the in-game menu, check `TurboFix/Configs/INSTRUCTIONS.txt` for info.
 
+### Configuration file layout
+
+Section **ID**
+
+* `ModelHash` - Vehicle model hash this config should automatically apply to.
+* `ModelName` - Vehicle model name used to identify the vehicle and derive its model hash.
+* `Plate` - License plate this config should match for a specific vehicle.
+* `Models` - Legacy option containing one or more vehicle model names; only the first is used.
+* `Plates` - Legacy option containing one or more license plates; only the first is used.
+
+If no model is specified, the config is generic and will not automatically be associated with a vehicle.
+
+Section **Turbo**
+
+* `ForceTurbo` - Automatically installs the turbo upgrade when the config is loaded.
+* `RPMSpoolStart` - Relative RPM at which the turbo starts building boost.
+* `RPMSpoolEnd` - Relative RPM at which the turbo can reach maximum boost.
+* `MinBoost` - Maximum vacuum value used when the turbo is not producing boost.
+* `MaxBoost` - Maximum boost value, where `1.0` adds 10% engine power.
+* `SpoolRate` - Controls how quickly boost rises toward its target value. `0.9` means it reaches 90% of its target boost after 1 second. `0.999` means almost instant.
+* `UnspoolRate` - Controls how quickly boost falls when the turbo is no longer being driven.
+* `FalloffRPM` - Relative RPM above which boost starts dropping toward redline.
+* `FalloffBoost` - Boost level reached at redline when boost falloff is enabled.
+
+RPM values are normalized, with `1.0` representing the rev limit; boost falloff is only active when `FalloffRPM` is higher than `RPMSpoolEnd`.
+
+Section **BoostByGear**
+
+* `Enable` - Enables per-gear boost limiting.
+* `1-10` - Defines maximum boost allowed in specified gear.
+
+Only the configured gear entries are used, up to a maximum of 10 gears. Every used gear needs to be present.
+
+Section **AntiLag**
+
+* `Enable` - Keeps the turbo spooled while off-throttle at sufficiently high RPM.
+* `MinRPM` - Minimum RPM fraction at which anti-lag becomes active.
+* `Effects` - Enables anti-lag exhaust pops, bangs, flames, and sound effects.
+* `PeriodMs` - Minimum delay in milliseconds between anti-lag effects.
+* `RandomMs` - Adds a random delay of up to this many milliseconds between anti-lag effects.
+* `LoudOffThrottle` - Continues producing the louder pops and bangs after the initial throttle lift.
+* `LoudOffThrottleIntervalMs` - Minimum interval in milliseconds between loud off-throttle effects.
+* `SoundSet` - Selects the sound set used for anti-lag effects, such as `Default` or `NoSound`.
+* `Volume` - Controls the volume of anti-lag sound effects.
+
+Section **Dial**
+
+* `BoostOffset` - Adds an offset to the boost value sent to the dashboard boost gauge.
+* `BoostScale` - Scales the boost value sent to the dashboard boost gauge.
+* `VacuumOffset` - Adds an offset to the vacuum value sent to the dashboard gauge.
+* `VacuumScale` - Scales the vacuum value sent to the dashboard gauge.
+* `BoostIncludesVacuum` - Maps vacuum onto the boost gauge as well, for combined vacuum/boost gauges.
+
+TurboFix may use [DashHook](https://www.gta5-mods.com/tools/dashhook){:target="_blank"}
+on vehicles with a boost gauge, to change its behavior to better match what the turbo is doing.
+
+### Combining with `fInitialDriveForce`
+
+You can combine a lower `fInitialDriveForce` in the vehicle's handling with a TurboFix config to split the car's power delivery into **base engine output** and **turbo-added output**: lower `fInitialDriveForce` until the naturally aspirated/off-boost power/torque represents the grunt you want the engine itself to make, then use `MaxBoost`, `RPMSpoolStart`, `RPMSpoolEnd`, and `SpoolRate` to add the remaining performance progressively as the turbo comes on boost. This can make a turbocharged engine feel much less like it has its full torque everywhere and give it a clearer transition from off-boost performance into its boosted power band.
+
 ## Adding sounds
 
 Sound sets can be added by creating a new folder in the Sounds folder. Files need to be of type `.wav`.
