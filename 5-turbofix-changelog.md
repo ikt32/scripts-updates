@@ -1,5 +1,15 @@
 # Changelog for TurboFix for GTA V
 
+## 2.5.1
+
+* Support Legacy 3788.0, Enhanced 1013.33
+
+## 2.5.0
+
+* Support Enhanced
+* Remove License requirement
+
+
 ## 2.4.0
 
 * Update compatibility for game build 3095 and newer (last tested build: 3351)
