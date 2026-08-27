@@ -1,5 +1,13 @@
 # Changelog for Custom Torque Map
 
+## 1.2.2
+
+* Support latest Enhanced 1.0.1013.34 and Legacy 1.0.3788.0 builds
+
+## 1.2.1
+
+* Remove license requirement
+
 ## 1.2.0
 
 * Support Grand Theft Auto V Enhanced
