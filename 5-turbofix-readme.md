@@ -85,6 +85,7 @@ Section **Turbo**
 * `UnspoolRate` - Controls how quickly boost falls when the turbo is no longer being driven.
 * `FalloffRPM` - Relative RPM above which boost starts dropping toward redline.
 * `FalloffBoost` - Boost level reached at redline when boost falloff is enabled.
+* `BoostCurve` - Controls how boost builds between RPMSpoolStart and RPMSpoolEnd. `1.0` - linear. Less than `1.0` bring boost in harder earlier. Above `1.0` exponential boost as RPM rises.
 
 RPM values are normalized, with `1.0` representing the rev limit; boost falloff is only active when `FalloffRPM` is higher than `RPMSpoolEnd`.
 
@@ -121,6 +122,13 @@ on vehicles with a boost gauge, to change its behavior to better match what the 
 ### Combining with `fInitialDriveForce`
 
 You can combine a lower `fInitialDriveForce` in the vehicle's handling with a TurboFix config to split the car's power delivery into **base engine output** and **turbo-added output**: lower `fInitialDriveForce` until the naturally aspirated/off-boost power/torque represents the grunt you want the engine itself to make, then use `MaxBoost`, `RPMSpoolStart`, `RPMSpoolEnd`, and `SpoolRate` to add the remaining performance progressively as the turbo comes on boost. This can make a turbocharged engine feel much less like it has its full torque everywhere and give it a clearer transition from off-boost performance into its boosted power band.
+
+### Base config
+
+`TurboFix/TurboFixBase.ini` is a separate, read-only base layer intended for vehicle and handling packs. It can contain defaults for many vehicle models.
+Configs in this directory override matching TurboFixBase entries, so updating a pack cannot overwrite user customization. See TurboFixBase.ini for its
+monolithic file format. In-game changes to a base entry must be stored with a "Save as" option, which creates an editable config in the directory.
+Browse the base entries under Settings > View base config; both config lists are searchable.
 
 ## Adding sounds
 

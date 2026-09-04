@@ -1,5 +1,11 @@
 # Changelog for TurboFix for GTA V
 
+## 2.6.0
+
+* Add a configurable turbo boost curve for different boost buildup behavior
+* Change configuration management to Custom Gear Ratio style
+* Support a monolithic base configuration as `TurboFix/TurboFixBase.ini`
+
 ## 2.5.1
 
 * Support Legacy 3788.0, Enhanced 1013.33
@@ -8,7 +14,6 @@
 
 * Support Enhanced
 * Remove License requirement
-
 
 ## 2.4.0
 
