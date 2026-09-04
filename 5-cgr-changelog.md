@@ -1,5 +1,10 @@
 # Changelog for Custom Gear Ratios for GTA V
 
+## 2.2.0
+
+* Support a monolithic base configuration as `CustomGearRatios/CGRBase.xml`
+* Fix CVT response rate not being saved
+
 ## 2.1.0
 
 * Improve CVT realism: Rework CVT calculations, add parameters to control how quick it can switch ratios, simulate engine load when accelerating.

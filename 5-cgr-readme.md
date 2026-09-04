@@ -86,6 +86,47 @@ Layout:
 * `CVT.LoadResponseRate`: How quickly the simulated engine RPM catches up to the CVT's target ratio. Higher is more responsive.
 * Note that starting with release 2.0.0, CVT parameters are also added.
 
+## Base gearbox file
+
+`CustomGearRatios/CGRBase.xml` is an optional, monolithic source of model defaults. It is intended for
+handling and vehicle packs that need to distribute many gearboxes without adding files to the user's
+editable `Configs` directory. The script never writes to or deletes this file.
+
+The root is `CGRBase` and it may contain any number of `Vehicle` entries. Each entry uses the same gearbox
+fields as a normal XML config, but `PlateText` and `ModelHash` are omitted: base entries always autoload by
+`ModelName`, which must be unique within the file. CVT fields remain optional.
+
+```xml
+<?xml version="1.0"?>
+<CGRBase>
+    <Vehicle>
+        <Description>Futo base gearbox</Description>
+        <ModelName>Futo</ModelName>
+        <TopGear>5</TopGear>
+        <DriveMaxVel>48.07</DriveMaxVel>
+        <Gear0>-3.484</Gear0>
+        <Gear1>3.587</Gear1>
+        <Gear2>2.022</Gear2>
+        <Gear3>1.384</Gear3>
+        <Gear4>1.000</Gear4>
+        <Gear5>0.861</Gear5>
+    </Vehicle>
+    <Vehicle>
+        <Description>Adder base gearbox</Description>
+        <ModelName>Adder</ModelName>
+        <TopGear>2</TopGear>
+        <DriveMaxVel>55.0</DriveMaxVel>
+        <Gear0>-3.0</Gear0>
+        <Gear1>3.0</Gear1>
+        <Gear2>1.0</Gear2>
+    </Vehicle>
+</CGRBase>
+```
+
+Configuration precedence is: model-and-plate user config, model user config, `CGRBase.xml` model default,
+then the vehicle's handling data. A base gearbox can be adjusted in-game and saved as a new user config;
+that new config overrides the base entry without changing the pack-provided file.
+
 ## CVT (Continuously Variable Transmission)
 
 When a configuration has `TopGear` set to `1` and `CVT.Enable` set to `true`, the script simulates a CVT
