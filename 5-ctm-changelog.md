@@ -1,5 +1,12 @@
 # Changelog for Custom Torque Map
 
+## 1.3.0
+
+* Relax recording parameters for more reliable detection
+* Add general performance logger for vehicle analysis
+* Add manual recording stop option for off-throttle analysis
+* Support a monolithic base configuration as `CustomTorqueMap/TorqueMapBase.ini`
+
 ## 1.2.2
 
 * Support latest Enhanced 1.0.1013.34 and Legacy 1.0.3788.0 builds

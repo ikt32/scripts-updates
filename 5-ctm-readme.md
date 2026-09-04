@@ -42,6 +42,10 @@ accurate-to-life engine responses.
 Torque maps go into the `Configs` folder, and are automatically loaded when the model matches,
 or the model **and** plate match.
 
+Pack-wide defaults can instead go into `CustomTorqueMap/TorqueMapBase.ini`. This is a read-only input to the script:
+the script never writes generated or edited configurations to it. A matching user configuration in `Configs` always
+takes priority, so pack updates can replace the base file without overwriting user customization.
+
 Open the management menu with the `ctm` cheat (use tilde (`~`) to open the cheat console).
 Other hotkeys may be assigned in `settings_menu.ini`.
 
@@ -117,6 +121,42 @@ END_OF_MAP
 ```
 
 For more pre-made configs, check [TheAdmiester's repository on GitHub](https://github.com/AJB-Tech/GTATorqueMaps){:target="_blank"}.
+
+### Base configuration file
+
+`TorqueMapBase.ini` is a monolithic configuration intended for vehicle and handling packs. Each section is uniquely
+identified by its GTA V vehicle model name and uses the same data keys and torque-map syntax as the `[Data]` section
+of a regular configuration. Model hashes and plates are not used in this file.
+
+```ini
+[adder]
+IdleRPM = 900
+RevLimitRPM = 7500
+RedlineRPM = 7000
+TorqueMultMap = <<<END_OF_MAP
+0.200|0.650
+0.500|1.000
+0.800|0.900
+1.000|0.600
+END_OF_MAP
+
+[zentorno]
+IdleRPM = 850
+RevLimitRPM = 8000
+TorqueMultMap = <<<END_OF_MAP
+0.200|0.700
+0.550|1.000
+0.850|0.880
+1.000|0.620
+END_OF_MAP
+```
+
+Matching priority is:
+
+1. User configuration matching model and plate
+2. User configuration matching model
+3. Entry in `TorqueMapBase.ini` matching model
+4. Default torque map
 
 ## Background
 
