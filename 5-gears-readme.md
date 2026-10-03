@@ -74,6 +74,7 @@ Mods that counter the power loss when sliding sideways (Also partially mitigated
 The default grip levels cause the wheel to bounce left and right because they're too grippy.
 These handlings have reduced grip to realistic levels, and are essential for playing with a wheel. Mix and match all you need, as these don't overlap much.
 
+* [Project Skill Issue](https://www.gta5-mods.com/vehicles/project-skill-issue) by me, with realistic slip angles and traction values.
 * [Realistic Driving V](https://www.gta5-mods.com/vehicles/realistic-driving-v) by killatomate
 * [Aquaphobic's Realistic Handling Pack](https://www.gta5-mods.com/vehicles/realistic-handling-packs)
 * [Lore Friendly Handling Pack](https://www.gta5-mods.com/vehicles/lore-friendly-handling-pack) by Eddlm
@@ -120,7 +121,7 @@ Put the following items into your GTA V game folder:
 * `Gears.asi`
 * `ManualTransmission` folder
 
-__Make sure the `ManualTransmission` folder is writeable! (not `Read Only`)__.
+**Make sure the `ManualTransmission` folder is writeable! (not `Read Only`)**.
 If the folder is not writeable, it will automatically be copied to
 `%localappdata%\ikt\ManualTransmission`.
 
@@ -142,20 +143,20 @@ For controller: Use `_info_available_controls.txt` to look up controller buttons
 * Copy the `ManualTransmission` folder to the GTA V game folder or `%localappdata%\ikt\ManualTransmission` depending on
   installation preferences.
 
-Do not overwrite changes in the `ManualTransmission` folder: the script will
+**Do not overwrite** changes in the `ManualTransmission` folder: the script will
 write new settings in the file as necessary.
 
 ### Wheel setup
 
 ![Wheel](resources/5MTHUD_Wheel.jpg)
 
-__You need to set up the steering wheel manually, this script does not come with any steering wheel preset!__
+**Steering wheel assignments need to be set up manually, this script does not come with any steering wheel preset!**
 
 1. Remove or disable any XInput or DirectInput input hook configurations for
 your wheel for GTA V (x360ce, for example).
 2. Open the menu, navigate to `Controls` -> `Wheel & pedals`.
 3. Set up your analog inputs in `Analog input setup` and set up your throttle, brakes, steering, etc.
-4. Go back to the `Wheel & pedals` menu and go through __all__ options. __Read the description of each option.__
+4. Go back to the `Wheel & pedals` menu and go through **all** options. **Read the description of each option.**
 5. Read the [force feedback section](#force-feedback).
 
 The script supports DirectInput devices and any combination of inputs can be used. Additionally, the script
@@ -229,7 +230,7 @@ By default, `RightTrigger` is throttle and `LeftTrigger` is brake.
 
 ### Wheel defaults
 
-__There are no defaults.__
+**There are no defaults.**
 
 Use the menu to assign throttle/brake/clutch and other actions, such as
 shifting, changing gearbox mode and game controls.
@@ -245,7 +246,7 @@ script and set up things like steering wheels or custom controls.
 Manual Transmission simulates a real car, so you might want to know how to
 drive a manual.
 
-__Using the clutch:__  Depending on your settings, you might need to operate
+**Using the clutch:**  Depending on your settings, you might need to operate
 the clutch to drive your car.
 
 When the stalling option is enabled, remember to not let the RPM dip too low.
@@ -259,13 +260,13 @@ will not go in gear. You'll hear a grinding sound when this happens.
 When timed right, it's possible to shift into gear without clutching, when the
 speed of the car and the RPM match up.
 
-__Braking and reversing:__ While Manual Transmission is active, the brake input will only
+**Braking and reversing:** While Manual Transmission is active, the brake input will only
 work as a brake. When stopped, the brake input will not reverse your car.
 
 To reverse, shift into the reverse gear. Press the accelerator
 input to accelerate in reverse.
 
-__Wheel-specific:__ While Manual Transmission is active, the pedals behave
+**Wheel-specific:** While Manual Transmission is active, the pedals behave
 like real pedals. When the manual transmission part of the mod is turned off,
 the throttle and brake pedals work like the left and right trigger on a controller.
 
@@ -310,21 +311,21 @@ especially when driving high performance cars on the limit.
 
 The following assists are available:
 
-* __Anti-lock Braking__: Prevents the wheels from completely locking up
+* **Anti-lock Braking**: Prevents the wheels from completely locking up
 under heavy braking, so steering input is still effective.
-* __Traction Control__: Prevents the wheels from spinning too much and
+* **Traction Control**: Prevents the wheels from spinning too much and
 losing control under hard acceleration.
-* __Stability Control__: Detects understeer and oversteer and smartly applies
+* **Stability Control**: Detects understeer and oversteer and smartly applies
 individual brakes to correct for understeer and oversteer.
-* __Launch Control__: Keeps the RPMs steady at a custom level,
+* **Launch Control**: Keeps the RPMs steady at a custom level,
 to prevent too much wheelspin on launch.
-* __Limited Slip Differential__: Simulates a limited slip differential and sends
+* **Limited Slip Differential**: Simulates a limited slip differential and sends
 more power to the slower wheel.
-* __Adaptive All-Wheel-Drive__: Changes all-wheel drive distribution between front
+* **Adaptive All-Wheel-Drive**: Changes all-wheel drive distribution between front
 and rear in real-time, depending on wheel slip, oversteer or understeer.
 The [Handling Replacement library](https://www.gta5-mods.com/tools/handling-replacement-library)
 is required for this feature.
-* __Cruise Control__: Smoothly accelerates and decelerates the car to a target
+* **Cruise Control**: Smoothly accelerates and decelerates the car to a target
 cruising speed, and can optionally adapt to traffic in front.
 
 Icons in the HUD will flash when certain assists are active.
@@ -336,16 +337,16 @@ They're all optional.
 
 A few highlights:
 
-* __Disable autostart__: Keeps the engine off when getting in a vehicle, and allows
+* **Disable autostart**: Keeps the engine off when getting in a vehicle, and allows
 you to manually start the vehicle. (Note: Starting with game version v1.0.2545.0,
 pressing throttle turns on the engine regardless of script settings.
 Unfortunately this seems to be hardcoded into V itself from this version onwards.)
-* __Leave engine running__: Reflecting GTA IV behavior, keeps the engine on when
+* **Leave engine running**: Reflecting GTA IV behavior, keeps the engine on when
 getting out of a vehicle with a short tap on the Exit button. Holding the Exit button
 will turn off the engine.
-* __Clutch & throttle start__: Start the vehicle by pressing clutch and throttle.
+* **Clutch & throttle start**: Start the vehicle by pressing clutch and throttle.
 Especially useful when stalling after a crash during a hectic chase.
-* __Handbrake toggles__: Holding the handbrake while stopped keeps it on. Briefly
+* **Handbrake toggles**: Holding the handbrake while stopped keeps it on. Briefly
 tapping the handbrake will disengage it again, or when driving away, much like
 modern electronic handbrakes on cars.
 
@@ -382,7 +383,7 @@ be added.
 4. Make an educated guess what the dictionary is for your vehicle
 5. Check the dictionary in `clip_anim.rpf`
 6. Open the `.ycd` in notepad and hope you find a `steer_no_lean` or `pov_steer`
-7. Copy an `- Animation:` entry in `animations.yml` - __mind the indentation!__
+7. Copy an `- Animation:` entry in `animations.yml` - **mind the indentation!**
 8. Substitute the dictionary and animation name for your vehicle, replace
 layouts with your new layout and throw in an educated guess what the rotation
 degree is.
@@ -400,6 +401,9 @@ Using an alternative camera mod is highly recommended.
 
 The force feedback in 5.5.0 and newer takes its data from observed slip angles of the
 steered wheels, so it's important that the data fed to it is somewhat accurate.
+
+Starting with version 5.9.0, force feedback takes its data from forces from the vehicle
+wheels, which makes data accuracy even more important.
 
 #### Handling for force feedback
 
@@ -609,11 +613,11 @@ Check the `Developer options` -> `Compatibility settings`.
 ### Known issues
 
 * Conflicting inputs:
-  * __x360ce__ will conflict with input detection if throttle, brake, clutch or steering axes are mapped in x360ce. Assigning inputs without overlap is no problem.
+  * **x360ce** will conflict with input detection if throttle, brake, clutch or steering axes are mapped in x360ce. Assigning inputs without overlap is no problem.
 * Conflicting mods:
-  * [__Strapped__](https://www.gta5-mods.com/scripts/pull-out-strap) will conflict with inputs.
-  * [__CustomSteering__](https://www.gta5-mods.com/scripts/custom-steering) will conflict with steering patching.
-  * [__Smooth Driving V__](https://www.gta5-mods.com/scripts/smooth-driving-v-lieutenant-dan) will conflict with inputs and gearbox.
+  * [**Strapped**](https://www.gta5-mods.com/scripts/pull-out-strap) will conflict with inputs.
+  * [**CustomSteering**](https://www.gta5-mods.com/scripts/custom-steering) will conflict with steering patching.
+  * [**Smooth Driving V**](https://www.gta5-mods.com/scripts/smooth-driving-v-lieutenant-dan) will conflict with inputs and gearbox.
 * Gears.asi doesn't load (in asiloader.log, or indicated otherwise):
   * Make sure you're using the latest [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-microsoft-visual-c-redistributable-version) [(Direct link)](https://aka.ms/vs/17/release/vc_redist.x64.exe).
 
