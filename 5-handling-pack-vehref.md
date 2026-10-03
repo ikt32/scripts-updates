@@ -1,6 +1,6 @@
 # "Project Skill Issue" handling pack vehicle reference
 
-[Go back](5-handling-pack-readme.md)
+[Back to main project](5-handling-pack-readme)
 
 These tables are the vehicle references to match vanilla models/handling entries with their real-life counterpart. This is what was used to obtain/estimate power figures and general driving characteristics.
 
