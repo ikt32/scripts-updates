@@ -79,7 +79,7 @@ Manual Transmission for configuring the whole vehicle's handling.
 
 [![Custom Gear Ratios](resources/5CGR_Menu1.png){:width="480"}](5-gears-readme)<br>
 [<span style="font-size:1.5em;">`📖 README`</span>](5-cgr-readme)
-[<span style="font-size:1.5em;">`📥 Releases`</span>](https://github.com/ikt32/scripts-updates/releases?q=%22Custom+Gear+Ratios%22){:target="_blank"}
+[<span style="font-size:1.5em;">`📥 Releases`</span>](https://www.gta5-mods.com/scripts/custom-gear-ratios){:target="_blank"}
 [<span style="font-size:1.5em;">`🛠️ Changelog`</span>](5-cgr-changelog)
 
 Create custom gearbox ratios for vehicles to match their real world counterparts.
@@ -88,7 +88,7 @@ Create custom gearbox ratios for vehicles to match their real world counterparts
 
 [![TurboFix](resources/5TurboFix.png){:width="480"}](5-turbofix-readme)<br>
 [<span style="font-size:1.5em;">`📖 README`</span>](5-turbofix-readme)
-[<span style="font-size:1.5em;">`📥 Releases`</span>](https://github.com/ikt32/scripts-updates/releases?q=%22TurboFix%22){:target="_blank"}
+[<span style="font-size:1.5em;">`📥 Releases`</span>](https://www.gta5-mods.com/scripts/turbofix-2){:target="_blank"}
 [<span style="font-size:1.5em;">`🛠️ Changelog`</span>](5-turbofix-changelog)
 
 Overhauls and fixes turbo behavior in the game:
@@ -102,7 +102,7 @@ Overhauls and fixes turbo behavior in the game:
 
 [![Custom Torque Map](resources/5CTM/CTM-1.2.0.jpg){:width="480"}](5-ctm-readme)<br>
 [<span style="font-size:1.5em;">`📖 README`</span>](5-ctm-readme)
-[<span style="font-size:1.5em;">`📥 Releases`</span>](https://github.com/ikt32/scripts-updates/releases?q=%22Custom+Torque+Map%22){:target="_blank"}
+[<span style="font-size:1.5em;">`📥 Releases`</span>](https://www.gta5-mods.com/scripts/custom-torque-map){:target="_blank"}
 [<span style="font-size:1.5em;">`🛠️ Changelog`</span>](5-ctm-changelog)
 
 Apply engine torque curve profiles to simulate the engine power throughout

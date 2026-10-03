@@ -5,10 +5,10 @@ Overhauls how the turbo works, for more useful performance and new effects.
 
 ![TurboFix](resources/5TurboFix.png)
 
-<a href="https://github.com/ikt32/scripts-updates/releases?q=%22TurboFix%22"
+<a href="https://www.gta5-mods.com/scripts/turbofix-2"
    target="_blank"
    class="download-button"
-   title="View and download all releases on GitHub">📥Releases</a>
+   title="Download from GTA5-Mods.com">📥Releases</a>
 
 * ToC Placeholder
 {:toc}

@@ -9,10 +9,10 @@ accurate-to-life engine responses.
 ![Interface](resources/5CTM/CTM-1.2.0.jpg)
 (Engine torque map and generated info as visualized in-game by the script)
 
-<a href="https://github.com/ikt32/scripts-updates/releases?q=%22Custom+Torque+Map%22"
+<a href="https://www.gta5-mods.com/scripts/custom-torque-map"
    target="_blank"
    class="download-button"
-   title="View and download all releases on GitHub">📥Releases</a>
+   title="Download from GTA5-Mods.com">📥Releases</a>
 
 * ToC Placeholder
 {:toc}
