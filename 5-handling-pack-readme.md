@@ -2,7 +2,7 @@
 
 ![Image](resources/5handling.jpg)
 
-<a href="https://www.gta5-mods.com/vehicles/project-skill-issue"
+<a href="https://www.gta5-mods.com/vehicles/project-skill-issue-handling-overhaul"
    target="_blank"
    class="download-button"
    title="Download from GTA5-Mods.com">📥Releases</a>

@@ -66,7 +66,7 @@ Expands the driving immersion and experience with:
 
 [![Manual Transmission](resources/5handling.jpg){:width="480"}](5-handling-pack-readme)<br>
 [<span style="font-size:1.5em;">`📖 README`</span>](5-handling-pack-readme)
-[<span style="font-size:1.5em;">`📥 Releases`</span>](https://www.gta5-mods.com/vehicles/project-skill-issue){:target="_blank"}
+[<span style="font-size:1.5em;">`📥 Releases`</span>](https://www.gta5-mods.com/vehicles/project-skill-issue-handling-overhaul){:target="_blank"}
 [<span style="font-size:1.5em;">`🛠️ Changelog`</span>](5-handling-pack-changelog)
 
 Handling overhaul for GTA V, addresses every ground vehicles' handling. Optimized for

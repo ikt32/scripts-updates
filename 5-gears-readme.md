@@ -74,7 +74,7 @@ Mods that counter the power loss when sliding sideways (Also partially mitigated
 The default grip levels cause the wheel to bounce left and right because they're too grippy.
 These handlings have reduced grip to realistic levels, and are essential for playing with a wheel. Mix and match all you need, as these don't overlap much.
 
-* [Project Skill Issue](https://www.gta5-mods.com/vehicles/project-skill-issue) by me, with realistic slip angles and traction values.
+* [Project Skill Issue](https://www.gta5-mods.com/vehicles/project-skill-issue-handling-overhaul) by me, with realistic slip angles and traction values.
 * [Realistic Driving V](https://www.gta5-mods.com/vehicles/realistic-driving-v) by killatomate
 * [Aquaphobic's Realistic Handling Pack](https://www.gta5-mods.com/vehicles/realistic-handling-packs)
 * [Lore Friendly Handling Pack](https://www.gta5-mods.com/vehicles/lore-friendly-handling-pack) by Eddlm
