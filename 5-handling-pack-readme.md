@@ -42,6 +42,8 @@ Optional:
 
 ## Development info
 
+This project finally came together as I wanted to apply what's in my [handling guide](handling-guide) and [Manual Transmission force feedback notes](5-gears-readme#force-feedback), as I found existing handling packs lacking in the specific traction values I liked to see.
+
 AI Transparency: This was developed using AI assistance for analysis and repetitive/boilerplate work. A lot of validation
 was done, but I couldn't have cooked up hundreds of entries from scratch.
 
