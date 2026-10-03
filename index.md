@@ -62,6 +62,19 @@ Expands the driving immersion and experience with:
 * realistic and configurable assists
 * and much more
 
+## [Project Skill Issue Handling Overhaul](5-handling-pack-readme)
+
+[![Manual Transmission](resources/5handling.jpg){:width="480"}](5-handling-pack-readme)<br>
+[<span style="font-size:1.5em;">`📖 README`</span>](5-handling-pack-readme)
+[<span style="font-size:1.5em;">`📥 Releases`</span>](https://www.gta5-mods.com/vehicles/project-skill-issue){:target="_blank"}
+[<span style="font-size:1.5em;">`🛠️ Changelog`</span>](5-handling-pack-changelog)
+
+Handling overhaul for GTA V, addresses every ground vehicles' handling. Optimized for
+steering wheels with realistic traction values, uses Custom Gear Ratios, TurboFix, Custom Torque Map and
+Manual Transmission for configuring the whole vehicle's handling.
+
+[Vehicle reference list](5-handling-pack-vehref)
+
 ## [Custom Gear Ratios](5-cgr-readme)
 
 [![Custom Gear Ratios](resources/5CGR_Menu1.png){:width="480"}](5-gears-readme)<br>
