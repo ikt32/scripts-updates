@@ -31,13 +31,28 @@ variant of the engine, taking those torque numbers, and using TurboFix to create
 the corresponding boost power and spool-up to match up with the actual behavior.
 
 To tune the top speed **for stock gear ratios**, use the following formula:
-`fInitialDriveMaxFlatVel = topGearMaxSpeedKph*0.75`
+`fInitialDriveMaxFlatVel = topGearMaxSpeedKph * 0.75`
 
 This is because there is a 1.2 factor between `fInitialDriveMaxFlatVel` and
 an internal top speed variable. On top of that, the top gear ratio is usually
 0.9. Just take the top speed achievable with the top gear and use this number
 here - this should be your baseline handling.meta top speed,
 before applying custom gear ratios.
+
+When setting up handlings with Custom Gear Ratios, it's a good idea to
+select a `DriveMaxVel` value that matches the real-life vehicle you aim to
+simulate.
+
+* Find the top speed in km/h in a theoretical gear with ratio 1.0, at redline.
+  Call this `V1`.
+  This will be our "base" road speed, which incorporates the final drive and
+  wheel diameter. These components do not exist within GTA's transmission logic.
+  * This value can be obtained from documentation of theoretical
+    top speeds per gear and multiplying by gear ratio.
+  * Or experimentally by banging off the limiter, noting down the speed, and
+    multiplying the speed by the gear ratio.
+* In `handling.meta`: set `fInitialDriveMaxFlatVel = V1 * 0.75`
+* In Custom Gear Ratios: set `DriveMaxVel = V1 / 3.6` (because units are in m/s)
 
 ## Grip and handling feel
 
