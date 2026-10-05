@@ -1,5 +1,11 @@
 # Changelog for Manual Transmission for GTA V
 
+## 5.9.1
+
+* Fix FFBv3 not working on Legacy
+* Revert FFB playback to more compatible method (Fixes Moza wheels having no FFB)
+* Fix FFB shutdown keeping game process open
+
 ## 5.9.0
 
 While developing my upcoming handling overhaul, the steering feel in Manual Transmission still did not feel entirely right. Specifically the initial force feedback build up as you start cranking the wheel, which still didn't feel communicative enough unless I cranked up the responsivity curve, but that muddied away finer details when the steering force was strong.
