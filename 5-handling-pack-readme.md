@@ -20,7 +20,12 @@ Features:
 * Chassis and weight transfer overhaul: Uses inertia, suspension and traction balance changes to allow weight transfer, keeps vehicle responsive despite realistically low grip values for the tires
 * Braking bias correction to reduce unrealistic rear-wheel brake locking, disable ABS for appropriate vehicles
 * Drive bias corrections to mirror real-life counterpart drivetrains
-* This *IS* an uncompromising handling pack, primarily geared for steering wheels, but it should still feel good and playable on a gamepad. However: No more near-infinite grip - this means that you do need to slow down for turns!
+* Reduce excessive off-throttle slowing for more natural coasting.
+* Disable turbulence on planes, helicopters and blimps
+* Remove the artificial dirt-road speed cap and increase surface drag instead: powerful cars can push through, while weaker cars get bogged down.
+* Remove off-road flags, which artificially boosted gravity (vegetation now does affects vehicles consistently, but this effect has been reduced via materials).
+
+This *IS* an uncompromising handling pack, primarily geared for steering wheels, but it should still feel good and playable on a gamepad. However: No more near-infinite grip - this means that you do need to slow down for turns!
 
 ## Requirements
 
