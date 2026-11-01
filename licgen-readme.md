@@ -1,143 +1,163 @@
 # License Generator
 
-License Generator enables usage of software and programs by ikt. It checks if you are eligible for a license
-through Patreon. If you are, it generates a unique license for your system.
+This application generates license files for your computer, which enables usage
+of my programs (plugins, mods, scripts).
 
-Programs and software that use this license will automatically detect and use it.
+Eligibility is verified against Patreon - current and past subscribers to
+[my Patreon](https://www.patreon.com/c/ikt/) using the "supporter" tier are eligible.
 
-## Features
+## What to expect
 
-* Unrestricted number of activations on any number of systems as long as eligible<sup>[[1]](#notes-1)</sup>
-* License stays forever valid for *activated system configuration*<sup>[[2]](#notes-2)</sup>
-* Offline license: everything stays on your system<sup>[[3]](#notes-3)</sup><sup>[[4]](#notes-4)</sup>
-
-Check the [Notes section](#notes) for more information.
+* License files are tied to the computer they're generated on. Licenses are not
+  transferrable between computers.
+* Multiple licenses may be generated for different computers using the same
+  eligible Patreon account.
+* License files may become incompatible as the computer configuration changes. In these cases,
+  please re-generate the license by re-running this generator.
+* Programs that require this license will automatically pick it up.
+* This generator requires connection to Patreon to verify eligibility.
+* License usage is checked locally/offline only, so no connectivity is needed after generating.
 
 ## Download
 
-The License Generator tool is only available and applicable for Patrons.
+The License Generator tool is available and applicable for current and past subscribers
+to my Patreon.
 
-The latest License Generator is always linked in the welcome note on
-[your Patreon membership page](https://www.patreon.com/c/ikt/membership){:target="_blank"}
+The latest License Generator is linked in the welcome note on
+[your Patreon membership page](https://www.patreon.com/c/ikt/membership)
 for my campaign.
 
-The current version is available from [this post](https://www.patreon.com/posts/127069187){:target="_blank"}
+Also listed in posts with
+[the tag `license generator`](https://www.patreon.com/cw/ikt/posts?filters%5Btag%5D=license+generator).
 
 ## Usage
 
 Before you start:
 
-* Make sure the game is closed.
+* Make sure the program/game running the plugin you want to activate is closed.
 * Make sure Patreon.com can be reached from your computer.
-* [Make sure you have at least the "Supporter" tier](https://www.patreon.com/c/ikt/membership){:target="_blank"}.
-* [Download the License Generator from the Patreon membership page](https://www.patreon.com/c/ikt/membership){:target="_blank"}.
-  `LicenseGenerator.exe` can be placed anywhere you want.
-
-<div style="page-break-after: always;"></div>
+* Make sure you have access to the Patreon account with the Supporter tier or had supported with this tier in the past.
 
 ### 1: Starting the application
 
-Start `LicenseGenerator.exe`. It opens a command prompt with instructions and also opens a browser window
+Start `LicenseGenerator.exe`, then click **Continue with Patreon**. Your browser will open the Patreon authorization page.
 
 <div style="text-align:center">
-  <img alt="Launch executable" src="resources/LicGen_File.png" />
-  <img alt="Command window" src="resources/LicGen_PreAuth.png" />
+  <img alt="License Generator before signing in" src="resources/LicGen_PreAuth.png" />
 </div>
 
-If a license is already detected, you must type `Y` to overwrite it, or `N` to close the license generator.
+If you already have a license, License Generator backs it up before saving a new one.
 
 <div style="page-break-after: always;"></div>
 
 ### 2: Authorizing License Generator on Patreon
 
-Authorize the License Generator in Patreon, in the opened browser window.
-If the window does not open or if you are logged into an eligible Patreon account in a different browser,
-the URL in the browser or in the command prompt can be copied and pasted into another browser.
+Sign in with the account that subscribed to my Patreon, then authorize License Generator on Patreon.
 
 <div style="text-align:center">
   <img height=480px alt="Patreon authorization prompt" src="resources/LicGen_Patreon_Prompt.png"/>
+</div>
+
+If your browser doesn't open, click **Open browser again**.
+If you're signed into the right account in another browser, click **Copy sign-in link** and paste it there.
+
+<div style="text-align:center">
+  <img alt="License Generator during sign in" src="resources/LicGen_AwaitAuth.png" />
 </div>
 
 <div style="page-break-after: always;"></div>
 
 ### 3: Finalizing
 
-The license generator is now finished and can be closed.
+Wait until License Generator says **Your license is ready**, then click **Done**.
 
-License Generator creates the license file at `%localappdata%\ikt\License\`.
-**You don't need to do anything with this file**: anything that that uses the license
-automatically reads it from the correct location.
-
-The software can now be started and used.
+The license file is saved as `%localappdata%\ikt\License\0.0.lic`.
+**You don't need to do anything with this file**: programs/plugins will read it automatically when you start them.
 
 <div style="text-align:center">
-  <img alt="Browser post-auth" src="resources/LicGen_Browser_PostAuth.png" />
-  <img alt="Command window post-auth" src="resources/LicGen_PostAuth.png" />
+  <img alt="License Generator after saving the license" src="resources/LicGen_PostAuth.png" />
 </div>
+
+Click **Open license folder** if you want to see the saved files. You can also find this button
+during the other steps by expanding **Show details**.
+
+### Console mode
+
+If you prefer a console interface, run `LicenseGenerator.exe --cli`. It prints the sign-in link
+and asks you to type `Y` to replace a recognized existing license or `N` to exit.
+License Generator also falls back to console mode if it can't open the Windows interface.
 
 ## Troubleshooting
 
-Check the [FAQ](faq#license-generator-troubleshooting){:target="_blank"} for
-things you can try if any issue occurs.
+Check the [FAQ](https://oversteerengineering.com/faq#license-generator-troubleshooting) for things you can try if something goes wrong.
 
-If you're still experiencing issues, please [let me know through Discord](contact).
+If you're still having trouble, you can [let me know](https://oversteerengineering.com/contact). Please include:
 
-Please DM me from `%localappdata%\ikt\License\`, the following files
-
-* `LicenseGenerator.log`
-* `0.0.lic` (or any other `.lic` file)
-* And logs from the affected script (e.g. `Gears.log`).
+* `LicenseGenerator.log` and, if present, `0.0.lic` from the license folder.
+* The log from the project you're having trouble with (for example, `Gears.log`), from that project's folder.
 
 ### Backups
 
-After generating the license and making sure it works, it's a good idea to back up your
-license in case you're factory resetting your computer, or wipe the drive that stores
-your localappdata.
+Once you've checked that your license works, it's a good idea to back up `0.0.lic`.
+To restore it, copy it back to `%localappdata%\ikt\License\`.
+Changing core components or reinstalling Windows may mean you need to generate a new license.
 
-The license should be generated in `%localappdata%\ikt\License\` and it can be restored to
-the same location. After restoring the license file, programs should pick it up and be
-activated again automatically.
+If you lose the file or need a new license, run License Generator again.
+Accounts which have supported in the past can let you do this without resubscribing, as long as Patreon still reports that support and the service is available.
 
-If no backups are made, re-subscribing is necessary to generate a new license.
-
-## Notes
-
-1. <a name="notes-1"></a>
-   You're eligible when you have an active pledge with the account that authorizes License Generator.
-2. <a name="notes-2"></a>
-   Changing several core components causes the system to be considered expired for the license.
-   Re-generation of the license is needed in this situation.
-   N.b.: Reinstalling your operating system may also wipe HWIDs making your system ineligible.
-3. <a name="notes-3"></a>
-   Only the License Generator connects with Patreon to check if you are eligible.
-   Programs using it only check the license file locally.
-   Associated software may or may not individually check select GitHub repositories to notify for
-   updates or to pull in data for required functionality; this is not related to the license.
-4. <a name="notes-4"></a>
-   The License Generator **must** be able to connect with Patreon to verify you're eligible.
-   Ensure your computer has access to Patreon.com.
+For the Terms of Use, see [below](#terms-of-use).
 
 <div style="page-break-after: always;"></div>
 
+## Changelog
+
+### 2.0.0
+
+* Allow past supporters to generate licenses
+* Add a Windows interface with a console fallback
+
+### 1.2.1
+
+* Fix an issue with searching for subscription failing
+
+### 1.2.0
+
+* Use fallback ports if the ones the application wants to use are already in use by another application.
+* Test basic Patreon connection before authorization to verify clear network access.
+
+### 1.1.0
+
+* Improve support for systems with switchable graphics.
+
+### 1.0.1
+
+* Fixed several issues relating to Patreon authorization and authentication failing.
+
+### 1.0.0
+
+* Initial release, creating license version "0.0".
+
 ## Terms of Use
 
-This Software Use Agreement ("Agreement") is between ikt ("Author") and the User (the subscriber who uses the services). By subscribing to the Author's Patreon campaign and using the software described below, the User agrees to these terms.
+This Software Use Agreement ("Agreement") sets out the terms between ikt ("Author") and the person obtaining access to and using the software described below ("User").
+
+These are one-person projects developed in spare time. Support provides the access described for each offering.
+Future development and personal assistance are at the Author's discretion.
+Rights and responsibilities required by law still apply.
 
 ### 1. License to use the software
 
 * **Scope and Access:**\
-  By subscribing to the Author's Patreon campaign, the User is granted access to selected personal projects (“the Projects”). Access is managed via Patreon-based verification and does not constitute a sale, rental, or commercial license of any kind.
-  The Projects are created and maintained at the Author's discretion and are intended for personal, single-player use only. They are distributed for non-commercial purposes and may not be used, integrated, or distributed in any commercial or public-facing context.
-  All content is provided “as-is,” without any guarantees of functionality, compatibility, updates, or ongoing support. Redistribution, resale, sublicensing, or any other form of unauthorized dissemination is strictly prohibited. All rights not expressly granted remain with the Author.
+  Eligible membership or qualifying past support provides access to the projects described for that offering (“the Projects”). They are for personal, single-player, non-commercial use only. Commercial installations and paid public access are prohibited. Copyright remains with the Author; redistribution, resale and sublicensing are prohibited. All rights not expressly granted remain with the Author.
 
 * **Grant of License:**\
-  While subscribed to the Author's Patreon campaign, the User is granted a non-exclusive, non-transferable right to use the License Generator to create license files ("License") for the Author's software ("Software"). This License permits the User to use the Software on multiple machines, provided that each License is tied to the specific system configuration at the time of creation.
+  Eligible Users may use License Generator to create license files ("License") for the Author's software ("Software"). This is a limited, non-exclusive right of use. The User may activate multiple personal machines, with a separate License generated on each machine.
 
 * **License Restrictions:**\
-  The License generated by the License Generator is linked to the specific system configuration of the machine where it was created. If the configuration changes significantly, the License will become invalid, and a new License must be generated. To generate a new License, the User must be actively subscribed to the Author's Patreon campaign. Licenses cannot be transferred between machines, and the User is prohibited from modifying, reverse-engineering, or redistributing the Software, License Generator, or License.
+  A License is tied to the machine where it was generated. Sharing license files and bypassing, disabling or tampering with licensing mechanisms are prohibited. Unauthorized modification, reverse-engineering and redistribution are also prohibited.
 
 * **System Configuration Definition:**\
-  For purposes of license validation, "system configuration" refers to core hardware and software components including, but not limited to: the operating system, motherboard, processor, and other critical system identifiers. Changes to multiple core components and/or the operating system will invalidate the License and require generation of a new License while actively subscribed.
+  Licenses use hardware and operating-system identifiers. Changes to core components or the operating system may require regeneration while eligible.
 
 * **Affiliation Disclaimer:**\
   The Software is an independent creation and is not affiliated with, endorsed by, or associated in any way with the original developers of the applicable games. All content within this Software is the work of the Author and does not represent the views or work of Original Developer. All trademarks and copyrights are the property of their respective owners.
@@ -145,120 +165,94 @@ This Software Use Agreement ("Agreement") is between ikt ("Author") and the User
 ### 2. Subscription terms
 
 * **Access to License Generator:**\
-  The User can generate licenses only while they are subscribed to the Author's Patreon campaign. If the subscription is canceled, the User will no longer be able to generate new licenses, but any licenses already created will still work on their machine.
-  Access to License Generator requires an active pledge to the "Supporter" tier.
+  License Generator checks the User's Patreon account for an eligible paid membership or qualifying past support.
 
 * **Post-Subscription Access:**\
-  If the User cancels their subscription to the Authors' Patreon campaign, they are no longer eligible to generate new licenses. However, any licenses already created remain valid on the original machine, unless the machine's configuration changes significantly.
+  Canceling a subscription leaves existing Licenses intact. Qualifying past support can also allow regeneration. Licenses have no scheduled expiry and remain tied to their system configuration and the software versions they cover.
 
 ### 3. As-is disclaimer
 
-* **No Warranty:**\
-  The Software and License Generator are provided "as is," with no warranties of any kind. The Author makes no promises about the performance or availability of the Software or License Generator.
+* **Software condition:**\
+  The Software and License Generator are provided "as is" and may contain bugs. Supported environments and known limitations are described with each release. No extra guarantee is offered.
 
 * **No Support Obligation:**\
-  The Author has no obligation to provide technical support, updates, or fixes for the Software, License Generator, or License. The User is responsible for maintaining their system and ensuring it works with the Software.
-
-  The Software may be rendered incompatible by updates to applicable games. The Author is under no obligation to provide updates to the Software to be compatible with game updates. The User is responsible for creating and restoring backups if they wish to proceed using the Authors' Software after a game is pushed.
+  Development and assistance depend on the Author's available time and priorities. Subscriptions do not include on-demand work, release deadlines, guaranteed replies or individual troubleshooting. Game updates can break compatibility; support for later game builds is at the Author's discretion. Users should check release requirements before updating and keep their own backups.
 
 * **Platform Compatibility:**\
-  The Software and License Generator are designed for x86, 64-bit Windows PCs. The Author makes no guarantees that the Software or License Generator will work on other platforms (e.g., ARM, Linux, macOS, emulators, or compatibility layers like WINE).
-
-* **No Support for Non-Windows Systems:**\
-  The Author does not provide support for issues arising from using the Software or License Generator on platforms other than Windows. Any attempts to use them on other platforms are at the User's own risk.
+  Supported platforms are x86-64 Windows PCs. Other platforms and compatibility layers, including Wine and Proton, are unsupported. Users are responsible for configuring their hardware and following its manufacturer's safety instructions.
 
 * **No Endorsement for Online Use:**\
-  The Software and any associated modifications are intended solely for use in the single-player mode of Grand Theft Auto V ("GTA V"). The Author does not endorse or support the use of these modifications in GTA: Online. The Author explicitly discourages the use of these modifications in GTA: Online, and any attempt to use them in online modes could result in penalties from Rockstar Games, including but not limited to account suspension or banning. The Author will not answer any questions or provide support related to using modifications in GTA: Online or with third-party multiplayer mods.
+  Use is limited to single-player. GTA Online and third-party multiplayer mods are unsupported. Using game modifications online can lead to account penalties from the game operator.
 
 ### 4. Availability and online reliance
 
 * **Reliance on Third-Party Services:**\
-  The License Generator relies entirely on the Patreon API to check the User’s subscription status and generate licenses. The Author cannot guarantee the availability or reliability of the Patreon API. The User is responsible for ensuring they can access Patreon services normally. Using tools like VPNs or proxies may interfere with the License Generator, and the Author is not responsible if these tools prevent communication with Patreon.
+  Activation and downloads depend on Patreon and hosting services. Changes to their APIs, policies or availability can interrupt or end access. Activation uses the existing Patreon-based tool; manual activation and replacement infrastructure are outside this offering. Already generated licenses are checked locally.
 
 * **Connection Issues:**\
-  The Author is not responsible for issues caused by an inability to connect to the Patreon API, including network disruptions, Patreon outages, or the User's use of VPNs, proxies, or similar tools.
+  The User manages their network and VPN settings. License Generator itself must reach Patreon; a browser-only VPN covers the browser's requests. Network problems and Patreon outages can prevent generation.
 
-### 5. Limitations of liability
+### 5. Responsibility for damage
 
-* **No Liability for Damages:**\
-  Under no circumstances will the Author be liable for any direct, indirect, or incidental damages that result from the use or inability to use the Software, License Generator, or License, including damage to hardware, loss of data, or software conflicts.
+* **Use and losses:**\
+  The User is responsible for their setup, backups and use of the Software. As far as the law allows, the Author accepts no liability for losses from using or being unable to use the Software, including data loss, hardware damage or business losses.
 
-* **Indemnification:**\
-  The User agrees to defend and hold the Author harmless against any claims, damages, or liabilities resulting from misuse of the Software, License Generator, or License.
+* **Misuse:**\
+  The User is responsible for losses caused by their unlawful misuse or unauthorized distribution of the Software, License Generator or License.
 
 ### 6. Intellectual property rights
 
 * **Ownership:**\
-  The Software, License Generator, and all related intellectual property rights belong to the Author. The User’s subscription gives them a limited, non-exclusive right to use the License Generator and create Licenses, but no ownership is transferred.
+  The Software, License Generator, and all related intellectual property rights belong to the Author. Eligibility grants a limited, non-exclusive right of use under this Agreement; no copyright ownership is transferred.
 * **Original work:**\
   The Software is an original work of systems programming. It interacts with third-party software solely via volatile memory (RAM) and public API exports. It does not contain, reproduce, or distribute any proprietary code, assets, or binaries belonging to the Original Developer.
 
 ### 7. Termination
 
 * **Termination of Access:**\
-  If the User violates the terms of this Agreement or cancels their subscription, they will no longer be eligible to generate new licenses. However, any licenses already created will remain valid, provided the machine’s configuration remains unchanged. Access to the Author's personal projects and the License Generator is a privilege extended during the subscription period.
+  Breaking these terms can end permission to access the Projects, community channels or assistance. Subscription cancellation is covered in section 2. Existing license files are not remotely deactivated when a subscription ends.
 
 ### 8. Renewal of licenses due to system configuration changes
 
 * **License Renewal Requirement:**\
-  If a machine’s system configuration changes significantly (such as changes to multiple core hardware components and/or the operating system) and the License stops working, the User must be subscribed to the Author's Patreon campaign to generate a new License. Licenses will not renew automatically, and the User must ensure they are subscribed when renewing a License.
+  When system changes invalidate a License, run License Generator again. Regeneration requires Patreon to confirm eligibility through an eligible membership or qualifying past support.
 
 * **Upgraded License Requirements for New Versions:**\
-  The Author may release new software or updated versions of existing software that require a different or upgraded license to function. Users must generate a new license using the updated License Generator while subscribed to the Author's Patreon campaign in order to use these new versions. This new license does not invalidate the old license; both the new and old licenses can exist together, allowing the User to continue using software activated with a previous version of the license alongside updated versions.
+  New major versions or different projects may have separate license or support requirements, described with that offering. These leave rights already granted for earlier versions intact. Future releases are at the Author's discretion.
 
 ### 9. Refunds and cancellation
 
 * **Refunds:**\
-  Refunds to pledges may be issued in case of exceptional circumstances, at the discretion of the Author. Refunds may not be issued in the following cases:
-  * Failure to acknowledge the general usage and subscription terms described in sections 1, 2 and 7.
-  * Failure to acknowledge the technical restrictions regarding License Generator requirements described sections 3, 4 and 5.
-  * Any misunderstanding in the nature of software requiring this License.
-  * Any incompatibility issue while using software requiring this License.
-  * Use of the license for evaluation purposes of the software requiring this License.
-  * Refunds requested after an unreasonably long time (more than 1 month ago). Refunds requested after Patreon's 3 month refund window will not be issued.
-  * Violation of the code of conduct set out in the "rules" channel in the Author's Discord server, or other unacceptable behavior through any other channels.
+  Refunds required by law remain available. Other refunds are at the Author's discretion and generally exclude changes of mind, unsupported setups, evaluation use, terms violations and requests more than one month after payment. Please check the documented requirements before subscribing.
 
-  Refunds are issued within the constraints of [Patreon's Relationship manager](https://support.patreon.com/hc/en-us/articles/115001243446-How-do-I-refund-my-members-and-customers), no refunds are issued outside of Patreon.
+  Refund processing follows [Patreon's current refund policy](https://support.patreon.com/hc/en-us/articles/205032045-Patreon-s-refund-policy) and the original payment method. Platform processing limits do not remove legal rights.
 
 ### 10. Community Standards and Support Access
 
 * **Patronage relationship:**\
-  The User acknowledges that their pledge is a voluntary contribution to support the Author’s research and development.
-  It is not a ‘service contract’. Patronage does not entitle the User to any specific outcomes, services, or legal claims.
-  The Author reserves the right to terminate support access for behavior violating community guidelines.
-  Examples of unacceptable behavior are, but not limited to: hostility, threats, disruptive communication, entitlement, etc.
+  Contributions support independent development and provide the access described for each offering. Development and assistance follow section 3.
 
 * **Discretionary Support:**\
-  The Author provides support at sole discretion. Support may be refused to users who: engage in abusive
-  or harassing behavior; violate community rules in Discord or any other channels; violate the terms of this
-  Agreement (including unauthorized sharing, redistribution, or reverse-engineering); or otherwise demonstrate
-  bad faith. The Author is not obligated to interact with, provide assistance to, or resolve issues for any user.
+  The Author chooses which reports and requests to address and may decline assistance or further discussion. A previous reply or fix does not create an ongoing support arrangement.
 
 * **Community Bans:**\
-  Users banned from Discord or other community channels for violation of conduct rules waive their right to support
-  through those channels and others. The Author will not engage with banned users regarding support requests,
-  troubleshooting, or appeals except in exceptional circumstances at the Author's sole discretion.
-  Attempting to evade bans through alternate accounts or circumvention of support restrictions violates this Agreement.
+  Threats, harassment and repeated unwanted contact can result in bans and blocked contact. Bans remove access to community channels and discretionary assistance. The Author may decline contact and appeals. Evading a ban through other accounts or channels is prohibited.
 
 ### 11. Miscellaneous
 
 * **Governing Law:**
-  This Agreement is governed by and construed in accordance with the laws of the Netherlands,
-  without regard to its conflict of laws principles.
+  Dutch law governs this Agreement. Mandatory protections under other applicable laws still apply.
 
 * **Severability:**
-  If any provision of this Agreement is found to be invalid or unenforceable, that provision will be
-  severed, and the remaining provisions will continue in full force and effect.
+  If a clause is unenforceable, the remaining clauses continue to apply where legally possible.
 
 * **Entire Agreement:**
-  This Agreement constitutes the entire agreement between the Author and User regarding the Software
-  and supersedes all prior negotiations, representations, and agreements.
+  These terms and the benefits described for the relevant offering define the agreement. Suggestions and roadmap discussions describe possible future work.
 
 * **Waiver:**
-  The Author's failure to enforce any right or provision of this Agreement does not constitute a waiver
-  of that right or provision. Any waiver must be in writing and signed by the Author.
+  Choosing not to enforce a term on one occasion does not waive it for future occasions. A waiver must be agreed in writing.
 
 ### 12. Modifications to this agreement
 
 * **Right to Modify:**\
-  The Author reserves the right to modify this Agreement at any time. Changes to this license may be tracked through [the commit history for this file](https://github.com/ikt32/scripts-updates/commits/master/licgen-readme.md).
+  Updated terms apply to future offerings and to existing arrangements only where the law permits. Rights already granted remain intact. Material changes will state their effective date. The [commit history](https://github.com/ikt32/scripts-updates/commits/master/licgen-readme.md) records edits.

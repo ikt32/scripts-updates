@@ -18,8 +18,8 @@ changes are implemented. Steering wheel support currently is *not* accessible ye
 The following paragraphs apply as soon as the final versions are posted.
 
 The steering wheel support software is a separate component and is available through Patreon. To use this,
-a license is needed, which can be generated using the [License Generator](licgen-readme){:target="_blank"} while
-having the Supporter tier on Patreon.
+a license is needed, which can be generated using the [License Generator](licgen-readme){:target="_blank"}
+with an eligible paid membership or qualifying past support through Patreon.
 
 ### Q: Where do I get License Generator?
 
@@ -35,9 +35,9 @@ Yes, you need to pay for the Patreon-exclusive peripheral support software.
 
 ### Q: Can I pay once?
 
-Yes, the license you generate *while subscribed* is valid for *however long you use your PC in its current form*.
-After verifying that everything is up and running, you may terminate the subscription. If you need to create
-a new license (e.g. after a PC upgrade), you *will* need to re-subscribe to re-run the license generator.
+An existing license has no scheduled expiry and remains tied to your PC's system configuration.
+Qualifying past support can also allow regeneration after canceling your membership, for example after a PC upgrade.
+Regeneration depends on Patreon remaining available and reporting the required account information.
 
 [Please read this for the full details](licgen-readme).
 
@@ -50,10 +50,13 @@ generate a license for you, so please check before subscribing that you are able
 
 ### Q: Do I need to create a new license for updates?
 
-No. Updates are free once you already have a license. The updated binary is accessible without Patreon subscription.
+Updates that I release under the current license model are generally compatible with a license you already generated.
+Where an updated binary is made available without an active subscription, you can download and use it with that license.
 
-If a break in license model is planned, this will be communicated. Any change will not invalidate existing licenses or
-installations.
+New major versions or different projects may require a new license or a different support tier. When and if this
+happens, there will be communication about this.
+
+I develop these projects in my spare time. Future updates and their timing are at my discretion.
 
 ### Q: How do I properly activate your content after subscribing to Patreon?
 
@@ -75,22 +78,23 @@ Early access content has no demo mode, but their readme documents should explain
 
 ## License Generator troubleshooting
 
-### Q: License Generator claims it's not authorized
+### Q: License Generator cannot finish signing in
 
-Or keeps loading after allowing in Patreon.
+The message in the application distinguishes a connection problem, declined authorization, and an account
+without qualifying membership or past support. A completed sign-in can still result in an eligibility failure.
 
-This likely means License Generator cannot connect to Patreon.
-Please verify that License Generator can get a connection to Patreon:
+For connection or browser problems:
 
-* If you need to access Patreon through a VPN, License Generator will *not* work out of the box.
-  You may try a system-wide VPN, but I give *zero* guarantees that such a thing will work.
+* License Generator itself must reach Patreon. A browser-only VPN does not route the application's requests;
+  if you need a VPN, configure your desktop VPN to include License Generator. Compatibility with a particular VPN is not guaranteed.
 * Verify that License Generator is allowed through your firewall.
-* Verify that the port (8080) used by License Generator is not used by another application.
-  * License Generator 1.2.0 also tries ports 8032 and 8086 in case 8080 fails.
-* Try allowing Patreon with another browser.
+* The application tries local callback ports 8080, 8086, and 8032. Close other running copies if no port is available.
+* Use **Open browser again** or **Copy sign-in link** to finish the current attempt in the correct browser and Patreon account.
+  Old authorization tabs may belong to an earlier attempt.
 
-If problems persist, please join my [Discord server](contact){:target="_blank"}
-and DM me log files (located in `%localappdata%\ikt\License`).
+If you choose to report a problem, use the [contact information](contact){:target="_blank"}
+and include `LicenseGenerator.log` from `%localappdata%\ikt\License` privately. **Show details** in the application
+provides an **Open license folder** button. Reports do not include a promise of a reply or individual troubleshooting.
 
 ### Q: Antivirus software claims License Generator is malicious?
 
@@ -109,7 +113,8 @@ in messing up your computer.
 
 ### Q: Does License Generator work on Linux?
 
-From my own tests - yes. The License Generator should be launched in the same environment GTA V runs in.
+An older console release worked in my tests below. The v2 Windows interface has not been verified in this setup;
+`LicenseGenerator.exe --cli` selects console mode if needed. License Generator should be launched in the same environment GTA V runs in.
 
 It's best to use `protontricks` if you're using a Steam-based installation, e.g. on a Steam Deck.
 
@@ -150,7 +155,7 @@ protontricks-launch --appid 271590 "/home/<username>/.steam/steam/steamapps/comm
 ```
 
 No guarantees for compatibility are given per [the terms of License Generator](licgen-readme){:target="_blank"}.
-No support will be given to get it to work on your setup, no refunds will be issued for problems getting things to work in Linux.
+Individual setup support and voluntary refunds for unsupported Linux configurations are not offered.
 
 #### Possible issues and fixes in Linux
 
@@ -159,9 +164,9 @@ the license may get invalidated as this may be detected as a significant system 
 re-activation is required. It's best to first get the game as stable/running well as possible, and to then
 generate the license.
 
-If renewing the license, make sure to rename/remove the old license.
-Launching License Generator through protontricks somehow eats up the Y/N prompt of renewing the license,
-and closes the application. Re-run it after renaming the old license.
+With the older console release, protontricks sometimes swallowed the Y/N prompt when renewing a license.
+The v2 Windows interface uses buttons and backs up an existing license before replacing it. If using console mode,
+keep a backup of the old license before moving it aside to work around an input problem.
 
 Generating the license in other ways (e.g. through Wine's Explorer) may generate it under a different user or
 a different system fingerprint.
@@ -180,8 +185,9 @@ If the license is picked up as expired, the license needs to be re-generated.
 If you do reset your PC, please keep in mind to keep everything (user name, hostname) identical to the old
 configuration.
 
-If the license has not been backed up and the drive has been wiped, it's unfortunately not possible to
-recover and you need to re-subscribe to be able to generate a new license.
+If the license has not been backed up and the drive has been wiped, it cannot be restored from that drive.
+Run License Generator again with the same Patreon account. Qualifying past support can allow regeneration
+without resubscribing, subject to the verification service remaining available and returning the required information.
 
 ## Compatibility
 
