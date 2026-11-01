@@ -65,3 +65,8 @@
   text-decoration: none;
   background-color: #2d7230; /* Slightly darker green */
 }
+
+.main-content summary {
+  display: list-item;
+  cursor: pointer;
+}

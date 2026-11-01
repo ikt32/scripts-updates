@@ -139,6 +139,10 @@ For the Terms of Use, see [below](#terms-of-use).
 
 ## Terms of Use
 
+<details markdown="1">
+
+<summary>Click to expand Terms of Use</summary>
+
 This Software Use Agreement ("Agreement") sets out the terms between ikt ("Author") and the person obtaining access to and using the software described below ("User").
 
 These are one-person projects developed in spare time. Support provides the access described for each offering.
@@ -147,112 +151,114 @@ Rights and responsibilities required by law still apply.
 
 ### 1. License to use the software
 
-* **Scope and Access:**\
+* **Scope and Access:**<br>
   Eligible membership or qualifying past support provides access to the projects described for that offering (“the Projects”). They are for personal, single-player, non-commercial use only. Commercial installations and paid public access are prohibited. Copyright remains with the Author; redistribution, resale and sublicensing are prohibited. All rights not expressly granted remain with the Author.
 
-* **Grant of License:**\
+* **Grant of License:**<br>
   Eligible Users may use License Generator to create license files ("License") for the Author's software ("Software"). This is a limited, non-exclusive right of use. The User may activate multiple personal machines, with a separate License generated on each machine.
 
-* **License Restrictions:**\
+* **License Restrictions:**<br>
   A License is tied to the machine where it was generated. Sharing license files and bypassing, disabling or tampering with licensing mechanisms are prohibited. Unauthorized modification, reverse-engineering and redistribution are also prohibited, except where permitted by mandatory applicable law.
 
-* **System Configuration Definition:**\
+* **System Configuration Definition:**<br>
   Licenses use hardware and operating-system identifiers. Changes to core components or the operating system may require regeneration while eligible.
 
-* **Affiliation Disclaimer:**\
+* **Affiliation Disclaimer:**<br>
   The Software is an independent creation and is not affiliated with, endorsed by, or associated in any way with the original developers of the applicable games. All content within this Software is the work of the Author and does not represent the views or work of Original Developer. All trademarks and copyrights are the property of their respective owners.
 
 ### 2. Subscription terms
 
-* **Access to License Generator:**\
+* **Access to License Generator:**<br>
   License Generator checks the User's Patreon account for an eligible paid membership or qualifying past support.
 
-* **Post-Subscription Access:**\
+* **Post-Subscription Access:**<br>
   Canceling a subscription leaves existing Licenses intact. Qualifying past support can also allow regeneration. Licenses have no scheduled expiry and remain tied to their system configuration and the software versions they cover.
 
 ### 3. As-is disclaimer
 
-* **Software condition:**\
+* **Software condition:**<br>
   The Software and License Generator are provided "as is" and may contain bugs. Supported environments and known limitations are described with each release. No extra guarantee is offered.
 
-* **No Support Obligation:**\
+* **No Support Obligation:**<br>
   Development and assistance depend on the Author's available time and priorities. Subscriptions do not include on-demand work, release deadlines, guaranteed replies or individual troubleshooting. Game updates can break compatibility; support for later game builds is at the Author's discretion. Users should check release requirements before updating and keep their own backups.
 
-* **Platform Compatibility:**\
+* **Platform Compatibility:**<br>
   Supported platforms are x86-64 Windows PCs. Other platforms and compatibility layers, including Wine and Proton, are unsupported. Users are responsible for configuring their hardware and following its manufacturer's safety instructions.
 
-* **No Endorsement for Online Use:**\
+* **No Endorsement for Online Use:**<br>
   Use is limited to single-player. GTA Online and third-party multiplayer mods are unsupported. Using game modifications online can lead to account penalties from the game operator.
 
 ### 4. Availability and online reliance
 
-* **Reliance on Third-Party Services:**\
+* **Reliance on Third-Party Services:**<br>
   Activation and downloads depend on Patreon and hosting services. Changes to their APIs, policies or availability can interrupt or end access. Activation uses the existing Patreon-based tool; manual activation and replacement infrastructure are outside this offering. Already generated licenses are checked locally.
 
-* **Connection Issues:**\
+* **Connection Issues:**<br>
   The User manages their network and VPN settings. License Generator itself must reach Patreon; a browser-only VPN covers the browser's requests. Network problems and Patreon outages can prevent generation.
 
 ### 5. Responsibility for damage
 
-* **Use and losses:**\
+* **Use and losses:**<br>
   The User is responsible for their setup, backups and use of the Software. To the extent permitted by law, the Author is not liable for losses caused by misuse, unsupported configurations, third-party software or circumstances beyond the Author's reasonable control. Mandatory consumer rights remain unaffected.
 
-* **Misuse:**\
+* **Misuse:**<br>
   The User is responsible for losses caused by their unlawful misuse or unauthorized distribution of the Software, License Generator or License.
 
 ### 6. Intellectual property rights
 
-* **Ownership:**\
+* **Ownership:**<br>
   The Software, License Generator, and all related intellectual property rights belong to the Author. Eligibility grants a limited, non-exclusive right of use under this Agreement; no copyright ownership is transferred.
-* **Original work:**\
+* **Original work:**<br>
   The Software is an original work of systems programming. It interacts with third-party software solely via volatile memory (RAM) and public API exports. It does not contain, reproduce, or distribute any proprietary code, assets, or binaries belonging to the Original Developer.
 
 ### 7. Termination
 
-* **Termination of Access:**\
+* **Termination of Access:**<br>
   Breaking these terms can end permission to access the Projects, community channels or assistance. Subscription cancellation is covered in section 2. Existing license files are not remotely deactivated when a subscription ends.
 
 ### 8. Renewal of licenses due to system configuration changes
 
-* **License Renewal Requirement:**\
+* **License Renewal Requirement:**<br>
   When system changes invalidate a License, run License Generator again. Regeneration requires Patreon to confirm eligibility through an eligible membership or qualifying past support.
 
-* **Upgraded License Requirements for New Versions:**\
+* **Upgraded License Requirements for New Versions:**<br>
   New major versions or different projects may have separate license or support requirements, described with that offering. These leave rights already granted for earlier versions intact. Future releases are at the Author's discretion.
 
 ### 9. Refunds and cancellation
 
-* **Refunds:**\
+* **Refunds:**<br>
   Refunds required by law remain available. Other refunds are at the Author's discretion and generally exclude changes of mind, unsupported setups, evaluation use and terms violations. Please check the documented requirements before subscribing.
 
   Refund processing follows [Patreon's current refund policy](https://support.patreon.com/hc/en-us/articles/205032045-Patreon-s-refund-policy) and the original payment method.
 
 ### 10. Community Standards and Support Access
 
-* **Patronage relationship:**\
+* **Patronage relationship:**<br>
   Contributions support independent development and provide the access described for each offering. Development and assistance follow section 3.
 
-* **Discretionary Support:**\
+* **Discretionary Support:**<br>
   The Author chooses which reports and requests to address and may decline assistance or further discussion. A previous reply or fix does not create an ongoing support arrangement.
 
-* **Community Bans:**\
+* **Community Bans:**<br>
   Threats, harassment and repeated unwanted contact can result in bans and blocked contact. Bans remove access to community channels and discretionary assistance. The Author may decline contact and appeals. Evading a ban through other accounts or channels is prohibited. Restrictions on community access and discretionary assistance do not prevent the User from exercising statutory rights through appropriate channels.
 
 ### 11. Miscellaneous
 
-* **Governing Law:**
+* **Governing Law:**<br>
   Dutch law governs this Agreement. Mandatory protections under other applicable laws still apply.
 
-* **Severability:**
+* **Severability:**<br>
   If a clause is unenforceable, the remaining clauses continue to apply where legally possible.
 
-* **Entire Agreement:**
+* **Entire Agreement:**<br>
   These terms and the benefits described for the relevant offering define the agreement. Suggestions and roadmap discussions describe possible future work.
 
-* **Waiver:**
+* **Waiver:**<br>
   Choosing not to enforce a term on one occasion does not waive it for future occasions. A waiver must be agreed in writing.
 
 ### 12. Modifications to this agreement
 
-* **Right to Modify:**\
+* **Right to Modify:**<br>
   Updated terms apply to future offerings and to existing arrangements only where the law permits. Rights already granted remain intact. Material changes affecting existing arrangements will be communicated with reasonable advance notice, where required. The [commit history](https://github.com/ikt32/scripts-updates/commits/master/licgen-readme.md) records edits.
+
+</details>
