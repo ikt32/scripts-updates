@@ -154,7 +154,7 @@ Rights and responsibilities required by law still apply.
   Eligible Users may use License Generator to create license files ("License") for the Author's software ("Software"). This is a limited, non-exclusive right of use. The User may activate multiple personal machines, with a separate License generated on each machine.
 
 * **License Restrictions:**\
-  A License is tied to the machine where it was generated. Sharing license files and bypassing, disabling or tampering with licensing mechanisms are prohibited. Unauthorized modification, reverse-engineering and redistribution are also prohibited.
+  A License is tied to the machine where it was generated. Sharing license files and bypassing, disabling or tampering with licensing mechanisms are prohibited. Unauthorized modification, reverse-engineering and redistribution are also prohibited, except where permitted by mandatory applicable law.
 
 * **System Configuration Definition:**\
   Licenses use hardware and operating-system identifiers. Changes to core components or the operating system may require regeneration while eligible.
@@ -195,7 +195,7 @@ Rights and responsibilities required by law still apply.
 ### 5. Responsibility for damage
 
 * **Use and losses:**\
-  The User is responsible for their setup, backups and use of the Software. As far as the law allows, the Author accepts no liability for losses from using or being unable to use the Software, including data loss, hardware damage or business losses.
+  The User is responsible for their setup, backups and use of the Software. To the extent permitted by law, the Author is not liable for losses caused by misuse, unsupported configurations, third-party software or circumstances beyond the Author's reasonable control. Mandatory consumer rights remain unaffected.
 
 * **Misuse:**\
   The User is responsible for losses caused by their unlawful misuse or unauthorized distribution of the Software, License Generator or License.
@@ -223,9 +223,9 @@ Rights and responsibilities required by law still apply.
 ### 9. Refunds and cancellation
 
 * **Refunds:**\
-  Refunds required by law remain available. Other refunds are at the Author's discretion and generally exclude changes of mind, unsupported setups, evaluation use, terms violations and requests more than one month after payment. Please check the documented requirements before subscribing.
+  Refunds required by law remain available. Other refunds are at the Author's discretion and generally exclude changes of mind, unsupported setups, evaluation use and terms violations. Please check the documented requirements before subscribing.
 
-  Refund processing follows [Patreon's current refund policy](https://support.patreon.com/hc/en-us/articles/205032045-Patreon-s-refund-policy) and the original payment method. Platform processing limits do not remove legal rights.
+  Refund processing follows [Patreon's current refund policy](https://support.patreon.com/hc/en-us/articles/205032045-Patreon-s-refund-policy) and the original payment method.
 
 ### 10. Community Standards and Support Access
 
@@ -236,7 +236,7 @@ Rights and responsibilities required by law still apply.
   The Author chooses which reports and requests to address and may decline assistance or further discussion. A previous reply or fix does not create an ongoing support arrangement.
 
 * **Community Bans:**\
-  Threats, harassment and repeated unwanted contact can result in bans and blocked contact. Bans remove access to community channels and discretionary assistance. The Author may decline contact and appeals. Evading a ban through other accounts or channels is prohibited.
+  Threats, harassment and repeated unwanted contact can result in bans and blocked contact. Bans remove access to community channels and discretionary assistance. The Author may decline contact and appeals. Evading a ban through other accounts or channels is prohibited. Restrictions on community access and discretionary assistance do not prevent the User from exercising statutory rights through appropriate channels.
 
 ### 11. Miscellaneous
 
@@ -255,4 +255,4 @@ Rights and responsibilities required by law still apply.
 ### 12. Modifications to this agreement
 
 * **Right to Modify:**\
-  Updated terms apply to future offerings and to existing arrangements only where the law permits. Rights already granted remain intact. Material changes will state their effective date. The [commit history](https://github.com/ikt32/scripts-updates/commits/master/licgen-readme.md) records edits.
+  Updated terms apply to future offerings and to existing arrangements only where the law permits. Rights already granted remain intact. Material changes affecting existing arrangements will be communicated with reasonable advance notice, where required. The [commit history](https://github.com/ikt32/scripts-updates/commits/master/licgen-readme.md) records edits.
