@@ -1,7 +1,7 @@
 {
-  "version":"5.8.5",
-  "date":"2026-07-24",
-  "site":"https://github.com/ikt32/scripts-updates/releases/tag/5-Gears-v5.8.5",
-  "asset":"https://github.com/ikt32/scripts-updates/releases/download/5-Gears-v5.8.5/Gears-v5.8.5-Release.zip",
-  "description":"5.8.5\nAnalog handbrake in HUD\nHandbrake hold toggle optional for analog\nDisable FFB spring effect on launch\nFix Native controller input method triggers\nFix independent camera modes player hiding\nFix quadbikes missing lean forces\nFix telemetry direction vectors"
+  "version":"5.9.1",
+  "date":"2026-10-05",
+  "site":"https://github.com/ikt32/scripts-updates/releases/tag/5-Gears-v5.9.1",
+  "asset":"https://github.com/ikt32/scripts-updates/releases/download/5-Gears-v5.9.1/Gears-v5.9.1-Release.zip",
+  "description":"5.9.0\nOverhaul force feedback\nExtend automatic gearbox modes\nImprove automatic gearbox behavior\nImprove cruise control\nBug fixes\n5.9.1\nFix issues introduced in 5.9.0"
 }
